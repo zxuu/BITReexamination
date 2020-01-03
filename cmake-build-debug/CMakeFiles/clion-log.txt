@@ -1,0 +1,11 @@
+"D:\Asoftware2\CLion\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\CLionFile\BITReexamination
+-- The C compiler identification is GNU 7.3.0
+-- Check for working C compiler: D:/Asoftware2/Gcc/gcc/mingw64/bin/gcc.exe
+-- Check for working C compiler: D:/Asoftware2/Gcc/gcc/mingw64/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/CLionFile/BITReexamination/cmake-build-debug

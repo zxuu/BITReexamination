@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@D:\Asoftware2\Gcc\gcc\mingw64
+Options: 
+
+Options:

@@ -1,0 +1,3 @@
+"D:\Asoftware2\CLion\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\BITReexamination.dir/objects.a
+D:\Asoftware2\Gcc\gcc\mingw64\bin\ar.exe cr CMakeFiles\BITReexamination.dir/objects.a @CMakeFiles\BITReexamination.dir\objects1.rsp
+D:\Asoftware2\Gcc\gcc\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\BITReexamination.dir/objects.a -Wl,--no-whole-archive  -o BITReexamination.exe -Wl,--out-implib,libBITReexamination.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BITReexamination.dir\linklibs.rsp
