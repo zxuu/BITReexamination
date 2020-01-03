@@ -12,9 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73444c42-95f8-4b0c-835e-2cfd8271208b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZhengShuHe.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BITReexamination.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BITReexamination.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/FenDuanHanShu.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VsSypkyTFjQBULq1xEUZnlNTCP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -77,34 +88,54 @@
       <option name="presentableId" value="Default" />
       <updated>1578040566162</updated>
       <workItem from="1578040568250" duration="1946000" />
-      <workItem from="1578048477951" duration="3197000" />
+      <workItem from="1578048477951" duration="5374000" />
     </task>
+    <task id="LOCAL-00001" summary="分段函数">
+      <created>1578053329616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578053329617</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="分段函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="分段函数" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="301" key="GridCell.Tab.0.bottom" timestamp="1578051040069">
+    <state x="-1678" y="-191" key="CommitChangelistDialog2" timestamp="1578053327687">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.bottom/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578051040069" />
-    <state width="1493" height="301" key="GridCell.Tab.0.center" timestamp="1578051040069">
+    <state x="-1678" y="-191" key="CommitChangelistDialog2/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578053327687" />
+    <state width="270" height="645" key="GridCell.Tab.0.bottom" timestamp="1578054969170">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.center/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578051040069" />
-    <state width="1493" height="301" key="GridCell.Tab.0.left" timestamp="1578051040069">
+    <state width="270" height="645" key="GridCell.Tab.0.bottom/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578054969170" />
+    <state width="270" height="645" key="GridCell.Tab.0.center" timestamp="1578054969170">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.left/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578051040069" />
-    <state width="1493" height="301" key="GridCell.Tab.0.right" timestamp="1578051040069">
+    <state width="270" height="645" key="GridCell.Tab.0.center/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578054969170" />
+    <state width="270" height="645" key="GridCell.Tab.0.left" timestamp="1578054969169">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.right/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578051040069" />
+    <state width="270" height="645" key="GridCell.Tab.0.left/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578054969169" />
+    <state width="270" height="645" key="GridCell.Tab.0.right" timestamp="1578054969170">
+      <screen x="-2560" y="-360" width="2048" height="1112" />
+    </state>
+    <state width="270" height="645" key="GridCell.Tab.0.right/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578054969170" />
     <state x="-1858" y="-72" key="SettingsEditor" timestamp="1578048826016">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
     <state x="-1858" y="-72" key="SettingsEditor/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578048826016" />
+    <state x="-1690" y="-48" key="Vcs.Push.Dialog.v2" timestamp="1578053333373">
+      <screen x="-2560" y="-360" width="2048" height="1112" />
+    </state>
+    <state x="-1690" y="-48" key="Vcs.Push.Dialog.v2/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578053333373" />
     <state x="-1794" y="20" key="com.intellij.ide.util.TipDialog" timestamp="1578048491172">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
