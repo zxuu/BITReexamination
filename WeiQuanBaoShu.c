@@ -65,6 +65,7 @@ int main(){
     int a[n];
     for (int k = 0; k < n; k++) {
         scanf("%d", &a[k]);
+//        func(a[k]);
     }
     for (int i = 0; i < n; i++) {
         func(a[i]);

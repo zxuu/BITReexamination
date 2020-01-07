@@ -12,10 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73444c42-95f8-4b0c-835e-2cfd8271208b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/t.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeiQuanBaoShu.c" beforeDir="false" afterPath="$PROJECT_DIR$/WeiQuanBaoShu.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BITReexamination.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BITReexamination.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +93,7 @@
       <workItem from="1578040568250" duration="1946000" />
       <workItem from="1578048477951" duration="7794000" />
       <workItem from="1578127569693" duration="10543000" />
-      <workItem from="1578141892779" duration="1762000" />
+      <workItem from="1578141892779" duration="3568000" />
     </task>
     <task id="LOCAL-00001" summary="分段函数">
       <created>1578053329616</created>
@@ -106,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578058939836</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="围圈报数2">
+      <created>1578144080131</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578144080131</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +133,8 @@
     <MESSAGE value="分段函数" />
     <MESSAGE value="整数和" />
     <MESSAGE value="围圈报数" />
-    <option name="LAST_COMMIT_MESSAGE" value="围圈报数" />
+    <MESSAGE value="围圈报数2" />
+    <option name="LAST_COMMIT_MESSAGE" value="围圈报数2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1650" y="-149" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578142949912">
@@ -127,37 +145,38 @@
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
     <state x="-1374" y="-54" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578140841505" />
-    <state x="-1678" y="-191" key="CommitChangelistDialog2" timestamp="1578058936405">
+    <state x="-1678" y="-191" key="CommitChangelistDialog2" timestamp="1578144077564">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
-    <state x="-1678" y="-191" key="CommitChangelistDialog2/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578058936405" />
-    <state width="1137" height="182" key="GridCell.Tab.0.bottom" timestamp="1578141381386">
+    <state x="-1678" y="-191" key="CommitChangelistDialog2/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578144077564" />
+    <state width="1138" height="293" key="GridCell.Tab.0.bottom" timestamp="1578145870569">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
-    <state width="1137" height="182" key="GridCell.Tab.0.bottom/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578141381386" />
-    <state width="1137" height="182" key="GridCell.Tab.0.center" timestamp="1578141381385">
+    <state width="1138" height="293" key="GridCell.Tab.0.bottom/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578145870569" />
+    <state width="1138" height="293" key="GridCell.Tab.0.center" timestamp="1578145870569">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
-    <state width="1137" height="182" key="GridCell.Tab.0.center/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578141381385" />
-    <state width="1137" height="182" key="GridCell.Tab.0.left" timestamp="1578141381385">
+    <state width="1138" height="293" key="GridCell.Tab.0.center/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578145870569" />
+    <state width="1138" height="293" key="GridCell.Tab.0.left" timestamp="1578145870568">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
-    <state width="1137" height="182" key="GridCell.Tab.0.left/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578141381385" />
-    <state width="1137" height="182" key="GridCell.Tab.0.right" timestamp="1578141381385">
+    <state width="1138" height="293" key="GridCell.Tab.0.left/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578145870568" />
+    <state width="1138" height="293" key="GridCell.Tab.0.right" timestamp="1578145870569">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
-    <state width="1137" height="182" key="GridCell.Tab.0.right/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578141381385" />
+    <state width="1138" height="293" key="GridCell.Tab.0.right/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578145870569" />
     <state x="-1719" y="-217" key="SettingsEditor" timestamp="1578143071133">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
     <state x="-1719" y="-217" key="SettingsEditor/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578143071133" />
-    <state x="-1690" y="-48" key="Vcs.Push.Dialog.v2" timestamp="1578058941500">
+    <state x="-1690" y="-48" key="Vcs.Push.Dialog.v2" timestamp="1578144088361">
       <screen x="-2560" y="-360" width="2048" height="1112" />
     </state>
-    <state x="-1690" y="-48" key="Vcs.Push.Dialog.v2/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578058941500" />
-    <state x="-1794" y="20" key="com.intellij.ide.util.TipDialog" timestamp="1578142048257">
-      <screen x="-2560" y="-360" width="2048" height="1112" />
+    <state x="-1690" y="-48" key="Vcs.Push.Dialog.v2/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578144088361" />
+    <state x="575" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1578364837192">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1794" y="20" key="com.intellij.ide.util.TipDialog/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578142048257" />
+    <state x="575" y="282" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578364837192" />
   </component>
 </project>

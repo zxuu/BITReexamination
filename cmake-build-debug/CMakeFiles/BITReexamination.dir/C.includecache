@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+D:/CLionFile/BITReexamination/test.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
