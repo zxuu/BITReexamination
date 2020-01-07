@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-test.obj: test.c.obj
+JieCheng.obj: JieCheng.c.obj
 
-.PHONY : test.obj
+.PHONY : JieCheng.obj
 
 # target to build an object file
-test.c.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.obj
-.PHONY : test.c.obj
+JieCheng.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/JieCheng.c.obj
+.PHONY : JieCheng.c.obj
 
-test.i: test.c.i
+JieCheng.i: JieCheng.c.i
 
-.PHONY : test.i
+.PHONY : JieCheng.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.i
-.PHONY : test.c.i
+JieCheng.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/JieCheng.c.i
+.PHONY : JieCheng.c.i
 
-test.s: test.c.s
+JieCheng.s: JieCheng.c.s
 
-.PHONY : test.s
+.PHONY : JieCheng.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.s
-.PHONY : test.c.s
+JieCheng.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/JieCheng.c.s
+.PHONY : JieCheng.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... JieCheng.obj
+	@echo ... JieCheng.i
+	@echo ... JieCheng.s
 .PHONY : help
 
 

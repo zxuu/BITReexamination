@@ -18,6 +18,8 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
+
 typedef struct SQList{
     int data;
     struct SQList *next;
@@ -37,25 +39,33 @@ void func(int x){
             p = s;
         }
     }
-    p->next = head;
-    SQList pre = p;
+    p->next = head;//链表建立完了
+
+    p = head;
+    SQList pre = head;
     p = p->next;
-    int n = 0;
-    while (1) {
+    int n = 1;
+
+    bool y = true;
+    while (y) {
+        if (p==pre) {
+            printf("%d ", p->data);
+            free(p);
+            y=false;
+        }
         n++;
-        if (n % 3 != 0 && p != p->next) {
+        if (n % 3 != 0) {
             pre = p;
             p = p->next;
-        } else if (n % 3 == 0 && p != p->next) {
+        }
+        if (n % 3 == 0) {
             printf("%d ", p->data);
-            SQList q = p;
+            SQList q=p;
             pre->next = p->next;
-            p = p->next;
+            p = pre->next;
+
             free(q);
-            n = 0;
-        } else{
-            printf("%d", p->data);
-            break;
+            n=0;
         }
     }
 }
@@ -65,7 +75,6 @@ int main(){
     int a[n];
     for (int k = 0; k < n; k++) {
         scanf("%d", &a[k]);
-//        func(a[k]);
     }
     for (int i = 0; i < n; i++) {
         func(a[i]);
