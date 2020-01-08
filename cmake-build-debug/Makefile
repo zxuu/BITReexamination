@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-WeiQuanBaoShu.obj: WeiQuanBaoShu.c.obj
+YiYuanErCiFangCheng.obj: YiYuanErCiFangCheng.c.obj
 
-.PHONY : WeiQuanBaoShu.obj
+.PHONY : YiYuanErCiFangCheng.obj
 
 # target to build an object file
-WeiQuanBaoShu.c.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/WeiQuanBaoShu.c.obj
-.PHONY : WeiQuanBaoShu.c.obj
+YiYuanErCiFangCheng.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/YiYuanErCiFangCheng.c.obj
+.PHONY : YiYuanErCiFangCheng.c.obj
 
-WeiQuanBaoShu.i: WeiQuanBaoShu.c.i
+YiYuanErCiFangCheng.i: YiYuanErCiFangCheng.c.i
 
-.PHONY : WeiQuanBaoShu.i
+.PHONY : YiYuanErCiFangCheng.i
 
 # target to preprocess a source file
-WeiQuanBaoShu.c.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/WeiQuanBaoShu.c.i
-.PHONY : WeiQuanBaoShu.c.i
+YiYuanErCiFangCheng.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/YiYuanErCiFangCheng.c.i
+.PHONY : YiYuanErCiFangCheng.c.i
 
-WeiQuanBaoShu.s: WeiQuanBaoShu.c.s
+YiYuanErCiFangCheng.s: YiYuanErCiFangCheng.c.s
 
-.PHONY : WeiQuanBaoShu.s
+.PHONY : YiYuanErCiFangCheng.s
 
 # target to generate assembly for a file
-WeiQuanBaoShu.c.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/WeiQuanBaoShu.c.s
-.PHONY : WeiQuanBaoShu.c.s
+YiYuanErCiFangCheng.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/YiYuanErCiFangCheng.c.s
+.PHONY : YiYuanErCiFangCheng.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... WeiQuanBaoShu.obj
-	@echo ... WeiQuanBaoShu.i
-	@echo ... WeiQuanBaoShu.s
+	@echo ... YiYuanErCiFangCheng.obj
+	@echo ... YiYuanErCiFangCheng.i
+	@echo ... YiYuanErCiFangCheng.s
 .PHONY : help
 
 
