@@ -3,4 +3,4 @@ project(BITReexamination C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(BITReexamination YiYuanErCiFangCheng.c)
+add_executable(BITReexamination ShuZiWeiZhi.c)
