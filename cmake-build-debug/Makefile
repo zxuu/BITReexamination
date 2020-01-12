@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-XiaoQiuTanDi.obj: XiaoQiuTanDi.c.obj
+BianPaiZiFuChuan.obj: BianPaiZiFuChuan.c.obj
 
-.PHONY : XiaoQiuTanDi.obj
+.PHONY : BianPaiZiFuChuan.obj
 
 # target to build an object file
-XiaoQiuTanDi.c.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/XiaoQiuTanDi.c.obj
-.PHONY : XiaoQiuTanDi.c.obj
+BianPaiZiFuChuan.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BianPaiZiFuChuan.c.obj
+.PHONY : BianPaiZiFuChuan.c.obj
 
-XiaoQiuTanDi.i: XiaoQiuTanDi.c.i
+BianPaiZiFuChuan.i: BianPaiZiFuChuan.c.i
 
-.PHONY : XiaoQiuTanDi.i
+.PHONY : BianPaiZiFuChuan.i
 
 # target to preprocess a source file
-XiaoQiuTanDi.c.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/XiaoQiuTanDi.c.i
-.PHONY : XiaoQiuTanDi.c.i
+BianPaiZiFuChuan.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BianPaiZiFuChuan.c.i
+.PHONY : BianPaiZiFuChuan.c.i
 
-XiaoQiuTanDi.s: XiaoQiuTanDi.c.s
+BianPaiZiFuChuan.s: BianPaiZiFuChuan.c.s
 
-.PHONY : XiaoQiuTanDi.s
+.PHONY : BianPaiZiFuChuan.s
 
 # target to generate assembly for a file
-XiaoQiuTanDi.c.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/XiaoQiuTanDi.c.s
-.PHONY : XiaoQiuTanDi.c.s
+BianPaiZiFuChuan.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BianPaiZiFuChuan.c.s
+.PHONY : BianPaiZiFuChuan.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... XiaoQiuTanDi.obj
-	@echo ... XiaoQiuTanDi.i
-	@echo ... XiaoQiuTanDi.s
+	@echo ... BianPaiZiFuChuan.obj
+	@echo ... BianPaiZiFuChuan.i
+	@echo ... BianPaiZiFuChuan.s
 .PHONY : help
 
 
