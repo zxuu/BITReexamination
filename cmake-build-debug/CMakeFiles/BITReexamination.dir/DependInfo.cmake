@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/CLionFile/BITReexamination/ShuZiWeiZhi.c" "D:/CLionFile/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/ShuZiWeiZhi.c.obj"
+  "D:/CLionFile/BITReexamination/XiaoQiuTanDi.c" "D:/CLionFile/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/XiaoQiuTanDi.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
