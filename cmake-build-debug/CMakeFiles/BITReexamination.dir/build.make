@@ -56,27 +56,27 @@ include CMakeFiles/BITReexamination.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BITReexamination.dir/flags.make
 
-CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.obj: CMakeFiles/BITReexamination.dir/flags.make
-CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.obj: ../JiaFaDengShi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionFile\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.obj"
-	D:\Asoftware2\Gcc\gcc\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BITReexamination.dir\JiaFaDengShi.c.obj   -c D:\CLionFile\BITReexamination\JiaFaDengShi.c
+CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.obj: CMakeFiles/BITReexamination.dir/flags.make
+CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.obj: ../FanXuXiangDeng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionFile\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.obj"
+	D:\Asoftware2\Gcc\gcc\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BITReexamination.dir\FanXuXiangDeng.c.obj   -c D:\CLionFile\BITReexamination\FanXuXiangDeng.c
 
-CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.i"
-	D:\Asoftware2\Gcc\gcc\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CLionFile\BITReexamination\JiaFaDengShi.c > CMakeFiles\BITReexamination.dir\JiaFaDengShi.c.i
+CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.i"
+	D:\Asoftware2\Gcc\gcc\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CLionFile\BITReexamination\FanXuXiangDeng.c > CMakeFiles\BITReexamination.dir\FanXuXiangDeng.c.i
 
-CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.s"
-	D:\Asoftware2\Gcc\gcc\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CLionFile\BITReexamination\JiaFaDengShi.c -o CMakeFiles\BITReexamination.dir\JiaFaDengShi.c.s
+CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.s"
+	D:\Asoftware2\Gcc\gcc\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CLionFile\BITReexamination\FanXuXiangDeng.c -o CMakeFiles\BITReexamination.dir\FanXuXiangDeng.c.s
 
 # Object files for target BITReexamination
 BITReexamination_OBJECTS = \
-"CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.obj"
+"CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.obj"
 
 # External object files for target BITReexamination
 BITReexamination_EXTERNAL_OBJECTS =
 
-BITReexamination.exe: CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.obj
+BITReexamination.exe: CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.obj
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/build.make
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/linklibs.rsp
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/objects1.rsp

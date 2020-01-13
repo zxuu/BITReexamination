@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-JiaFaDengShi.obj: JiaFaDengShi.c.obj
+FanXuXiangDeng.obj: FanXuXiangDeng.c.obj
 
-.PHONY : JiaFaDengShi.obj
+.PHONY : FanXuXiangDeng.obj
 
 # target to build an object file
-JiaFaDengShi.c.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.obj
-.PHONY : JiaFaDengShi.c.obj
+FanXuXiangDeng.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.obj
+.PHONY : FanXuXiangDeng.c.obj
 
-JiaFaDengShi.i: JiaFaDengShi.c.i
+FanXuXiangDeng.i: FanXuXiangDeng.c.i
 
-.PHONY : JiaFaDengShi.i
+.PHONY : FanXuXiangDeng.i
 
 # target to preprocess a source file
-JiaFaDengShi.c.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.i
-.PHONY : JiaFaDengShi.c.i
+FanXuXiangDeng.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.i
+.PHONY : FanXuXiangDeng.c.i
 
-JiaFaDengShi.s: JiaFaDengShi.c.s
+FanXuXiangDeng.s: FanXuXiangDeng.c.s
 
-.PHONY : JiaFaDengShi.s
+.PHONY : FanXuXiangDeng.s
 
 # target to generate assembly for a file
-JiaFaDengShi.c.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/JiaFaDengShi.c.s
-.PHONY : JiaFaDengShi.c.s
+FanXuXiangDeng.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/FanXuXiangDeng.c.s
+.PHONY : FanXuXiangDeng.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... JiaFaDengShi.obj
-	@echo ... JiaFaDengShi.i
-	@echo ... JiaFaDengShi.s
+	@echo ... FanXuXiangDeng.obj
+	@echo ... FanXuXiangDeng.i
+	@echo ... FanXuXiangDeng.s
 .PHONY : help
 
 
