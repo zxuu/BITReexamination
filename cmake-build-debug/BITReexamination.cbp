@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CLionFile/BITReexamination/BianPaiZiFuChuan.c">
+		<Unit filename="D:/CLionFile/BITReexamination/JiaFaDengShi.c">
 			<Option target="BITReexamination"/>
 		</Unit>
 		<Unit filename="D:/CLionFile/BITReexamination/CMakeLists.txt">
