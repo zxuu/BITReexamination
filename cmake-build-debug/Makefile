@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Asoftware2\CLion\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Asoftware2\AC\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Asoftware2\CLion\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Asoftware2\AC\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\CLionFile\BITReexamination\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Asoftware2\CLion\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Asoftware2\AC\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Asoftware2\CLion\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Asoftware2\AC\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-YouPiao.obj: YouPiao.c.obj
+WeiQuanBaoShu.obj: WeiQuanBaoShu.c.obj
 
-.PHONY : YouPiao.obj
+.PHONY : WeiQuanBaoShu.obj
 
 # target to build an object file
-YouPiao.c.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/YouPiao.c.obj
-.PHONY : YouPiao.c.obj
+WeiQuanBaoShu.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/WeiQuanBaoShu.c.obj
+.PHONY : WeiQuanBaoShu.c.obj
 
-YouPiao.i: YouPiao.c.i
+WeiQuanBaoShu.i: WeiQuanBaoShu.c.i
 
-.PHONY : YouPiao.i
+.PHONY : WeiQuanBaoShu.i
 
 # target to preprocess a source file
-YouPiao.c.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/YouPiao.c.i
-.PHONY : YouPiao.c.i
+WeiQuanBaoShu.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/WeiQuanBaoShu.c.i
+.PHONY : WeiQuanBaoShu.c.i
 
-YouPiao.s: YouPiao.c.s
+WeiQuanBaoShu.s: WeiQuanBaoShu.c.s
 
-.PHONY : YouPiao.s
+.PHONY : WeiQuanBaoShu.s
 
 # target to generate assembly for a file
-YouPiao.c.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/YouPiao.c.s
-.PHONY : YouPiao.c.s
+WeiQuanBaoShu.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/WeiQuanBaoShu.c.s
+.PHONY : WeiQuanBaoShu.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... YouPiao.obj
-	@echo ... YouPiao.i
-	@echo ... YouPiao.s
+	@echo ... WeiQuanBaoShu.obj
+	@echo ... WeiQuanBaoShu.i
+	@echo ... WeiQuanBaoShu.s
 .PHONY : help
 
 

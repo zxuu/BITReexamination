@@ -1,4 +1,4 @@
 #include <stdio.h>
 int main(){
-    printf("hellowoeld\n");
+    printf("版本要对应！");
 }
