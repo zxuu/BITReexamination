@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/CLionFile/BITReexamination/WeiQuanBaoShu.c
+D:/CLionFile/BITReexamination/test.c
 stdio.h
--
-stdlib.h
--
-stdbool.h
 -
 
