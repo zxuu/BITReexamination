@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-test.obj: test.c.obj
+DuiShuPingFangShu.obj: DuiShuPingFangShu.c.obj
 
-.PHONY : test.obj
+.PHONY : DuiShuPingFangShu.obj
 
 # target to build an object file
-test.c.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.obj
-.PHONY : test.c.obj
+DuiShuPingFangShu.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DuiShuPingFangShu.c.obj
+.PHONY : DuiShuPingFangShu.c.obj
 
-test.i: test.c.i
+DuiShuPingFangShu.i: DuiShuPingFangShu.c.i
 
-.PHONY : test.i
+.PHONY : DuiShuPingFangShu.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.i
-.PHONY : test.c.i
+DuiShuPingFangShu.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DuiShuPingFangShu.c.i
+.PHONY : DuiShuPingFangShu.c.i
 
-test.s: test.c.s
+DuiShuPingFangShu.s: DuiShuPingFangShu.c.s
 
-.PHONY : test.s
+.PHONY : DuiShuPingFangShu.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.s
-.PHONY : test.c.s
+DuiShuPingFangShu.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DuiShuPingFangShu.c.s
+.PHONY : DuiShuPingFangShu.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... DuiShuPingFangShu.obj
+	@echo ... DuiShuPingFangShu.i
+	@echo ... DuiShuPingFangShu.s
 .PHONY : help
 
 

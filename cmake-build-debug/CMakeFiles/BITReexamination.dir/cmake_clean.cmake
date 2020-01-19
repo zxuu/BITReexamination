@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/BITReexamination.dir/test.c.obj"
+  "CMakeFiles/BITReexamination.dir/DuiShuPingFangShu.c.obj"
   "BITReexamination.pdb"
   "BITReexamination.exe"
   "BITReexamination.exe.manifest"
