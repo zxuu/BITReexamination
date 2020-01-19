@@ -1,6 +1,9 @@
+#cmake_minimum_required(VERSION 3.14)
+#project(BITReexamination C)
+#set(CMAKE_C_STANDARD 99)
+#add_executable(BITReexamination test.c)
+
 cmake_minimum_required(VERSION 3.14)
-project(BITReexamination C)
-
+project(BITReexamination)
 set(CMAKE_C_STANDARD 99)
-
-add_executable(BITReexamination DuiShuPingFangShu.c)
+add_executable(BITReexamination DanCiShiBie.cpp)
