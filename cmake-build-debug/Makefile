@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DanCiShiBie.obj: DanCiShiBie.cpp.obj
+test.obj: test.c.obj
 
-.PHONY : DanCiShiBie.obj
+.PHONY : test.obj
 
 # target to build an object file
-DanCiShiBie.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DanCiShiBie.cpp.obj
-.PHONY : DanCiShiBie.cpp.obj
+test.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.obj
+.PHONY : test.c.obj
 
-DanCiShiBie.i: DanCiShiBie.cpp.i
+test.i: test.c.i
 
-.PHONY : DanCiShiBie.i
+.PHONY : test.i
 
 # target to preprocess a source file
-DanCiShiBie.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DanCiShiBie.cpp.i
-.PHONY : DanCiShiBie.cpp.i
+test.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.i
+.PHONY : test.c.i
 
-DanCiShiBie.s: DanCiShiBie.cpp.s
+test.s: test.c.s
 
-.PHONY : DanCiShiBie.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-DanCiShiBie.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DanCiShiBie.cpp.s
-.PHONY : DanCiShiBie.cpp.s
+test.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.s
+.PHONY : test.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DanCiShiBie.obj
-	@echo ... DanCiShiBie.i
-	@echo ... DanCiShiBie.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

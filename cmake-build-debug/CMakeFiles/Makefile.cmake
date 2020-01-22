@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/CMakeCInformation.cmake"
-  "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/CMakeCXXInformation.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/CMakeCommonLanguageInclude.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
@@ -21,12 +20,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/CMakeSystemSpecificInitialize.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/Compiler/GNU-C.cmake"
-  "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/Compiler/GNU-CXX.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/Compiler/GNU.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows-GNU-C.cmake"
-  "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows-GNU-CXX.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows-GNU.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows-windres.cmake"
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows.cmake"
@@ -34,7 +31,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Asoftware2/Software/CLion2019/CLion 2019.1.3/bin/cmake/win/share/cmake-3.14/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeSystem.cmake"
   )
