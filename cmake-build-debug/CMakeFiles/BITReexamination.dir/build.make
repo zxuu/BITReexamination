@@ -56,27 +56,27 @@ include CMakeFiles/BITReexamination.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BITReexamination.dir/flags.make
 
-CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
-CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.obj: ../MeiJu/abc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionFile\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.obj"
-	D:\DevCpp\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\MeiJu\abc.cpp.obj -c D:\CLionFile\BITReexamination\MeiJu\abc.cpp
+CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
+CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.obj: ../MeiJu/FanXuShu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionFile\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.obj"
+	D:\DevCpp\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\MeiJu\FanXuShu.cpp.obj -c D:\CLionFile\BITReexamination\MeiJu\FanXuShu.cpp
 
-CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.i"
-	D:\DevCpp\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionFile\BITReexamination\MeiJu\abc.cpp > CMakeFiles\BITReexamination.dir\MeiJu\abc.cpp.i
+CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.i"
+	D:\DevCpp\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionFile\BITReexamination\MeiJu\FanXuShu.cpp > CMakeFiles\BITReexamination.dir\MeiJu\FanXuShu.cpp.i
 
-CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.s"
-	D:\DevCpp\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionFile\BITReexamination\MeiJu\abc.cpp -o CMakeFiles\BITReexamination.dir\MeiJu\abc.cpp.s
+CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.s"
+	D:\DevCpp\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionFile\BITReexamination\MeiJu\FanXuShu.cpp -o CMakeFiles\BITReexamination.dir\MeiJu\FanXuShu.cpp.s
 
 # Object files for target BITReexamination
 BITReexamination_OBJECTS = \
-"CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.obj"
+"CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.obj"
 
 # External object files for target BITReexamination
 BITReexamination_EXTERNAL_OBJECTS =
 
-BITReexamination.exe: CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.obj
+BITReexamination.exe: CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.obj
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/build.make
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/linklibs.rsp
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/objects1.rsp

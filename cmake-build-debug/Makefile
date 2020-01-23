@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-MeiJu/abc.obj: MeiJu/abc.cpp.obj
+MeiJu/FanXuShu.obj: MeiJu/FanXuShu.cpp.obj
 
-.PHONY : MeiJu/abc.obj
+.PHONY : MeiJu/FanXuShu.obj
 
 # target to build an object file
-MeiJu/abc.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.obj
-.PHONY : MeiJu/abc.cpp.obj
+MeiJu/FanXuShu.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.obj
+.PHONY : MeiJu/FanXuShu.cpp.obj
 
-MeiJu/abc.i: MeiJu/abc.cpp.i
+MeiJu/FanXuShu.i: MeiJu/FanXuShu.cpp.i
 
-.PHONY : MeiJu/abc.i
+.PHONY : MeiJu/FanXuShu.i
 
 # target to preprocess a source file
-MeiJu/abc.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.i
-.PHONY : MeiJu/abc.cpp.i
+MeiJu/FanXuShu.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.i
+.PHONY : MeiJu/FanXuShu.cpp.i
 
-MeiJu/abc.s: MeiJu/abc.cpp.s
+MeiJu/FanXuShu.s: MeiJu/FanXuShu.cpp.s
 
-.PHONY : MeiJu/abc.s
+.PHONY : MeiJu/FanXuShu.s
 
 # target to generate assembly for a file
-MeiJu/abc.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/abc.cpp.s
-.PHONY : MeiJu/abc.cpp.s
+MeiJu/FanXuShu.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.s
+.PHONY : MeiJu/FanXuShu.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MeiJu/abc.obj
-	@echo ... MeiJu/abc.i
-	@echo ... MeiJu/abc.s
+	@echo ... MeiJu/FanXuShu.obj
+	@echo ... MeiJu/FanXuShu.i
+	@echo ... MeiJu/FanXuShu.s
 .PHONY : help
 
 
