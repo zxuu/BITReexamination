@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-MeiJu/FanXuShu.obj: MeiJu/FanXuShu.cpp.obj
+MeiJu/DuiChenPingFangShu.obj: MeiJu/DuiChenPingFangShu.cpp.obj
 
-.PHONY : MeiJu/FanXuShu.obj
+.PHONY : MeiJu/DuiChenPingFangShu.obj
 
 # target to build an object file
-MeiJu/FanXuShu.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.obj
-.PHONY : MeiJu/FanXuShu.cpp.obj
+MeiJu/DuiChenPingFangShu.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/DuiChenPingFangShu.cpp.obj
+.PHONY : MeiJu/DuiChenPingFangShu.cpp.obj
 
-MeiJu/FanXuShu.i: MeiJu/FanXuShu.cpp.i
+MeiJu/DuiChenPingFangShu.i: MeiJu/DuiChenPingFangShu.cpp.i
 
-.PHONY : MeiJu/FanXuShu.i
+.PHONY : MeiJu/DuiChenPingFangShu.i
 
 # target to preprocess a source file
-MeiJu/FanXuShu.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.i
-.PHONY : MeiJu/FanXuShu.cpp.i
+MeiJu/DuiChenPingFangShu.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/DuiChenPingFangShu.cpp.i
+.PHONY : MeiJu/DuiChenPingFangShu.cpp.i
 
-MeiJu/FanXuShu.s: MeiJu/FanXuShu.cpp.s
+MeiJu/DuiChenPingFangShu.s: MeiJu/DuiChenPingFangShu.cpp.s
 
-.PHONY : MeiJu/FanXuShu.s
+.PHONY : MeiJu/DuiChenPingFangShu.s
 
 # target to generate assembly for a file
-MeiJu/FanXuShu.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/FanXuShu.cpp.s
-.PHONY : MeiJu/FanXuShu.cpp.s
+MeiJu/DuiChenPingFangShu.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/DuiChenPingFangShu.cpp.s
+.PHONY : MeiJu/DuiChenPingFangShu.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MeiJu/FanXuShu.obj
-	@echo ... MeiJu/FanXuShu.i
-	@echo ... MeiJu/FanXuShu.s
+	@echo ... MeiJu/DuiChenPingFangShu.obj
+	@echo ... MeiJu/DuiChenPingFangShu.i
+	@echo ... MeiJu/DuiChenPingFangShu.s
 .PHONY : help
 
 
