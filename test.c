@@ -1,4 +1,4 @@
 #include <stdio.h>
 int main(){
-    printf("�����ð汾���������е� Windows �汾�����ݵ�����!!����360ϵͳ�޸�һ�£���");
+    printf("遇到该版本的与您运行的 Windows 版本不兼容的问题!!，用360系统修复一下！");
 }
