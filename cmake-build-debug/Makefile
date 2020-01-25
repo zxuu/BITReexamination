@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-MeiJu/OldBill.obj: MeiJu/OldBill.cpp.obj
+BaoLiQiuJie/MoNi/ShuChuTiXing.obj: BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.obj
 
-.PHONY : MeiJu/OldBill.obj
+.PHONY : BaoLiQiuJie/MoNi/ShuChuTiXing.obj
 
 # target to build an object file
-MeiJu/OldBill.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/OldBill.cpp.obj
-.PHONY : MeiJu/OldBill.cpp.obj
+BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.obj
+.PHONY : BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.obj
 
-MeiJu/OldBill.i: MeiJu/OldBill.cpp.i
+BaoLiQiuJie/MoNi/ShuChuTiXing.i: BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.i
 
-.PHONY : MeiJu/OldBill.i
+.PHONY : BaoLiQiuJie/MoNi/ShuChuTiXing.i
 
 # target to preprocess a source file
-MeiJu/OldBill.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/OldBill.cpp.i
-.PHONY : MeiJu/OldBill.cpp.i
+BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.i
+.PHONY : BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.i
 
-MeiJu/OldBill.s: MeiJu/OldBill.cpp.s
+BaoLiQiuJie/MoNi/ShuChuTiXing.s: BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.s
 
-.PHONY : MeiJu/OldBill.s
+.PHONY : BaoLiQiuJie/MoNi/ShuChuTiXing.s
 
 # target to generate assembly for a file
-MeiJu/OldBill.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/OldBill.cpp.s
-.PHONY : MeiJu/OldBill.cpp.s
+BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.s
+.PHONY : BaoLiQiuJie/MoNi/ShuChuTiXing.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MeiJu/OldBill.obj
-	@echo ... MeiJu/OldBill.i
-	@echo ... MeiJu/OldBill.s
+	@echo ... BaoLiQiuJie/MoNi/ShuChuTiXing.obj
+	@echo ... BaoLiQiuJie/MoNi/ShuChuTiXing.i
+	@echo ... BaoLiQiuJie/MoNi/ShuChuTiXing.s
 .PHONY : help
 
 
