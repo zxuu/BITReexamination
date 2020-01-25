@@ -1,4 +1,4 @@
-ToolSet: w64 3.4 (local)@D:\DevCpp\Dev-Cpp\MinGW64
+ToolSet: w64 3.4 (local)@D:\Software\DevC++\Dev-Cpp\MinGW64
 Options: 
 
 Options:
