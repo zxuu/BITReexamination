@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-MeiJu/BaiJiWenTi.obj: MeiJu/BaiJiWenTi.cpp.obj
+MeiJu/OldBill.obj: MeiJu/OldBill.cpp.obj
 
-.PHONY : MeiJu/BaiJiWenTi.obj
+.PHONY : MeiJu/OldBill.obj
 
 # target to build an object file
-MeiJu/BaiJiWenTi.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/BaiJiWenTi.cpp.obj
-.PHONY : MeiJu/BaiJiWenTi.cpp.obj
+MeiJu/OldBill.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/OldBill.cpp.obj
+.PHONY : MeiJu/OldBill.cpp.obj
 
-MeiJu/BaiJiWenTi.i: MeiJu/BaiJiWenTi.cpp.i
+MeiJu/OldBill.i: MeiJu/OldBill.cpp.i
 
-.PHONY : MeiJu/BaiJiWenTi.i
+.PHONY : MeiJu/OldBill.i
 
 # target to preprocess a source file
-MeiJu/BaiJiWenTi.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/BaiJiWenTi.cpp.i
-.PHONY : MeiJu/BaiJiWenTi.cpp.i
+MeiJu/OldBill.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/OldBill.cpp.i
+.PHONY : MeiJu/OldBill.cpp.i
 
-MeiJu/BaiJiWenTi.s: MeiJu/BaiJiWenTi.cpp.s
+MeiJu/OldBill.s: MeiJu/OldBill.cpp.s
 
-.PHONY : MeiJu/BaiJiWenTi.s
+.PHONY : MeiJu/OldBill.s
 
 # target to generate assembly for a file
-MeiJu/BaiJiWenTi.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/BaiJiWenTi.cpp.s
-.PHONY : MeiJu/BaiJiWenTi.cpp.s
+MeiJu/OldBill.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/OldBill.cpp.s
+.PHONY : MeiJu/OldBill.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MeiJu/BaiJiWenTi.obj
-	@echo ... MeiJu/BaiJiWenTi.i
-	@echo ... MeiJu/BaiJiWenTi.s
+	@echo ... MeiJu/OldBill.obj
+	@echo ... MeiJu/OldBill.i
+	@echo ... MeiJu/OldBill.s
 .PHONY : help
 
 
