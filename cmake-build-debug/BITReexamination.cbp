@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Software/ClionProj/BITReexamination/MeiJu/YuqiWuGuanDeShu.cpp">
+		<Unit filename="D:/Software/ClionProj/BITReexamination/MeiJu/BaiJiWenTi.cpp">
 			<Option target="BITReexamination"/>
 		</Unit>
 		<Unit filename="D:/Software/ClionProj/BITReexamination/CMakeLists.txt">

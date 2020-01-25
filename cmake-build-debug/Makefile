@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-MeiJu/YuqiWuGuanDeShu.obj: MeiJu/YuqiWuGuanDeShu.cpp.obj
+MeiJu/BaiJiWenTi.obj: MeiJu/BaiJiWenTi.cpp.obj
 
-.PHONY : MeiJu/YuqiWuGuanDeShu.obj
+.PHONY : MeiJu/BaiJiWenTi.obj
 
 # target to build an object file
-MeiJu/YuqiWuGuanDeShu.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/YuqiWuGuanDeShu.cpp.obj
-.PHONY : MeiJu/YuqiWuGuanDeShu.cpp.obj
+MeiJu/BaiJiWenTi.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/BaiJiWenTi.cpp.obj
+.PHONY : MeiJu/BaiJiWenTi.cpp.obj
 
-MeiJu/YuqiWuGuanDeShu.i: MeiJu/YuqiWuGuanDeShu.cpp.i
+MeiJu/BaiJiWenTi.i: MeiJu/BaiJiWenTi.cpp.i
 
-.PHONY : MeiJu/YuqiWuGuanDeShu.i
+.PHONY : MeiJu/BaiJiWenTi.i
 
 # target to preprocess a source file
-MeiJu/YuqiWuGuanDeShu.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/YuqiWuGuanDeShu.cpp.i
-.PHONY : MeiJu/YuqiWuGuanDeShu.cpp.i
+MeiJu/BaiJiWenTi.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/BaiJiWenTi.cpp.i
+.PHONY : MeiJu/BaiJiWenTi.cpp.i
 
-MeiJu/YuqiWuGuanDeShu.s: MeiJu/YuqiWuGuanDeShu.cpp.s
+MeiJu/BaiJiWenTi.s: MeiJu/BaiJiWenTi.cpp.s
 
-.PHONY : MeiJu/YuqiWuGuanDeShu.s
+.PHONY : MeiJu/BaiJiWenTi.s
 
 # target to generate assembly for a file
-MeiJu/YuqiWuGuanDeShu.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/YuqiWuGuanDeShu.cpp.s
-.PHONY : MeiJu/YuqiWuGuanDeShu.cpp.s
+MeiJu/BaiJiWenTi.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/MeiJu/BaiJiWenTi.cpp.s
+.PHONY : MeiJu/BaiJiWenTi.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MeiJu/YuqiWuGuanDeShu.obj
-	@echo ... MeiJu/YuqiWuGuanDeShu.i
-	@echo ... MeiJu/YuqiWuGuanDeShu.s
+	@echo ... MeiJu/BaiJiWenTi.obj
+	@echo ... MeiJu/BaiJiWenTi.i
+	@echo ... MeiJu/BaiJiWenTi.s
 .PHONY : help
 
 
