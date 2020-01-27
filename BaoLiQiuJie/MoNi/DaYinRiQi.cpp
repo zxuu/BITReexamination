@@ -1,20 +1,20 @@
 /*
-é¢˜ç›®æè¿°(æ‰“å°æ—¥æœŸ)
-ç»™å‡ºå¹´åˆ†må’Œä¸€å¹´ä¸­çš„ç¬¬nå¤©ï¼Œç®—å‡ºç¬¬nå¤©æ˜¯å‡ æœˆå‡ å·ã€‚
-è¾“å…¥æè¿°:
-è¾“å…¥åŒ…æ‹¬ä¸¤ä¸ªæ•´æ•°y(1<=y<=3000)ï¼Œn(1<=n<=366)ã€‚
-è¾“å‡ºæè¿°:
-å¯èƒ½æœ‰å¤šç»„æµ‹è¯•æ•°æ®ï¼Œå¯¹äºŽæ¯ç»„æ•°æ®ï¼Œ
-æŒ‰ yyyy-mm-ddçš„æ ¼å¼å°†è¾“å…¥ä¸­å¯¹åº”çš„æ—¥æœŸæ‰“å°å‡ºæ¥ã€‚
-ç¤ºä¾‹1
-è¾“å…¥
+ÌâÄ¿ÃèÊö(´òÓ¡ÈÕÆÚ)
+¸ø³öÄê·ÖmºÍÒ»ÄêÖÐµÄµÚnÌì£¬Ëã³öµÚnÌìÊÇ¼¸ÔÂ¼¸ºÅ¡£
+ÊäÈëÃèÊö:
+ÊäÈë°üÀ¨Á½¸öÕûÊýy(1<=y<=3000)£¬n(1<=n<=366)¡£
+Êä³öÃèÊö:
+¿ÉÄÜÓÐ¶à×é²âÊÔÊý¾Ý£¬¶ÔÓÚÃ¿×éÊý¾Ý£¬
+°´ yyyy-mm-ddµÄ¸ñÊ½½«ÊäÈëÖÐ¶ÔÓ¦µÄÈÕÆÚ´òÓ¡³öÀ´¡£
+Ê¾Àý1
+ÊäÈë
 2000 3
 2000 31
 2000 40
 2000 60
 2000 61
 2001 60
-è¾“å‡º
+Êä³ö
 2000-01-03
 2000-01-31
 2000-02-09
@@ -36,9 +36,9 @@ bool IsLeapYear(int year){
     return (year == 0 && year % 100 != 0) || (year % 400 == 0);
 }
 int main(){
-    int year, month, day, number;   //numberè®°å½•å¤©æ•°
+    int year, month, day, number;   //number¼ÇÂ¼ÌìÊý
     while (scanf("%d%d", &year, &number) != EOF) {
-        month = 0;  //åˆå§‹åŒ–æœˆ
+        month = 0;  //³õÊ¼»¯ÔÂ
         int row = IsLeapYear(year);
         while (number > daytap[row][month]) {
             number -= daytap[row][month];

@@ -59,15 +59,15 @@ include CMakeFiles/BITReexamination.dir/flags.make
 CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DaYinRiQi.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
 CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DaYinRiQi.cpp.obj: ../BaoLiQiuJie/MoNi/DaYinRiQi.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DaYinRiQi.cpp.obj"
-	E:\jar\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\DaYinRiQi.cpp.obj -c D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\DaYinRiQi.cpp
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\DaYinRiQi.cpp.obj -c D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\DaYinRiQi.cpp
 
 CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DaYinRiQi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DaYinRiQi.cpp.i"
-	E:\jar\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\DaYinRiQi.cpp > CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\DaYinRiQi.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\DaYinRiQi.cpp > CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\DaYinRiQi.cpp.i
 
 CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DaYinRiQi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DaYinRiQi.cpp.s"
-	E:\jar\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\DaYinRiQi.cpp -o CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\DaYinRiQi.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\DaYinRiQi.cpp -o CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\DaYinRiQi.cpp.s
 
 # Object files for target BITReexamination
 BITReexamination_OBJECTS = \
