@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-BaoLiQiuJie/MoNi/DieKuang.obj: BaoLiQiuJie/MoNi/DieKuang.cpp.obj
+BaoLiQiuJie/MoNi/JinNianDeDiJiTian.obj: BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.obj
 
-.PHONY : BaoLiQiuJie/MoNi/DieKuang.obj
+.PHONY : BaoLiQiuJie/MoNi/JinNianDeDiJiTian.obj
 
 # target to build an object file
-BaoLiQiuJie/MoNi/DieKuang.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DieKuang.cpp.obj
-.PHONY : BaoLiQiuJie/MoNi/DieKuang.cpp.obj
+BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.obj
+.PHONY : BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.obj
 
-BaoLiQiuJie/MoNi/DieKuang.i: BaoLiQiuJie/MoNi/DieKuang.cpp.i
+BaoLiQiuJie/MoNi/JinNianDeDiJiTian.i: BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.i
 
-.PHONY : BaoLiQiuJie/MoNi/DieKuang.i
+.PHONY : BaoLiQiuJie/MoNi/JinNianDeDiJiTian.i
 
 # target to preprocess a source file
-BaoLiQiuJie/MoNi/DieKuang.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DieKuang.cpp.i
-.PHONY : BaoLiQiuJie/MoNi/DieKuang.cpp.i
+BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.i
+.PHONY : BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.i
 
-BaoLiQiuJie/MoNi/DieKuang.s: BaoLiQiuJie/MoNi/DieKuang.cpp.s
+BaoLiQiuJie/MoNi/JinNianDeDiJiTian.s: BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.s
 
-.PHONY : BaoLiQiuJie/MoNi/DieKuang.s
+.PHONY : BaoLiQiuJie/MoNi/JinNianDeDiJiTian.s
 
 # target to generate assembly for a file
-BaoLiQiuJie/MoNi/DieKuang.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DieKuang.cpp.s
-.PHONY : BaoLiQiuJie/MoNi/DieKuang.cpp.s
+BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.s
+.PHONY : BaoLiQiuJie/MoNi/JinNianDeDiJiTian.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BaoLiQiuJie/MoNi/DieKuang.obj
-	@echo ... BaoLiQiuJie/MoNi/DieKuang.i
-	@echo ... BaoLiQiuJie/MoNi/DieKuang.s
+	@echo ... BaoLiQiuJie/MoNi/JinNianDeDiJiTian.obj
+	@echo ... BaoLiQiuJie/MoNi/JinNianDeDiJiTian.i
+	@echo ... BaoLiQiuJie/MoNi/JinNianDeDiJiTian.s
 .PHONY : help
 
 
