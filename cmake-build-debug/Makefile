@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-BaoLiQiuJie/MoNi/RiQiChaZhi.obj: BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj
+BaoLiQiuJie/MoNi/DayOfWeek.obj: BaoLiQiuJie/MoNi/DayOfWeek.cpp.obj
 
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.obj
+.PHONY : BaoLiQiuJie/MoNi/DayOfWeek.obj
 
 # target to build an object file
-BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj
+BaoLiQiuJie/MoNi/DayOfWeek.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DayOfWeek.cpp.obj
+.PHONY : BaoLiQiuJie/MoNi/DayOfWeek.cpp.obj
 
-BaoLiQiuJie/MoNi/RiQiChaZhi.i: BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i
+BaoLiQiuJie/MoNi/DayOfWeek.i: BaoLiQiuJie/MoNi/DayOfWeek.cpp.i
 
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.i
+.PHONY : BaoLiQiuJie/MoNi/DayOfWeek.i
 
 # target to preprocess a source file
-BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i
+BaoLiQiuJie/MoNi/DayOfWeek.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DayOfWeek.cpp.i
+.PHONY : BaoLiQiuJie/MoNi/DayOfWeek.cpp.i
 
-BaoLiQiuJie/MoNi/RiQiChaZhi.s: BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s
+BaoLiQiuJie/MoNi/DayOfWeek.s: BaoLiQiuJie/MoNi/DayOfWeek.cpp.s
 
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.s
+.PHONY : BaoLiQiuJie/MoNi/DayOfWeek.s
 
 # target to generate assembly for a file
-BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s
+BaoLiQiuJie/MoNi/DayOfWeek.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/DayOfWeek.cpp.s
+.PHONY : BaoLiQiuJie/MoNi/DayOfWeek.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BaoLiQiuJie/MoNi/RiQiChaZhi.obj
-	@echo ... BaoLiQiuJie/MoNi/RiQiChaZhi.i
-	@echo ... BaoLiQiuJie/MoNi/RiQiChaZhi.s
+	@echo ... BaoLiQiuJie/MoNi/DayOfWeek.obj
+	@echo ... BaoLiQiuJie/MoNi/DayOfWeek.i
+	@echo ... BaoLiQiuJie/MoNi/DayOfWeek.s
 .PHONY : help
 
 
