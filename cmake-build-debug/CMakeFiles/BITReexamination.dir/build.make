@@ -56,27 +56,27 @@ include CMakeFiles/BITReexamination.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BITReexamination.dir/flags.make
 
-CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
-CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.obj: ../BaoLiQiuJie/MoNi/RiQiLei.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.obj"
-	E:\jar\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\RiQiLei.cpp.obj -c D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\RiQiLei.cpp
+CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
+CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj: ../BaoLiQiuJie/MoNi/RiQiChaZhi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp.obj -c D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp
 
-CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.i"
-	E:\jar\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\RiQiLei.cpp > CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\RiQiLei.cpp.i
+CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp > CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp.i
 
-CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.s"
-	E:\jar\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\RiQiLei.cpp -o CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\RiQiLei.cpp.s
+CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp -o CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp.s
 
 # Object files for target BITReexamination
 BITReexamination_OBJECTS = \
-"CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.obj"
+"CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj"
 
 # External object files for target BITReexamination
 BITReexamination_EXTERNAL_OBJECTS =
 
-BITReexamination.exe: CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.obj
+BITReexamination.exe: CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/build.make
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/linklibs.rsp
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/objects1.rsp

@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-BaoLiQiuJie/MoNi/RiQiLei.obj: BaoLiQiuJie/MoNi/RiQiLei.cpp.obj
+BaoLiQiuJie/MoNi/RiQiChaZhi.obj: BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj
 
-.PHONY : BaoLiQiuJie/MoNi/RiQiLei.obj
+.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.obj
 
 # target to build an object file
-BaoLiQiuJie/MoNi/RiQiLei.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.obj
-.PHONY : BaoLiQiuJie/MoNi/RiQiLei.cpp.obj
+BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj
+.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj
 
-BaoLiQiuJie/MoNi/RiQiLei.i: BaoLiQiuJie/MoNi/RiQiLei.cpp.i
+BaoLiQiuJie/MoNi/RiQiChaZhi.i: BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i
 
-.PHONY : BaoLiQiuJie/MoNi/RiQiLei.i
+.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.i
 
 # target to preprocess a source file
-BaoLiQiuJie/MoNi/RiQiLei.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.i
-.PHONY : BaoLiQiuJie/MoNi/RiQiLei.cpp.i
+BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i
+.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i
 
-BaoLiQiuJie/MoNi/RiQiLei.s: BaoLiQiuJie/MoNi/RiQiLei.cpp.s
+BaoLiQiuJie/MoNi/RiQiChaZhi.s: BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s
 
-.PHONY : BaoLiQiuJie/MoNi/RiQiLei.s
+.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.s
 
 # target to generate assembly for a file
-BaoLiQiuJie/MoNi/RiQiLei.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiLei.cpp.s
-.PHONY : BaoLiQiuJie/MoNi/RiQiLei.cpp.s
+BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s
+.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BaoLiQiuJie/MoNi/RiQiLei.obj
-	@echo ... BaoLiQiuJie/MoNi/RiQiLei.i
-	@echo ... BaoLiQiuJie/MoNi/RiQiLei.s
+	@echo ... BaoLiQiuJie/MoNi/RiQiChaZhi.obj
+	@echo ... BaoLiQiuJie/MoNi/RiQiChaZhi.i
+	@echo ... BaoLiQiuJie/MoNi/RiQiChaZhi.s
 .PHONY : help
 
 
