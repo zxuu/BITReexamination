@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Software\Clion2019.3.3\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Software\Clion2019.3.3\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Software\ClionProj\BITReexamination
+CMAKE_SOURCE_DIR = D:\ClionProj\BITReexamination
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Software\ClionProj\BITReexamination\cmake-build-debug
+CMAKE_BINARY_DIR = D:\ClionProj\BITReexamination\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BITReexamination.dir/depend.make
@@ -56,32 +56,32 @@ include CMakeFiles/BITReexamination.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BITReexamination.dir/flags.make
 
-CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
-CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj: ../BaoLiQiuJie/MoNi/RiQiChaZhi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp.obj -c D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp
+CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
+CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.obj: ../SortAndFind/Sort/PaiXu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\SortAndFind\Sort\PaiXu.cpp.obj -c D:\ClionProj\BITReexamination\SortAndFind\Sort\PaiXu.cpp
 
-CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp > CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp.i
+CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProj\BITReexamination\SortAndFind\Sort\PaiXu.cpp > CMakeFiles\BITReexamination.dir\SortAndFind\Sort\PaiXu.cpp.i
 
-CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Software\ClionProj\BITReexamination\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp -o CMakeFiles\BITReexamination.dir\BaoLiQiuJie\MoNi\RiQiChaZhi.cpp.s
+CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProj\BITReexamination\SortAndFind\Sort\PaiXu.cpp -o CMakeFiles\BITReexamination.dir\SortAndFind\Sort\PaiXu.cpp.s
 
 # Object files for target BITReexamination
 BITReexamination_OBJECTS = \
-"CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj"
+"CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.obj"
 
 # External object files for target BITReexamination
 BITReexamination_EXTERNAL_OBJECTS =
 
-BITReexamination.exe: CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj
+BITReexamination.exe: CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.obj
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/build.make
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/linklibs.rsp
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/objects1.rsp
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Software\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BITReexamination.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BITReexamination.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BITReexamination.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/BITReexamination.dir/clean:
 .PHONY : CMakeFiles/BITReexamination.dir/clean
 
 CMakeFiles/BITReexamination.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Software\ClionProj\BITReexamination D:\Software\ClionProj\BITReexamination D:\Software\ClionProj\BITReexamination\cmake-build-debug D:\Software\ClionProj\BITReexamination\cmake-build-debug D:\Software\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles\BITReexamination.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\ClionProj\BITReexamination D:\ClionProj\BITReexamination D:\ClionProj\BITReexamination\cmake-build-debug D:\ClionProj\BITReexamination\cmake-build-debug D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles\BITReexamination.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BITReexamination.dir/depend
 

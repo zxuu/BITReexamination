@@ -1,11 +1,4 @@
-"D:\Software\Clion2019.3.3\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Software\ClionProj\BITReexamination
--- The CXX compiler identification is GNU 4.9.2
--- Check for working CXX compiler: C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/g++.exe
--- Check for working CXX compiler: C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/g++.exe -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
+"D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\ClionProj\BITReexamination
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/Software/ClionProj/BITReexamination/cmake-build-debug
+-- Build files have been written to: D:/ClionProj/BITReexamination/cmake-build-debug

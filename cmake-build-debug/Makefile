@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Software\Clion2019.3.3\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Software\Clion2019.3.3\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Software\ClionProj\BITReexamination
+CMAKE_SOURCE_DIR = D:\ClionProj\BITReexamination
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Software\ClionProj\BITReexamination\cmake-build-debug
+CMAKE_BINARY_DIR = D:\ClionProj\BITReexamination\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\Software\ClionProj\BITReexamination\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Software\Clion2019.3.3\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Software\Clion2019.3.3\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Software\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles D:\Software\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Software\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-BaoLiQiuJie/MoNi/RiQiChaZhi.obj: BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj
+SortAndFind/Sort/PaiXu.obj: SortAndFind/Sort/PaiXu.cpp.obj
 
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.obj
+.PHONY : SortAndFind/Sort/PaiXu.obj
 
 # target to build an object file
-BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.obj
+SortAndFind/Sort/PaiXu.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.obj
+.PHONY : SortAndFind/Sort/PaiXu.cpp.obj
 
-BaoLiQiuJie/MoNi/RiQiChaZhi.i: BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i
+SortAndFind/Sort/PaiXu.i: SortAndFind/Sort/PaiXu.cpp.i
 
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.i
+.PHONY : SortAndFind/Sort/PaiXu.i
 
 # target to preprocess a source file
-BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.i
+SortAndFind/Sort/PaiXu.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.i
+.PHONY : SortAndFind/Sort/PaiXu.cpp.i
 
-BaoLiQiuJie/MoNi/RiQiChaZhi.s: BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s
+SortAndFind/Sort/PaiXu.s: SortAndFind/Sort/PaiXu.cpp.s
 
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.s
+.PHONY : SortAndFind/Sort/PaiXu.s
 
 # target to generate assembly for a file
-BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s
-.PHONY : BaoLiQiuJie/MoNi/RiQiChaZhi.cpp.s
+SortAndFind/Sort/PaiXu.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.s
+.PHONY : SortAndFind/Sort/PaiXu.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BaoLiQiuJie/MoNi/RiQiChaZhi.obj
-	@echo ... BaoLiQiuJie/MoNi/RiQiChaZhi.i
-	@echo ... BaoLiQiuJie/MoNi/RiQiChaZhi.s
+	@echo ... SortAndFind/Sort/PaiXu.obj
+	@echo ... SortAndFind/Sort/PaiXu.i
+	@echo ... SortAndFind/Sort/PaiXu.s
 .PHONY : help
 
 
