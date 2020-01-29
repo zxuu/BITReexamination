@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-SortAndFind/Sort/PaiXu.obj: SortAndFind/Sort/PaiXu.cpp.obj
+SortAndFind/Sort/ZiDingYiPaiXu.obj: SortAndFind/Sort/ZiDingYiPaiXu.cpp.obj
 
-.PHONY : SortAndFind/Sort/PaiXu.obj
+.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.obj
 
 # target to build an object file
-SortAndFind/Sort/PaiXu.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.obj
-.PHONY : SortAndFind/Sort/PaiXu.cpp.obj
+SortAndFind/Sort/ZiDingYiPaiXu.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ZiDingYiPaiXu.cpp.obj
+.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.cpp.obj
 
-SortAndFind/Sort/PaiXu.i: SortAndFind/Sort/PaiXu.cpp.i
+SortAndFind/Sort/ZiDingYiPaiXu.i: SortAndFind/Sort/ZiDingYiPaiXu.cpp.i
 
-.PHONY : SortAndFind/Sort/PaiXu.i
+.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.i
 
 # target to preprocess a source file
-SortAndFind/Sort/PaiXu.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.i
-.PHONY : SortAndFind/Sort/PaiXu.cpp.i
+SortAndFind/Sort/ZiDingYiPaiXu.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ZiDingYiPaiXu.cpp.i
+.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.cpp.i
 
-SortAndFind/Sort/PaiXu.s: SortAndFind/Sort/PaiXu.cpp.s
+SortAndFind/Sort/ZiDingYiPaiXu.s: SortAndFind/Sort/ZiDingYiPaiXu.cpp.s
 
-.PHONY : SortAndFind/Sort/PaiXu.s
+.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.s
 
 # target to generate assembly for a file
-SortAndFind/Sort/PaiXu.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/PaiXu.cpp.s
-.PHONY : SortAndFind/Sort/PaiXu.cpp.s
+SortAndFind/Sort/ZiDingYiPaiXu.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ZiDingYiPaiXu.cpp.s
+.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SortAndFind/Sort/PaiXu.obj
-	@echo ... SortAndFind/Sort/PaiXu.i
-	@echo ... SortAndFind/Sort/PaiXu.s
+	@echo ... SortAndFind/Sort/ZiDingYiPaiXu.obj
+	@echo ... SortAndFind/Sort/ZiDingYiPaiXu.i
+	@echo ... SortAndFind/Sort/ZiDingYiPaiXu.s
 .PHONY : help
 
 
