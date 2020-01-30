@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-SortAndFind/Sort/ZiDingYiPaiXu.obj: SortAndFind/Sort/ZiDingYiPaiXu.cpp.obj
+SortAndFind/Sort/ChengJiPaiXu2.0.obj: SortAndFind/Sort/ChengJiPaiXu2.0.cpp.obj
 
-.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.obj
+.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.obj
 
 # target to build an object file
-SortAndFind/Sort/ZiDingYiPaiXu.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ZiDingYiPaiXu.cpp.obj
-.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.cpp.obj
+SortAndFind/Sort/ChengJiPaiXu2.0.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ChengJiPaiXu2.0.cpp.obj
+.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.cpp.obj
 
-SortAndFind/Sort/ZiDingYiPaiXu.i: SortAndFind/Sort/ZiDingYiPaiXu.cpp.i
+SortAndFind/Sort/ChengJiPaiXu2.0.i: SortAndFind/Sort/ChengJiPaiXu2.0.cpp.i
 
-.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.i
+.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.i
 
 # target to preprocess a source file
-SortAndFind/Sort/ZiDingYiPaiXu.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ZiDingYiPaiXu.cpp.i
-.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.cpp.i
+SortAndFind/Sort/ChengJiPaiXu2.0.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ChengJiPaiXu2.0.cpp.i
+.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.cpp.i
 
-SortAndFind/Sort/ZiDingYiPaiXu.s: SortAndFind/Sort/ZiDingYiPaiXu.cpp.s
+SortAndFind/Sort/ChengJiPaiXu2.0.s: SortAndFind/Sort/ChengJiPaiXu2.0.cpp.s
 
-.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.s
+.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.s
 
 # target to generate assembly for a file
-SortAndFind/Sort/ZiDingYiPaiXu.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ZiDingYiPaiXu.cpp.s
-.PHONY : SortAndFind/Sort/ZiDingYiPaiXu.cpp.s
+SortAndFind/Sort/ChengJiPaiXu2.0.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ChengJiPaiXu2.0.cpp.s
+.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SortAndFind/Sort/ZiDingYiPaiXu.obj
-	@echo ... SortAndFind/Sort/ZiDingYiPaiXu.i
-	@echo ... SortAndFind/Sort/ZiDingYiPaiXu.s
+	@echo ... SortAndFind/Sort/ChengJiPaiXu2.0.obj
+	@echo ... SortAndFind/Sort/ChengJiPaiXu2.0.i
+	@echo ... SortAndFind/Sort/ChengJiPaiXu2.0.s
 .PHONY : help
 
 
