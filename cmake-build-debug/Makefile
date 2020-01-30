@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-SortAndFind/Sort/ChengJiPaiXu2.0.obj: SortAndFind/Sort/ChengJiPaiXu2.0.cpp.obj
+SortAndFind/Sort/XiaoBaiShuPaiDui.obj: SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.obj
 
-.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.obj
+.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.obj
 
 # target to build an object file
-SortAndFind/Sort/ChengJiPaiXu2.0.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ChengJiPaiXu2.0.cpp.obj
-.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.cpp.obj
+SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.obj
+.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.obj
 
-SortAndFind/Sort/ChengJiPaiXu2.0.i: SortAndFind/Sort/ChengJiPaiXu2.0.cpp.i
+SortAndFind/Sort/XiaoBaiShuPaiDui.i: SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.i
 
-.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.i
+.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.i
 
 # target to preprocess a source file
-SortAndFind/Sort/ChengJiPaiXu2.0.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ChengJiPaiXu2.0.cpp.i
-.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.cpp.i
+SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.i
+.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.i
 
-SortAndFind/Sort/ChengJiPaiXu2.0.s: SortAndFind/Sort/ChengJiPaiXu2.0.cpp.s
+SortAndFind/Sort/XiaoBaiShuPaiDui.s: SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.s
 
-.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.s
+.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.s
 
 # target to generate assembly for a file
-SortAndFind/Sort/ChengJiPaiXu2.0.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/ChengJiPaiXu2.0.cpp.s
-.PHONY : SortAndFind/Sort/ChengJiPaiXu2.0.cpp.s
+SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.s
+.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SortAndFind/Sort/ChengJiPaiXu2.0.obj
-	@echo ... SortAndFind/Sort/ChengJiPaiXu2.0.i
-	@echo ... SortAndFind/Sort/ChengJiPaiXu2.0.s
+	@echo ... SortAndFind/Sort/XiaoBaiShuPaiDui.obj
+	@echo ... SortAndFind/Sort/XiaoBaiShuPaiDui.i
+	@echo ... SortAndFind/Sort/XiaoBaiShuPaiDui.s
 .PHONY : help
 
 

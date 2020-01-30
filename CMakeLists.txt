@@ -6,4 +6,4 @@
 cmake_minimum_required(VERSION 3.14)
 project(BITReexamination)
 set(CMAKE_CXX_STANDARD 14)
-add_executable(BITReexamination SortAndFind/Sort/ChengJiPaiXu2.0.cpp)
+add_executable(BITReexamination  SortAndFind/Sort/XiaoBaiShuPaiDui.cpp)
