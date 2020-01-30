@@ -45,7 +45,7 @@ int main(){
     for (int i = 0; i < n; ++i) {
         scanf("%d%d", &arr[i].number, &arr[i].score);
     }
-    sort(arr, arr + n, Compare);
+    sort(arr, arr + n, Compare); //自定义排序
     for (int j = 0; j < n; ++j) {
         printf("%d %d\n", arr[j].number, arr[j].score);
     }
