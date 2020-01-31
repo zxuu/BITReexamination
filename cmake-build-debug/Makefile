@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-SortAndFind/Find/FindX.obj: SortAndFind/Find/FindX.cpp.obj
+SortAndFind/Find/ChaZhao.obj: SortAndFind/Find/ChaZhao.cpp.obj
 
-.PHONY : SortAndFind/Find/FindX.obj
+.PHONY : SortAndFind/Find/ChaZhao.obj
 
 # target to build an object file
-SortAndFind/Find/FindX.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindX.cpp.obj
-.PHONY : SortAndFind/Find/FindX.cpp.obj
+SortAndFind/Find/ChaZhao.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/ChaZhao.cpp.obj
+.PHONY : SortAndFind/Find/ChaZhao.cpp.obj
 
-SortAndFind/Find/FindX.i: SortAndFind/Find/FindX.cpp.i
+SortAndFind/Find/ChaZhao.i: SortAndFind/Find/ChaZhao.cpp.i
 
-.PHONY : SortAndFind/Find/FindX.i
+.PHONY : SortAndFind/Find/ChaZhao.i
 
 # target to preprocess a source file
-SortAndFind/Find/FindX.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindX.cpp.i
-.PHONY : SortAndFind/Find/FindX.cpp.i
+SortAndFind/Find/ChaZhao.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/ChaZhao.cpp.i
+.PHONY : SortAndFind/Find/ChaZhao.cpp.i
 
-SortAndFind/Find/FindX.s: SortAndFind/Find/FindX.cpp.s
+SortAndFind/Find/ChaZhao.s: SortAndFind/Find/ChaZhao.cpp.s
 
-.PHONY : SortAndFind/Find/FindX.s
+.PHONY : SortAndFind/Find/ChaZhao.s
 
 # target to generate assembly for a file
-SortAndFind/Find/FindX.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindX.cpp.s
-.PHONY : SortAndFind/Find/FindX.cpp.s
+SortAndFind/Find/ChaZhao.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/ChaZhao.cpp.s
+.PHONY : SortAndFind/Find/ChaZhao.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SortAndFind/Find/FindX.obj
-	@echo ... SortAndFind/Find/FindX.i
-	@echo ... SortAndFind/Find/FindX.s
+	@echo ... SortAndFind/Find/ChaZhao.obj
+	@echo ... SortAndFind/Find/ChaZhao.i
+	@echo ... SortAndFind/Find/ChaZhao.s
 .PHONY : help
 
 
