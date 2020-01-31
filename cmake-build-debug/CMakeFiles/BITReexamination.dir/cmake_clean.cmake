@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "BITReexamination.exe"
   "BITReexamination.exe.manifest"
   "BITReexamination.pdb"
-  "CMakeFiles/BITReexamination.dir/SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.obj"
+  "CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindX.cpp.obj"
   "libBITReexamination.dll.a"
 )
 

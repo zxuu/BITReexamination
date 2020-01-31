@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-SortAndFind/Sort/XiaoBaiShuPaiDui.obj: SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.obj
+SortAndFind/Find/FindX.obj: SortAndFind/Find/FindX.cpp.obj
 
-.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.obj
+.PHONY : SortAndFind/Find/FindX.obj
 
 # target to build an object file
-SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.obj
-.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.obj
+SortAndFind/Find/FindX.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindX.cpp.obj
+.PHONY : SortAndFind/Find/FindX.cpp.obj
 
-SortAndFind/Sort/XiaoBaiShuPaiDui.i: SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.i
+SortAndFind/Find/FindX.i: SortAndFind/Find/FindX.cpp.i
 
-.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.i
+.PHONY : SortAndFind/Find/FindX.i
 
 # target to preprocess a source file
-SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.i
-.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.i
+SortAndFind/Find/FindX.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindX.cpp.i
+.PHONY : SortAndFind/Find/FindX.cpp.i
 
-SortAndFind/Sort/XiaoBaiShuPaiDui.s: SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.s
+SortAndFind/Find/FindX.s: SortAndFind/Find/FindX.cpp.s
 
-.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.s
+.PHONY : SortAndFind/Find/FindX.s
 
 # target to generate assembly for a file
-SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.s
-.PHONY : SortAndFind/Sort/XiaoBaiShuPaiDui.cpp.s
+SortAndFind/Find/FindX.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindX.cpp.s
+.PHONY : SortAndFind/Find/FindX.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SortAndFind/Sort/XiaoBaiShuPaiDui.obj
-	@echo ... SortAndFind/Sort/XiaoBaiShuPaiDui.i
-	@echo ... SortAndFind/Sort/XiaoBaiShuPaiDui.s
+	@echo ... SortAndFind/Find/FindX.obj
+	@echo ... SortAndFind/Find/FindX.i
+	@echo ... SortAndFind/Find/FindX.s
 .PHONY : help
 
 
