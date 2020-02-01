@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ClionProj/BITReexamination/SortAndFind/Find/JiZhiDian.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/SortAndFind/Find/JiZhiDian.cpp.obj"
+  "D:/ClionProj/BITReexamination/SortAndFind/Find/FindWhere.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindWhere.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

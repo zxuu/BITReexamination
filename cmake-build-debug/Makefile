@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-SortAndFind/Find/JiZhiDian.obj: SortAndFind/Find/JiZhiDian.cpp.obj
+SortAndFind/Find/FindWhere.obj: SortAndFind/Find/FindWhere.cpp.obj
 
-.PHONY : SortAndFind/Find/JiZhiDian.obj
+.PHONY : SortAndFind/Find/FindWhere.obj
 
 # target to build an object file
-SortAndFind/Find/JiZhiDian.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/JiZhiDian.cpp.obj
-.PHONY : SortAndFind/Find/JiZhiDian.cpp.obj
+SortAndFind/Find/FindWhere.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindWhere.cpp.obj
+.PHONY : SortAndFind/Find/FindWhere.cpp.obj
 
-SortAndFind/Find/JiZhiDian.i: SortAndFind/Find/JiZhiDian.cpp.i
+SortAndFind/Find/FindWhere.i: SortAndFind/Find/FindWhere.cpp.i
 
-.PHONY : SortAndFind/Find/JiZhiDian.i
+.PHONY : SortAndFind/Find/FindWhere.i
 
 # target to preprocess a source file
-SortAndFind/Find/JiZhiDian.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/JiZhiDian.cpp.i
-.PHONY : SortAndFind/Find/JiZhiDian.cpp.i
+SortAndFind/Find/FindWhere.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindWhere.cpp.i
+.PHONY : SortAndFind/Find/FindWhere.cpp.i
 
-SortAndFind/Find/JiZhiDian.s: SortAndFind/Find/JiZhiDian.cpp.s
+SortAndFind/Find/FindWhere.s: SortAndFind/Find/FindWhere.cpp.s
 
-.PHONY : SortAndFind/Find/JiZhiDian.s
+.PHONY : SortAndFind/Find/FindWhere.s
 
 # target to generate assembly for a file
-SortAndFind/Find/JiZhiDian.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/JiZhiDian.cpp.s
-.PHONY : SortAndFind/Find/JiZhiDian.cpp.s
+SortAndFind/Find/FindWhere.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindWhere.cpp.s
+.PHONY : SortAndFind/Find/FindWhere.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SortAndFind/Find/JiZhiDian.obj
-	@echo ... SortAndFind/Find/JiZhiDian.i
-	@echo ... SortAndFind/Find/JiZhiDian.s
+	@echo ... SortAndFind/Find/FindWhere.obj
+	@echo ... SortAndFind/Find/FindWhere.i
+	@echo ... SortAndFind/Find/FindWhere.s
 .PHONY : help
 
 
