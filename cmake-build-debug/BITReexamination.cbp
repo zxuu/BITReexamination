@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/ClionProj/BITReexamination/SortAndFind/Find/FindMin.cpp">
+		<Unit filename="D:/ClionProj/BITReexamination/SortAndFind/Find/JiZhiDian.cpp">
 			<Option target="BITReexamination"/>
 		</Unit>
 		<Unit filename="D:/ClionProj/BITReexamination/CMakeLists.txt">
