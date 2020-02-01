@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-SortAndFind/Find/FindWhere.obj: SortAndFind/Find/FindWhere.cpp.obj
+STRING/String/SpecialChengFa.obj: STRING/String/SpecialChengFa.cpp.obj
 
-.PHONY : SortAndFind/Find/FindWhere.obj
+.PHONY : STRING/String/SpecialChengFa.obj
 
 # target to build an object file
-SortAndFind/Find/FindWhere.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindWhere.cpp.obj
-.PHONY : SortAndFind/Find/FindWhere.cpp.obj
+STRING/String/SpecialChengFa.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SpecialChengFa.cpp.obj
+.PHONY : STRING/String/SpecialChengFa.cpp.obj
 
-SortAndFind/Find/FindWhere.i: SortAndFind/Find/FindWhere.cpp.i
+STRING/String/SpecialChengFa.i: STRING/String/SpecialChengFa.cpp.i
 
-.PHONY : SortAndFind/Find/FindWhere.i
+.PHONY : STRING/String/SpecialChengFa.i
 
 # target to preprocess a source file
-SortAndFind/Find/FindWhere.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindWhere.cpp.i
-.PHONY : SortAndFind/Find/FindWhere.cpp.i
+STRING/String/SpecialChengFa.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SpecialChengFa.cpp.i
+.PHONY : STRING/String/SpecialChengFa.cpp.i
 
-SortAndFind/Find/FindWhere.s: SortAndFind/Find/FindWhere.cpp.s
+STRING/String/SpecialChengFa.s: STRING/String/SpecialChengFa.cpp.s
 
-.PHONY : SortAndFind/Find/FindWhere.s
+.PHONY : STRING/String/SpecialChengFa.s
 
 # target to generate assembly for a file
-SortAndFind/Find/FindWhere.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/SortAndFind/Find/FindWhere.cpp.s
-.PHONY : SortAndFind/Find/FindWhere.cpp.s
+STRING/String/SpecialChengFa.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SpecialChengFa.cpp.s
+.PHONY : STRING/String/SpecialChengFa.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SortAndFind/Find/FindWhere.obj
-	@echo ... SortAndFind/Find/FindWhere.i
-	@echo ... SortAndFind/Find/FindWhere.s
+	@echo ... STRING/String/SpecialChengFa.obj
+	@echo ... STRING/String/SpecialChengFa.i
+	@echo ... STRING/String/SpecialChengFa.s
 .PHONY : help
 
 
