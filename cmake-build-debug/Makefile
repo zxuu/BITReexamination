@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-STRING/String/SpecialChengFa.obj: STRING/String/SpecialChengFa.cpp.obj
+STRING/String/MiMaFanYi.obj: STRING/String/MiMaFanYi.cpp.obj
 
-.PHONY : STRING/String/SpecialChengFa.obj
+.PHONY : STRING/String/MiMaFanYi.obj
 
 # target to build an object file
-STRING/String/SpecialChengFa.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SpecialChengFa.cpp.obj
-.PHONY : STRING/String/SpecialChengFa.cpp.obj
+STRING/String/MiMaFanYi.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/MiMaFanYi.cpp.obj
+.PHONY : STRING/String/MiMaFanYi.cpp.obj
 
-STRING/String/SpecialChengFa.i: STRING/String/SpecialChengFa.cpp.i
+STRING/String/MiMaFanYi.i: STRING/String/MiMaFanYi.cpp.i
 
-.PHONY : STRING/String/SpecialChengFa.i
+.PHONY : STRING/String/MiMaFanYi.i
 
 # target to preprocess a source file
-STRING/String/SpecialChengFa.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SpecialChengFa.cpp.i
-.PHONY : STRING/String/SpecialChengFa.cpp.i
+STRING/String/MiMaFanYi.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/MiMaFanYi.cpp.i
+.PHONY : STRING/String/MiMaFanYi.cpp.i
 
-STRING/String/SpecialChengFa.s: STRING/String/SpecialChengFa.cpp.s
+STRING/String/MiMaFanYi.s: STRING/String/MiMaFanYi.cpp.s
 
-.PHONY : STRING/String/SpecialChengFa.s
+.PHONY : STRING/String/MiMaFanYi.s
 
 # target to generate assembly for a file
-STRING/String/SpecialChengFa.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SpecialChengFa.cpp.s
-.PHONY : STRING/String/SpecialChengFa.cpp.s
+STRING/String/MiMaFanYi.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/MiMaFanYi.cpp.s
+.PHONY : STRING/String/MiMaFanYi.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STRING/String/SpecialChengFa.obj
-	@echo ... STRING/String/SpecialChengFa.i
-	@echo ... STRING/String/SpecialChengFa.s
+	@echo ... STRING/String/MiMaFanYi.obj
+	@echo ... STRING/String/MiMaFanYi.i
+	@echo ... STRING/String/MiMaFanYi.s
 .PHONY : help
 
 
