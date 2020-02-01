@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-STRING/String/SimpleMaMiMa.obj: STRING/String/SimpleMaMiMa.cpp.obj
+STRING/String/CharTongJi.obj: STRING/String/CharTongJi.cpp.obj
 
-.PHONY : STRING/String/SimpleMaMiMa.obj
+.PHONY : STRING/String/CharTongJi.obj
 
 # target to build an object file
-STRING/String/SimpleMaMiMa.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SimpleMaMiMa.cpp.obj
-.PHONY : STRING/String/SimpleMaMiMa.cpp.obj
+STRING/String/CharTongJi.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/CharTongJi.cpp.obj
+.PHONY : STRING/String/CharTongJi.cpp.obj
 
-STRING/String/SimpleMaMiMa.i: STRING/String/SimpleMaMiMa.cpp.i
+STRING/String/CharTongJi.i: STRING/String/CharTongJi.cpp.i
 
-.PHONY : STRING/String/SimpleMaMiMa.i
+.PHONY : STRING/String/CharTongJi.i
 
 # target to preprocess a source file
-STRING/String/SimpleMaMiMa.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SimpleMaMiMa.cpp.i
-.PHONY : STRING/String/SimpleMaMiMa.cpp.i
+STRING/String/CharTongJi.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/CharTongJi.cpp.i
+.PHONY : STRING/String/CharTongJi.cpp.i
 
-STRING/String/SimpleMaMiMa.s: STRING/String/SimpleMaMiMa.cpp.s
+STRING/String/CharTongJi.s: STRING/String/CharTongJi.cpp.s
 
-.PHONY : STRING/String/SimpleMaMiMa.s
+.PHONY : STRING/String/CharTongJi.s
 
 # target to generate assembly for a file
-STRING/String/SimpleMaMiMa.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SimpleMaMiMa.cpp.s
-.PHONY : STRING/String/SimpleMaMiMa.cpp.s
+STRING/String/CharTongJi.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/CharTongJi.cpp.s
+.PHONY : STRING/String/CharTongJi.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STRING/String/SimpleMaMiMa.obj
-	@echo ... STRING/String/SimpleMaMiMa.i
-	@echo ... STRING/String/SimpleMaMiMa.s
+	@echo ... STRING/String/CharTongJi.obj
+	@echo ... STRING/String/CharTongJi.i
+	@echo ... STRING/String/CharTongJi.s
 .PHONY : help
 
 
