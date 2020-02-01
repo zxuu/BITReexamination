@@ -20,7 +20,7 @@ using namespace std;
 
 int main(){
     string str;
-    while (getline(cin, str)) {
+    while (getline(cin, str)) {     //用getline()获取带空格的字符串！！！
         for (int i = 0; i < str.size(); ++i) {
             if (str[i] == 'Z' || str[i] == 'z') {
                 str[i] -= 25;   //Good！！！
@@ -30,6 +30,7 @@ int main(){
             }
         }
         cout << str << endl;
+        return 0;
     }
-    return 0;
+//    return 0;
 }

@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-STRING/String/MiMaFanYi.obj: STRING/String/MiMaFanYi.cpp.obj
+STRING/String/SimpleMaMiMa.obj: STRING/String/SimpleMaMiMa.cpp.obj
 
-.PHONY : STRING/String/MiMaFanYi.obj
+.PHONY : STRING/String/SimpleMaMiMa.obj
 
 # target to build an object file
-STRING/String/MiMaFanYi.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/MiMaFanYi.cpp.obj
-.PHONY : STRING/String/MiMaFanYi.cpp.obj
+STRING/String/SimpleMaMiMa.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SimpleMaMiMa.cpp.obj
+.PHONY : STRING/String/SimpleMaMiMa.cpp.obj
 
-STRING/String/MiMaFanYi.i: STRING/String/MiMaFanYi.cpp.i
+STRING/String/SimpleMaMiMa.i: STRING/String/SimpleMaMiMa.cpp.i
 
-.PHONY : STRING/String/MiMaFanYi.i
+.PHONY : STRING/String/SimpleMaMiMa.i
 
 # target to preprocess a source file
-STRING/String/MiMaFanYi.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/MiMaFanYi.cpp.i
-.PHONY : STRING/String/MiMaFanYi.cpp.i
+STRING/String/SimpleMaMiMa.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SimpleMaMiMa.cpp.i
+.PHONY : STRING/String/SimpleMaMiMa.cpp.i
 
-STRING/String/MiMaFanYi.s: STRING/String/MiMaFanYi.cpp.s
+STRING/String/SimpleMaMiMa.s: STRING/String/SimpleMaMiMa.cpp.s
 
-.PHONY : STRING/String/MiMaFanYi.s
+.PHONY : STRING/String/SimpleMaMiMa.s
 
 # target to generate assembly for a file
-STRING/String/MiMaFanYi.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/MiMaFanYi.cpp.s
-.PHONY : STRING/String/MiMaFanYi.cpp.s
+STRING/String/SimpleMaMiMa.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/SimpleMaMiMa.cpp.s
+.PHONY : STRING/String/SimpleMaMiMa.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STRING/String/MiMaFanYi.obj
-	@echo ... STRING/String/MiMaFanYi.i
-	@echo ... STRING/String/MiMaFanYi.s
+	@echo ... STRING/String/SimpleMaMiMa.obj
+	@echo ... STRING/String/SimpleMaMiMa.i
+	@echo ... STRING/String/SimpleMaMiMa.s
 .PHONY : help
 
 

@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/ClionProj/BITReexamination/STRING/String/MiMaFanYi.cpp">
+		<Unit filename="D:/ClionProj/BITReexamination/STRING/String/SimpleMaMiMa.cpp">
 			<Option target="BITReexamination"/>
 		</Unit>
 		<Unit filename="D:/ClionProj/BITReexamination/CMakeLists.txt">
