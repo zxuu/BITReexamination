@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-STRING/String/CharTongJi.obj: STRING/String/CharTongJi.cpp.obj
+STRING/String/stringReplace.obj: STRING/String/stringReplace.cpp.obj
 
-.PHONY : STRING/String/CharTongJi.obj
+.PHONY : STRING/String/stringReplace.obj
 
 # target to build an object file
-STRING/String/CharTongJi.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/CharTongJi.cpp.obj
-.PHONY : STRING/String/CharTongJi.cpp.obj
+STRING/String/stringReplace.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/stringReplace.cpp.obj
+.PHONY : STRING/String/stringReplace.cpp.obj
 
-STRING/String/CharTongJi.i: STRING/String/CharTongJi.cpp.i
+STRING/String/stringReplace.i: STRING/String/stringReplace.cpp.i
 
-.PHONY : STRING/String/CharTongJi.i
+.PHONY : STRING/String/stringReplace.i
 
 # target to preprocess a source file
-STRING/String/CharTongJi.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/CharTongJi.cpp.i
-.PHONY : STRING/String/CharTongJi.cpp.i
+STRING/String/stringReplace.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/stringReplace.cpp.i
+.PHONY : STRING/String/stringReplace.cpp.i
 
-STRING/String/CharTongJi.s: STRING/String/CharTongJi.cpp.s
+STRING/String/stringReplace.s: STRING/String/stringReplace.cpp.s
 
-.PHONY : STRING/String/CharTongJi.s
+.PHONY : STRING/String/stringReplace.s
 
 # target to generate assembly for a file
-STRING/String/CharTongJi.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/CharTongJi.cpp.s
-.PHONY : STRING/String/CharTongJi.cpp.s
+STRING/String/stringReplace.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/stringReplace.cpp.s
+.PHONY : STRING/String/stringReplace.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STRING/String/CharTongJi.obj
-	@echo ... STRING/String/CharTongJi.i
-	@echo ... STRING/String/CharTongJi.s
+	@echo ... STRING/String/stringReplace.obj
+	@echo ... STRING/String/stringReplace.i
+	@echo ... STRING/String/stringReplace.s
 .PHONY : help
 
 
