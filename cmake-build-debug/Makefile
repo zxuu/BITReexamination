@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-STRING/String/stringReplace.obj: STRING/String/stringReplace.cpp.obj
+STRING/String/FirstCharDaXie.obj: STRING/String/FirstCharDaXie.cpp.obj
 
-.PHONY : STRING/String/stringReplace.obj
+.PHONY : STRING/String/FirstCharDaXie.obj
 
 # target to build an object file
-STRING/String/stringReplace.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/stringReplace.cpp.obj
-.PHONY : STRING/String/stringReplace.cpp.obj
+STRING/String/FirstCharDaXie.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FirstCharDaXie.cpp.obj
+.PHONY : STRING/String/FirstCharDaXie.cpp.obj
 
-STRING/String/stringReplace.i: STRING/String/stringReplace.cpp.i
+STRING/String/FirstCharDaXie.i: STRING/String/FirstCharDaXie.cpp.i
 
-.PHONY : STRING/String/stringReplace.i
+.PHONY : STRING/String/FirstCharDaXie.i
 
 # target to preprocess a source file
-STRING/String/stringReplace.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/stringReplace.cpp.i
-.PHONY : STRING/String/stringReplace.cpp.i
+STRING/String/FirstCharDaXie.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FirstCharDaXie.cpp.i
+.PHONY : STRING/String/FirstCharDaXie.cpp.i
 
-STRING/String/stringReplace.s: STRING/String/stringReplace.cpp.s
+STRING/String/FirstCharDaXie.s: STRING/String/FirstCharDaXie.cpp.s
 
-.PHONY : STRING/String/stringReplace.s
+.PHONY : STRING/String/FirstCharDaXie.s
 
 # target to generate assembly for a file
-STRING/String/stringReplace.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/stringReplace.cpp.s
-.PHONY : STRING/String/stringReplace.cpp.s
+STRING/String/FirstCharDaXie.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FirstCharDaXie.cpp.s
+.PHONY : STRING/String/FirstCharDaXie.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STRING/String/stringReplace.obj
-	@echo ... STRING/String/stringReplace.i
-	@echo ... STRING/String/stringReplace.s
+	@echo ... STRING/String/FirstCharDaXie.obj
+	@echo ... STRING/String/FirstCharDaXie.i
+	@echo ... STRING/String/FirstCharDaXie.s
 .PHONY : help
 
 
