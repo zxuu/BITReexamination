@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-STRING/String/FloatAdd.obj: STRING/String/FloatAdd.cpp.obj
+DataStruct/Vector/Test.obj: DataStruct/Vector/Test.cpp.obj
 
-.PHONY : STRING/String/FloatAdd.obj
+.PHONY : DataStruct/Vector/Test.obj
 
 # target to build an object file
-STRING/String/FloatAdd.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FloatAdd.cpp.obj
-.PHONY : STRING/String/FloatAdd.cpp.obj
+DataStruct/Vector/Test.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Vector/Test.cpp.obj
+.PHONY : DataStruct/Vector/Test.cpp.obj
 
-STRING/String/FloatAdd.i: STRING/String/FloatAdd.cpp.i
+DataStruct/Vector/Test.i: DataStruct/Vector/Test.cpp.i
 
-.PHONY : STRING/String/FloatAdd.i
+.PHONY : DataStruct/Vector/Test.i
 
 # target to preprocess a source file
-STRING/String/FloatAdd.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FloatAdd.cpp.i
-.PHONY : STRING/String/FloatAdd.cpp.i
+DataStruct/Vector/Test.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Vector/Test.cpp.i
+.PHONY : DataStruct/Vector/Test.cpp.i
 
-STRING/String/FloatAdd.s: STRING/String/FloatAdd.cpp.s
+DataStruct/Vector/Test.s: DataStruct/Vector/Test.cpp.s
 
-.PHONY : STRING/String/FloatAdd.s
+.PHONY : DataStruct/Vector/Test.s
 
 # target to generate assembly for a file
-STRING/String/FloatAdd.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FloatAdd.cpp.s
-.PHONY : STRING/String/FloatAdd.cpp.s
+DataStruct/Vector/Test.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Vector/Test.cpp.s
+.PHONY : DataStruct/Vector/Test.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STRING/String/FloatAdd.obj
-	@echo ... STRING/String/FloatAdd.i
-	@echo ... STRING/String/FloatAdd.s
+	@echo ... DataStruct/Vector/Test.obj
+	@echo ... DataStruct/Vector/Test.i
+	@echo ... DataStruct/Vector/Test.s
 .PHONY : help
 
 
