@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DataStruct/Vector/Test.obj: DataStruct/Vector/Test.cpp.obj
+DataStruct/Queue/Test.obj: DataStruct/Queue/Test.cpp.obj
 
-.PHONY : DataStruct/Vector/Test.obj
+.PHONY : DataStruct/Queue/Test.obj
 
 # target to build an object file
-DataStruct/Vector/Test.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Vector/Test.cpp.obj
-.PHONY : DataStruct/Vector/Test.cpp.obj
+DataStruct/Queue/Test.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.obj
+.PHONY : DataStruct/Queue/Test.cpp.obj
 
-DataStruct/Vector/Test.i: DataStruct/Vector/Test.cpp.i
+DataStruct/Queue/Test.i: DataStruct/Queue/Test.cpp.i
 
-.PHONY : DataStruct/Vector/Test.i
+.PHONY : DataStruct/Queue/Test.i
 
 # target to preprocess a source file
-DataStruct/Vector/Test.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Vector/Test.cpp.i
-.PHONY : DataStruct/Vector/Test.cpp.i
+DataStruct/Queue/Test.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.i
+.PHONY : DataStruct/Queue/Test.cpp.i
 
-DataStruct/Vector/Test.s: DataStruct/Vector/Test.cpp.s
+DataStruct/Queue/Test.s: DataStruct/Queue/Test.cpp.s
 
-.PHONY : DataStruct/Vector/Test.s
+.PHONY : DataStruct/Queue/Test.s
 
 # target to generate assembly for a file
-DataStruct/Vector/Test.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Vector/Test.cpp.s
-.PHONY : DataStruct/Vector/Test.cpp.s
+DataStruct/Queue/Test.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.s
+.PHONY : DataStruct/Queue/Test.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct/Vector/Test.obj
-	@echo ... DataStruct/Vector/Test.i
-	@echo ... DataStruct/Vector/Test.s
+	@echo ... DataStruct/Queue/Test.obj
+	@echo ... DataStruct/Queue/Test.i
+	@echo ... DataStruct/Queue/Test.s
 .PHONY : help
 
 
