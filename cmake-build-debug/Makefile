@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-STRING/String/FirstCharDaXie.obj: STRING/String/FirstCharDaXie.cpp.obj
+STRING/String/FloatAdd.obj: STRING/String/FloatAdd.cpp.obj
 
-.PHONY : STRING/String/FirstCharDaXie.obj
+.PHONY : STRING/String/FloatAdd.obj
 
 # target to build an object file
-STRING/String/FirstCharDaXie.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FirstCharDaXie.cpp.obj
-.PHONY : STRING/String/FirstCharDaXie.cpp.obj
+STRING/String/FloatAdd.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FloatAdd.cpp.obj
+.PHONY : STRING/String/FloatAdd.cpp.obj
 
-STRING/String/FirstCharDaXie.i: STRING/String/FirstCharDaXie.cpp.i
+STRING/String/FloatAdd.i: STRING/String/FloatAdd.cpp.i
 
-.PHONY : STRING/String/FirstCharDaXie.i
+.PHONY : STRING/String/FloatAdd.i
 
 # target to preprocess a source file
-STRING/String/FirstCharDaXie.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FirstCharDaXie.cpp.i
-.PHONY : STRING/String/FirstCharDaXie.cpp.i
+STRING/String/FloatAdd.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FloatAdd.cpp.i
+.PHONY : STRING/String/FloatAdd.cpp.i
 
-STRING/String/FirstCharDaXie.s: STRING/String/FirstCharDaXie.cpp.s
+STRING/String/FloatAdd.s: STRING/String/FloatAdd.cpp.s
 
-.PHONY : STRING/String/FirstCharDaXie.s
+.PHONY : STRING/String/FloatAdd.s
 
 # target to generate assembly for a file
-STRING/String/FirstCharDaXie.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FirstCharDaXie.cpp.s
-.PHONY : STRING/String/FirstCharDaXie.cpp.s
+STRING/String/FloatAdd.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/STRING/String/FloatAdd.cpp.s
+.PHONY : STRING/String/FloatAdd.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STRING/String/FirstCharDaXie.obj
-	@echo ... STRING/String/FirstCharDaXie.i
-	@echo ... STRING/String/FirstCharDaXie.s
+	@echo ... STRING/String/FloatAdd.obj
+	@echo ... STRING/String/FloatAdd.i
+	@echo ... STRING/String/FloatAdd.s
 .PHONY : help
 
 

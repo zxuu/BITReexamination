@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ClionProj/BITReexamination/STRING/String/FirstCharDaXie.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/STRING/String/FirstCharDaXie.cpp.obj"
+  "D:/ClionProj/BITReexamination/STRING/String/FloatAdd.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/STRING/String/FloatAdd.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
