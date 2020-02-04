@@ -56,27 +56,27 @@ include CMakeFiles/BITReexamination.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BITReexamination.dir/flags.make
 
-CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
-CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.obj: ../DataStruct/Queue/Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\DataStruct\Queue\Test.cpp.obj -c D:\ClionProj\BITReexamination\DataStruct\Queue\Test.cpp
+CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
+CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.obj: ../DataStruct/Queue/YueSeFu_Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\DataStruct\Queue\YueSeFu_Queue.cpp.obj -c D:\ClionProj\BITReexamination\DataStruct\Queue\YueSeFu_Queue.cpp
 
-CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProj\BITReexamination\DataStruct\Queue\Test.cpp > CMakeFiles\BITReexamination.dir\DataStruct\Queue\Test.cpp.i
+CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProj\BITReexamination\DataStruct\Queue\YueSeFu_Queue.cpp > CMakeFiles\BITReexamination.dir\DataStruct\Queue\YueSeFu_Queue.cpp.i
 
-CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProj\BITReexamination\DataStruct\Queue\Test.cpp -o CMakeFiles\BITReexamination.dir\DataStruct\Queue\Test.cpp.s
+CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProj\BITReexamination\DataStruct\Queue\YueSeFu_Queue.cpp -o CMakeFiles\BITReexamination.dir\DataStruct\Queue\YueSeFu_Queue.cpp.s
 
 # Object files for target BITReexamination
 BITReexamination_OBJECTS = \
-"CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.obj"
+"CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.obj"
 
 # External object files for target BITReexamination
 BITReexamination_EXTERNAL_OBJECTS =
 
-BITReexamination.exe: CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.obj
+BITReexamination.exe: CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.obj
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/build.make
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/linklibs.rsp
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/objects1.rsp

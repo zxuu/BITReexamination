@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DataStruct/Queue/Test.obj: DataStruct/Queue/Test.cpp.obj
+DataStruct/Queue/YueSeFu_Queue.obj: DataStruct/Queue/YueSeFu_Queue.cpp.obj
 
-.PHONY : DataStruct/Queue/Test.obj
+.PHONY : DataStruct/Queue/YueSeFu_Queue.obj
 
 # target to build an object file
-DataStruct/Queue/Test.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.obj
-.PHONY : DataStruct/Queue/Test.cpp.obj
+DataStruct/Queue/YueSeFu_Queue.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.obj
+.PHONY : DataStruct/Queue/YueSeFu_Queue.cpp.obj
 
-DataStruct/Queue/Test.i: DataStruct/Queue/Test.cpp.i
+DataStruct/Queue/YueSeFu_Queue.i: DataStruct/Queue/YueSeFu_Queue.cpp.i
 
-.PHONY : DataStruct/Queue/Test.i
+.PHONY : DataStruct/Queue/YueSeFu_Queue.i
 
 # target to preprocess a source file
-DataStruct/Queue/Test.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.i
-.PHONY : DataStruct/Queue/Test.cpp.i
+DataStruct/Queue/YueSeFu_Queue.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.i
+.PHONY : DataStruct/Queue/YueSeFu_Queue.cpp.i
 
-DataStruct/Queue/Test.s: DataStruct/Queue/Test.cpp.s
+DataStruct/Queue/YueSeFu_Queue.s: DataStruct/Queue/YueSeFu_Queue.cpp.s
 
-.PHONY : DataStruct/Queue/Test.s
+.PHONY : DataStruct/Queue/YueSeFu_Queue.s
 
 # target to generate assembly for a file
-DataStruct/Queue/Test.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Queue/Test.cpp.s
-.PHONY : DataStruct/Queue/Test.cpp.s
+DataStruct/Queue/YueSeFu_Queue.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Queue/YueSeFu_Queue.cpp.s
+.PHONY : DataStruct/Queue/YueSeFu_Queue.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct/Queue/Test.obj
-	@echo ... DataStruct/Queue/Test.i
-	@echo ... DataStruct/Queue/Test.s
+	@echo ... DataStruct/Queue/YueSeFu_Queue.obj
+	@echo ... DataStruct/Queue/YueSeFu_Queue.i
+	@echo ... DataStruct/Queue/YueSeFu_Queue.s
 .PHONY : help
 
 
