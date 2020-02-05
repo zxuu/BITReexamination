@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ClionProj/BITReexamination/DataStruct/Stack/Test.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/DataStruct/Stack/Test.cpp.obj"
+  "D:/ClionProj/BITReexamination/DataStruct/Stack/Caculator.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/DataStruct/Stack/Caculator.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

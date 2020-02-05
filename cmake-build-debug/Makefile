@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DataStruct/Stack/Test.obj: DataStruct/Stack/Test.cpp.obj
+DataStruct/Stack/Caculator.obj: DataStruct/Stack/Caculator.cpp.obj
 
-.PHONY : DataStruct/Stack/Test.obj
+.PHONY : DataStruct/Stack/Caculator.obj
 
 # target to build an object file
-DataStruct/Stack/Test.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Stack/Test.cpp.obj
-.PHONY : DataStruct/Stack/Test.cpp.obj
+DataStruct/Stack/Caculator.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Stack/Caculator.cpp.obj
+.PHONY : DataStruct/Stack/Caculator.cpp.obj
 
-DataStruct/Stack/Test.i: DataStruct/Stack/Test.cpp.i
+DataStruct/Stack/Caculator.i: DataStruct/Stack/Caculator.cpp.i
 
-.PHONY : DataStruct/Stack/Test.i
+.PHONY : DataStruct/Stack/Caculator.i
 
 # target to preprocess a source file
-DataStruct/Stack/Test.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Stack/Test.cpp.i
-.PHONY : DataStruct/Stack/Test.cpp.i
+DataStruct/Stack/Caculator.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Stack/Caculator.cpp.i
+.PHONY : DataStruct/Stack/Caculator.cpp.i
 
-DataStruct/Stack/Test.s: DataStruct/Stack/Test.cpp.s
+DataStruct/Stack/Caculator.s: DataStruct/Stack/Caculator.cpp.s
 
-.PHONY : DataStruct/Stack/Test.s
+.PHONY : DataStruct/Stack/Caculator.s
 
 # target to generate assembly for a file
-DataStruct/Stack/Test.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Stack/Test.cpp.s
-.PHONY : DataStruct/Stack/Test.cpp.s
+DataStruct/Stack/Caculator.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/Stack/Caculator.cpp.s
+.PHONY : DataStruct/Stack/Caculator.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct/Stack/Test.obj
-	@echo ... DataStruct/Stack/Test.i
-	@echo ... DataStruct/Stack/Test.s
+	@echo ... DataStruct/Stack/Caculator.obj
+	@echo ... DataStruct/Stack/Caculator.i
+	@echo ... DataStruct/Stack/Caculator.s
 .PHONY : help
 
 
