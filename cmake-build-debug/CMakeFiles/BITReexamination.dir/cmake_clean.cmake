@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "BITReexamination.exe"
   "BITReexamination.exe.manifest"
   "BITReexamination.pdb"
-  "CMakeFiles/BITReexamination.dir/DataStruct/Stack/StacksUse.cpp.obj"
+  "CMakeFiles/BITReexamination.dir/DataStruct/BinaryTree/BinarySearch.cpp.obj"
   "libBITReexamination.dll.a"
 )
 
