@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DataStruct/BinaryTree/SameOrBinarySearchTree.obj: DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.obj
+DataStruct/PriorityQueue/FuShuJiHe.obj: DataStruct/PriorityQueue/FuShuJiHe.cpp.obj
 
-.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.obj
+.PHONY : DataStruct/PriorityQueue/FuShuJiHe.obj
 
 # target to build an object file
-DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.obj
-.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.obj
+DataStruct/PriorityQueue/FuShuJiHe.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/FuShuJiHe.cpp.obj
+.PHONY : DataStruct/PriorityQueue/FuShuJiHe.cpp.obj
 
-DataStruct/BinaryTree/SameOrBinarySearchTree.i: DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.i
+DataStruct/PriorityQueue/FuShuJiHe.i: DataStruct/PriorityQueue/FuShuJiHe.cpp.i
 
-.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.i
+.PHONY : DataStruct/PriorityQueue/FuShuJiHe.i
 
 # target to preprocess a source file
-DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.i
-.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.i
+DataStruct/PriorityQueue/FuShuJiHe.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/FuShuJiHe.cpp.i
+.PHONY : DataStruct/PriorityQueue/FuShuJiHe.cpp.i
 
-DataStruct/BinaryTree/SameOrBinarySearchTree.s: DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.s
+DataStruct/PriorityQueue/FuShuJiHe.s: DataStruct/PriorityQueue/FuShuJiHe.cpp.s
 
-.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.s
+.PHONY : DataStruct/PriorityQueue/FuShuJiHe.s
 
 # target to generate assembly for a file
-DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.s
-.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.s
+DataStruct/PriorityQueue/FuShuJiHe.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/FuShuJiHe.cpp.s
+.PHONY : DataStruct/PriorityQueue/FuShuJiHe.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct/BinaryTree/SameOrBinarySearchTree.obj
-	@echo ... DataStruct/BinaryTree/SameOrBinarySearchTree.i
-	@echo ... DataStruct/BinaryTree/SameOrBinarySearchTree.s
+	@echo ... DataStruct/PriorityQueue/FuShuJiHe.obj
+	@echo ... DataStruct/PriorityQueue/FuShuJiHe.i
+	@echo ... DataStruct/PriorityQueue/FuShuJiHe.s
 .PHONY : help
 
 
