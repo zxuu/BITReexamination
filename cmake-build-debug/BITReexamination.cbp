@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/ClionProj/BITReexamination/DataStruct/BinaryTree/BinarySearchTree.cpp">
+		<Unit filename="D:/ClionProj/BITReexamination/DataStruct/BinaryTree/SameOrBinarySearchTree.cpp">
 			<Option target="BITReexamination"/>
 		</Unit>
 		<Unit filename="D:/ClionProj/BITReexamination/CMakeLists.txt">

@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DataStruct/BinaryTree/BinarySearchTree.obj: DataStruct/BinaryTree/BinarySearchTree.cpp.obj
+DataStruct/BinaryTree/SameOrBinarySearchTree.obj: DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.obj
 
-.PHONY : DataStruct/BinaryTree/BinarySearchTree.obj
+.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.obj
 
 # target to build an object file
-DataStruct/BinaryTree/BinarySearchTree.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/BinaryTree/BinarySearchTree.cpp.obj
-.PHONY : DataStruct/BinaryTree/BinarySearchTree.cpp.obj
+DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.obj
+.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.obj
 
-DataStruct/BinaryTree/BinarySearchTree.i: DataStruct/BinaryTree/BinarySearchTree.cpp.i
+DataStruct/BinaryTree/SameOrBinarySearchTree.i: DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.i
 
-.PHONY : DataStruct/BinaryTree/BinarySearchTree.i
+.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.i
 
 # target to preprocess a source file
-DataStruct/BinaryTree/BinarySearchTree.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/BinaryTree/BinarySearchTree.cpp.i
-.PHONY : DataStruct/BinaryTree/BinarySearchTree.cpp.i
+DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.i
+.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.i
 
-DataStruct/BinaryTree/BinarySearchTree.s: DataStruct/BinaryTree/BinarySearchTree.cpp.s
+DataStruct/BinaryTree/SameOrBinarySearchTree.s: DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.s
 
-.PHONY : DataStruct/BinaryTree/BinarySearchTree.s
+.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.s
 
 # target to generate assembly for a file
-DataStruct/BinaryTree/BinarySearchTree.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/BinaryTree/BinarySearchTree.cpp.s
-.PHONY : DataStruct/BinaryTree/BinarySearchTree.cpp.s
+DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.s
+.PHONY : DataStruct/BinaryTree/SameOrBinarySearchTree.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct/BinaryTree/BinarySearchTree.obj
-	@echo ... DataStruct/BinaryTree/BinarySearchTree.i
-	@echo ... DataStruct/BinaryTree/BinarySearchTree.s
+	@echo ... DataStruct/BinaryTree/SameOrBinarySearchTree.obj
+	@echo ... DataStruct/BinaryTree/SameOrBinarySearchTree.i
+	@echo ... DataStruct/BinaryTree/SameOrBinarySearchTree.s
 .PHONY : help
 
 
