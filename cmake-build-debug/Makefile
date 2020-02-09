@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DataStruct/PriorityQueue/BanShuiGuo.obj: DataStruct/PriorityQueue/BanShuiGuo.cpp.obj
+DataStruct/KeyValue/Test.obj: DataStruct/KeyValue/Test.cpp.obj
 
-.PHONY : DataStruct/PriorityQueue/BanShuiGuo.obj
+.PHONY : DataStruct/KeyValue/Test.obj
 
 # target to build an object file
-DataStruct/PriorityQueue/BanShuiGuo.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/BanShuiGuo.cpp.obj
-.PHONY : DataStruct/PriorityQueue/BanShuiGuo.cpp.obj
+DataStruct/KeyValue/Test.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/Test.cpp.obj
+.PHONY : DataStruct/KeyValue/Test.cpp.obj
 
-DataStruct/PriorityQueue/BanShuiGuo.i: DataStruct/PriorityQueue/BanShuiGuo.cpp.i
+DataStruct/KeyValue/Test.i: DataStruct/KeyValue/Test.cpp.i
 
-.PHONY : DataStruct/PriorityQueue/BanShuiGuo.i
+.PHONY : DataStruct/KeyValue/Test.i
 
 # target to preprocess a source file
-DataStruct/PriorityQueue/BanShuiGuo.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/BanShuiGuo.cpp.i
-.PHONY : DataStruct/PriorityQueue/BanShuiGuo.cpp.i
+DataStruct/KeyValue/Test.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/Test.cpp.i
+.PHONY : DataStruct/KeyValue/Test.cpp.i
 
-DataStruct/PriorityQueue/BanShuiGuo.s: DataStruct/PriorityQueue/BanShuiGuo.cpp.s
+DataStruct/KeyValue/Test.s: DataStruct/KeyValue/Test.cpp.s
 
-.PHONY : DataStruct/PriorityQueue/BanShuiGuo.s
+.PHONY : DataStruct/KeyValue/Test.s
 
 # target to generate assembly for a file
-DataStruct/PriorityQueue/BanShuiGuo.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/BanShuiGuo.cpp.s
-.PHONY : DataStruct/PriorityQueue/BanShuiGuo.cpp.s
+DataStruct/KeyValue/Test.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/Test.cpp.s
+.PHONY : DataStruct/KeyValue/Test.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct/PriorityQueue/BanShuiGuo.obj
-	@echo ... DataStruct/PriorityQueue/BanShuiGuo.i
-	@echo ... DataStruct/PriorityQueue/BanShuiGuo.s
+	@echo ... DataStruct/KeyValue/Test.obj
+	@echo ... DataStruct/KeyValue/Test.i
+	@echo ... DataStruct/KeyValue/Test.s
 .PHONY : help
 
 
