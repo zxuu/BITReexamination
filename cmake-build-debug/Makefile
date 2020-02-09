@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DataStruct/KeyValue/Test.obj: DataStruct/KeyValue/Test.cpp.obj
+DataStruct/KeyValue/StudentSearch.obj: DataStruct/KeyValue/StudentSearch.cpp.obj
 
-.PHONY : DataStruct/KeyValue/Test.obj
+.PHONY : DataStruct/KeyValue/StudentSearch.obj
 
 # target to build an object file
-DataStruct/KeyValue/Test.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/Test.cpp.obj
-.PHONY : DataStruct/KeyValue/Test.cpp.obj
+DataStruct/KeyValue/StudentSearch.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/StudentSearch.cpp.obj
+.PHONY : DataStruct/KeyValue/StudentSearch.cpp.obj
 
-DataStruct/KeyValue/Test.i: DataStruct/KeyValue/Test.cpp.i
+DataStruct/KeyValue/StudentSearch.i: DataStruct/KeyValue/StudentSearch.cpp.i
 
-.PHONY : DataStruct/KeyValue/Test.i
+.PHONY : DataStruct/KeyValue/StudentSearch.i
 
 # target to preprocess a source file
-DataStruct/KeyValue/Test.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/Test.cpp.i
-.PHONY : DataStruct/KeyValue/Test.cpp.i
+DataStruct/KeyValue/StudentSearch.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/StudentSearch.cpp.i
+.PHONY : DataStruct/KeyValue/StudentSearch.cpp.i
 
-DataStruct/KeyValue/Test.s: DataStruct/KeyValue/Test.cpp.s
+DataStruct/KeyValue/StudentSearch.s: DataStruct/KeyValue/StudentSearch.cpp.s
 
-.PHONY : DataStruct/KeyValue/Test.s
+.PHONY : DataStruct/KeyValue/StudentSearch.s
 
 # target to generate assembly for a file
-DataStruct/KeyValue/Test.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/Test.cpp.s
-.PHONY : DataStruct/KeyValue/Test.cpp.s
+DataStruct/KeyValue/StudentSearch.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/StudentSearch.cpp.s
+.PHONY : DataStruct/KeyValue/StudentSearch.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct/KeyValue/Test.obj
-	@echo ... DataStruct/KeyValue/Test.i
-	@echo ... DataStruct/KeyValue/Test.s
+	@echo ... DataStruct/KeyValue/StudentSearch.obj
+	@echo ... DataStruct/KeyValue/StudentSearch.i
+	@echo ... DataStruct/KeyValue/StudentSearch.s
 .PHONY : help
 
 
