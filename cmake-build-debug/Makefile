@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DataStruct/PriorityQueue/FuShuJiHe.obj: DataStruct/PriorityQueue/FuShuJiHe.cpp.obj
+DataStruct/PriorityQueue/DiKminDeShu.obj: DataStruct/PriorityQueue/DiKminDeShu.cpp.obj
 
-.PHONY : DataStruct/PriorityQueue/FuShuJiHe.obj
+.PHONY : DataStruct/PriorityQueue/DiKminDeShu.obj
 
 # target to build an object file
-DataStruct/PriorityQueue/FuShuJiHe.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/FuShuJiHe.cpp.obj
-.PHONY : DataStruct/PriorityQueue/FuShuJiHe.cpp.obj
+DataStruct/PriorityQueue/DiKminDeShu.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/DiKminDeShu.cpp.obj
+.PHONY : DataStruct/PriorityQueue/DiKminDeShu.cpp.obj
 
-DataStruct/PriorityQueue/FuShuJiHe.i: DataStruct/PriorityQueue/FuShuJiHe.cpp.i
+DataStruct/PriorityQueue/DiKminDeShu.i: DataStruct/PriorityQueue/DiKminDeShu.cpp.i
 
-.PHONY : DataStruct/PriorityQueue/FuShuJiHe.i
+.PHONY : DataStruct/PriorityQueue/DiKminDeShu.i
 
 # target to preprocess a source file
-DataStruct/PriorityQueue/FuShuJiHe.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/FuShuJiHe.cpp.i
-.PHONY : DataStruct/PriorityQueue/FuShuJiHe.cpp.i
+DataStruct/PriorityQueue/DiKminDeShu.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/DiKminDeShu.cpp.i
+.PHONY : DataStruct/PriorityQueue/DiKminDeShu.cpp.i
 
-DataStruct/PriorityQueue/FuShuJiHe.s: DataStruct/PriorityQueue/FuShuJiHe.cpp.s
+DataStruct/PriorityQueue/DiKminDeShu.s: DataStruct/PriorityQueue/DiKminDeShu.cpp.s
 
-.PHONY : DataStruct/PriorityQueue/FuShuJiHe.s
+.PHONY : DataStruct/PriorityQueue/DiKminDeShu.s
 
 # target to generate assembly for a file
-DataStruct/PriorityQueue/FuShuJiHe.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/FuShuJiHe.cpp.s
-.PHONY : DataStruct/PriorityQueue/FuShuJiHe.cpp.s
+DataStruct/PriorityQueue/DiKminDeShu.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/PriorityQueue/DiKminDeShu.cpp.s
+.PHONY : DataStruct/PriorityQueue/DiKminDeShu.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct/PriorityQueue/FuShuJiHe.obj
-	@echo ... DataStruct/PriorityQueue/FuShuJiHe.i
-	@echo ... DataStruct/PriorityQueue/FuShuJiHe.s
+	@echo ... DataStruct/PriorityQueue/DiKminDeShu.obj
+	@echo ... DataStruct/PriorityQueue/DiKminDeShu.i
+	@echo ... DataStruct/PriorityQueue/DiKminDeShu.s
 .PHONY : help
 
 

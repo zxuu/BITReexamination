@@ -39,6 +39,7 @@ struct Complex {
     Complex(int a,int b):
         real(a),imag(b){}
     //重载小于号<
+    //这样才能自动实现优先队列
     bool operator< (Complex c) const {
         return real * real + imag * imag < c.real * c.real + c.imag * c.imag;
     }
