@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DataStruct/KeyValue/Substr.obj: DataStruct/KeyValue/Substr.cpp.obj
+DataStruct/KeyValue/OpenDoorAndClose.obj: DataStruct/KeyValue/OpenDoorAndClose.cpp.obj
 
-.PHONY : DataStruct/KeyValue/Substr.obj
+.PHONY : DataStruct/KeyValue/OpenDoorAndClose.obj
 
 # target to build an object file
-DataStruct/KeyValue/Substr.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/Substr.cpp.obj
-.PHONY : DataStruct/KeyValue/Substr.cpp.obj
+DataStruct/KeyValue/OpenDoorAndClose.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/OpenDoorAndClose.cpp.obj
+.PHONY : DataStruct/KeyValue/OpenDoorAndClose.cpp.obj
 
-DataStruct/KeyValue/Substr.i: DataStruct/KeyValue/Substr.cpp.i
+DataStruct/KeyValue/OpenDoorAndClose.i: DataStruct/KeyValue/OpenDoorAndClose.cpp.i
 
-.PHONY : DataStruct/KeyValue/Substr.i
+.PHONY : DataStruct/KeyValue/OpenDoorAndClose.i
 
 # target to preprocess a source file
-DataStruct/KeyValue/Substr.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/Substr.cpp.i
-.PHONY : DataStruct/KeyValue/Substr.cpp.i
+DataStruct/KeyValue/OpenDoorAndClose.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/OpenDoorAndClose.cpp.i
+.PHONY : DataStruct/KeyValue/OpenDoorAndClose.cpp.i
 
-DataStruct/KeyValue/Substr.s: DataStruct/KeyValue/Substr.cpp.s
+DataStruct/KeyValue/OpenDoorAndClose.s: DataStruct/KeyValue/OpenDoorAndClose.cpp.s
 
-.PHONY : DataStruct/KeyValue/Substr.s
+.PHONY : DataStruct/KeyValue/OpenDoorAndClose.s
 
 # target to generate assembly for a file
-DataStruct/KeyValue/Substr.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/Substr.cpp.s
-.PHONY : DataStruct/KeyValue/Substr.cpp.s
+DataStruct/KeyValue/OpenDoorAndClose.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/OpenDoorAndClose.cpp.s
+.PHONY : DataStruct/KeyValue/OpenDoorAndClose.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct/KeyValue/Substr.obj
-	@echo ... DataStruct/KeyValue/Substr.i
-	@echo ... DataStruct/KeyValue/Substr.s
+	@echo ... DataStruct/KeyValue/OpenDoorAndClose.obj
+	@echo ... DataStruct/KeyValue/OpenDoorAndClose.i
+	@echo ... DataStruct/KeyValue/OpenDoorAndClose.s
 .PHONY : help
 
 
