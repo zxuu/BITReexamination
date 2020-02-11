@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DataStruct/KeyValue/OpenDoorAndClose.obj: DataStruct/KeyValue/OpenDoorAndClose.cpp.obj
+DataStruct/KeyValue/WhoIsFriend.obj: DataStruct/KeyValue/WhoIsFriend.cpp.obj
 
-.PHONY : DataStruct/KeyValue/OpenDoorAndClose.obj
+.PHONY : DataStruct/KeyValue/WhoIsFriend.obj
 
 # target to build an object file
-DataStruct/KeyValue/OpenDoorAndClose.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/OpenDoorAndClose.cpp.obj
-.PHONY : DataStruct/KeyValue/OpenDoorAndClose.cpp.obj
+DataStruct/KeyValue/WhoIsFriend.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/WhoIsFriend.cpp.obj
+.PHONY : DataStruct/KeyValue/WhoIsFriend.cpp.obj
 
-DataStruct/KeyValue/OpenDoorAndClose.i: DataStruct/KeyValue/OpenDoorAndClose.cpp.i
+DataStruct/KeyValue/WhoIsFriend.i: DataStruct/KeyValue/WhoIsFriend.cpp.i
 
-.PHONY : DataStruct/KeyValue/OpenDoorAndClose.i
+.PHONY : DataStruct/KeyValue/WhoIsFriend.i
 
 # target to preprocess a source file
-DataStruct/KeyValue/OpenDoorAndClose.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/OpenDoorAndClose.cpp.i
-.PHONY : DataStruct/KeyValue/OpenDoorAndClose.cpp.i
+DataStruct/KeyValue/WhoIsFriend.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/WhoIsFriend.cpp.i
+.PHONY : DataStruct/KeyValue/WhoIsFriend.cpp.i
 
-DataStruct/KeyValue/OpenDoorAndClose.s: DataStruct/KeyValue/OpenDoorAndClose.cpp.s
+DataStruct/KeyValue/WhoIsFriend.s: DataStruct/KeyValue/WhoIsFriend.cpp.s
 
-.PHONY : DataStruct/KeyValue/OpenDoorAndClose.s
+.PHONY : DataStruct/KeyValue/WhoIsFriend.s
 
 # target to generate assembly for a file
-DataStruct/KeyValue/OpenDoorAndClose.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/OpenDoorAndClose.cpp.s
-.PHONY : DataStruct/KeyValue/OpenDoorAndClose.cpp.s
+DataStruct/KeyValue/WhoIsFriend.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/WhoIsFriend.cpp.s
+.PHONY : DataStruct/KeyValue/WhoIsFriend.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct/KeyValue/OpenDoorAndClose.obj
-	@echo ... DataStruct/KeyValue/OpenDoorAndClose.i
-	@echo ... DataStruct/KeyValue/OpenDoorAndClose.s
+	@echo ... DataStruct/KeyValue/WhoIsFriend.obj
+	@echo ... DataStruct/KeyValue/WhoIsFriend.i
+	@echo ... DataStruct/KeyValue/WhoIsFriend.s
 .PHONY : help
 
 
