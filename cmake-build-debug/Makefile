@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-DataStruct/KeyValue/WhoIsFriend.obj: DataStruct/KeyValue/WhoIsFriend.cpp.obj
+Graph/UnionFind/LinkTown.obj: Graph/UnionFind/LinkTown.cpp.obj
 
-.PHONY : DataStruct/KeyValue/WhoIsFriend.obj
+.PHONY : Graph/UnionFind/LinkTown.obj
 
 # target to build an object file
-DataStruct/KeyValue/WhoIsFriend.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/WhoIsFriend.cpp.obj
-.PHONY : DataStruct/KeyValue/WhoIsFriend.cpp.obj
+Graph/UnionFind/LinkTown.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LinkTown.cpp.obj
+.PHONY : Graph/UnionFind/LinkTown.cpp.obj
 
-DataStruct/KeyValue/WhoIsFriend.i: DataStruct/KeyValue/WhoIsFriend.cpp.i
+Graph/UnionFind/LinkTown.i: Graph/UnionFind/LinkTown.cpp.i
 
-.PHONY : DataStruct/KeyValue/WhoIsFriend.i
+.PHONY : Graph/UnionFind/LinkTown.i
 
 # target to preprocess a source file
-DataStruct/KeyValue/WhoIsFriend.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/WhoIsFriend.cpp.i
-.PHONY : DataStruct/KeyValue/WhoIsFriend.cpp.i
+Graph/UnionFind/LinkTown.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LinkTown.cpp.i
+.PHONY : Graph/UnionFind/LinkTown.cpp.i
 
-DataStruct/KeyValue/WhoIsFriend.s: DataStruct/KeyValue/WhoIsFriend.cpp.s
+Graph/UnionFind/LinkTown.s: Graph/UnionFind/LinkTown.cpp.s
 
-.PHONY : DataStruct/KeyValue/WhoIsFriend.s
+.PHONY : Graph/UnionFind/LinkTown.s
 
 # target to generate assembly for a file
-DataStruct/KeyValue/WhoIsFriend.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/WhoIsFriend.cpp.s
-.PHONY : DataStruct/KeyValue/WhoIsFriend.cpp.s
+Graph/UnionFind/LinkTown.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LinkTown.cpp.s
+.PHONY : Graph/UnionFind/LinkTown.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct/KeyValue/WhoIsFriend.obj
-	@echo ... DataStruct/KeyValue/WhoIsFriend.i
-	@echo ... DataStruct/KeyValue/WhoIsFriend.s
+	@echo ... Graph/UnionFind/LinkTown.obj
+	@echo ... Graph/UnionFind/LinkTown.i
+	@echo ... Graph/UnionFind/LinkTown.s
 .PHONY : help
 
 

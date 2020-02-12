@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "BITReexamination.exe"
   "BITReexamination.exe.manifest"
   "BITReexamination.pdb"
-  "CMakeFiles/BITReexamination.dir/DataStruct/KeyValue/WhoIsFriend.cpp.obj"
+  "CMakeFiles/BITReexamination.dir/Graph/UnionFind/LinkTown.cpp.obj"
   "libBITReexamination.dll.a"
 )
 
