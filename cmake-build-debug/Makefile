@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Graph/UnionFind/LinkTown.obj: Graph/UnionFind/LinkTown.cpp.obj
+Graph/UnionFind/LianTongTu.obj: Graph/UnionFind/LianTongTu.cpp.obj
 
-.PHONY : Graph/UnionFind/LinkTown.obj
+.PHONY : Graph/UnionFind/LianTongTu.obj
 
 # target to build an object file
-Graph/UnionFind/LinkTown.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LinkTown.cpp.obj
-.PHONY : Graph/UnionFind/LinkTown.cpp.obj
+Graph/UnionFind/LianTongTu.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LianTongTu.cpp.obj
+.PHONY : Graph/UnionFind/LianTongTu.cpp.obj
 
-Graph/UnionFind/LinkTown.i: Graph/UnionFind/LinkTown.cpp.i
+Graph/UnionFind/LianTongTu.i: Graph/UnionFind/LianTongTu.cpp.i
 
-.PHONY : Graph/UnionFind/LinkTown.i
+.PHONY : Graph/UnionFind/LianTongTu.i
 
 # target to preprocess a source file
-Graph/UnionFind/LinkTown.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LinkTown.cpp.i
-.PHONY : Graph/UnionFind/LinkTown.cpp.i
+Graph/UnionFind/LianTongTu.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LianTongTu.cpp.i
+.PHONY : Graph/UnionFind/LianTongTu.cpp.i
 
-Graph/UnionFind/LinkTown.s: Graph/UnionFind/LinkTown.cpp.s
+Graph/UnionFind/LianTongTu.s: Graph/UnionFind/LianTongTu.cpp.s
 
-.PHONY : Graph/UnionFind/LinkTown.s
+.PHONY : Graph/UnionFind/LianTongTu.s
 
 # target to generate assembly for a file
-Graph/UnionFind/LinkTown.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LinkTown.cpp.s
-.PHONY : Graph/UnionFind/LinkTown.cpp.s
+Graph/UnionFind/LianTongTu.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LianTongTu.cpp.s
+.PHONY : Graph/UnionFind/LianTongTu.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Graph/UnionFind/LinkTown.obj
-	@echo ... Graph/UnionFind/LinkTown.i
-	@echo ... Graph/UnionFind/LinkTown.s
+	@echo ... Graph/UnionFind/LianTongTu.obj
+	@echo ... Graph/UnionFind/LianTongTu.i
+	@echo ... Graph/UnionFind/LianTongTu.s
 .PHONY : help
 
 
