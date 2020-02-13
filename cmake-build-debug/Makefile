@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Graph/UnionFind/LianTongTu.obj: Graph/UnionFind/LianTongTu.cpp.obj
+Graph/UnionFind/IsItATree.obj: Graph/UnionFind/IsItATree.cpp.obj
 
-.PHONY : Graph/UnionFind/LianTongTu.obj
+.PHONY : Graph/UnionFind/IsItATree.obj
 
 # target to build an object file
-Graph/UnionFind/LianTongTu.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LianTongTu.cpp.obj
-.PHONY : Graph/UnionFind/LianTongTu.cpp.obj
+Graph/UnionFind/IsItATree.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/IsItATree.cpp.obj
+.PHONY : Graph/UnionFind/IsItATree.cpp.obj
 
-Graph/UnionFind/LianTongTu.i: Graph/UnionFind/LianTongTu.cpp.i
+Graph/UnionFind/IsItATree.i: Graph/UnionFind/IsItATree.cpp.i
 
-.PHONY : Graph/UnionFind/LianTongTu.i
+.PHONY : Graph/UnionFind/IsItATree.i
 
 # target to preprocess a source file
-Graph/UnionFind/LianTongTu.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LianTongTu.cpp.i
-.PHONY : Graph/UnionFind/LianTongTu.cpp.i
+Graph/UnionFind/IsItATree.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/IsItATree.cpp.i
+.PHONY : Graph/UnionFind/IsItATree.cpp.i
 
-Graph/UnionFind/LianTongTu.s: Graph/UnionFind/LianTongTu.cpp.s
+Graph/UnionFind/IsItATree.s: Graph/UnionFind/IsItATree.cpp.s
 
-.PHONY : Graph/UnionFind/LianTongTu.s
+.PHONY : Graph/UnionFind/IsItATree.s
 
 # target to generate assembly for a file
-Graph/UnionFind/LianTongTu.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/LianTongTu.cpp.s
-.PHONY : Graph/UnionFind/LianTongTu.cpp.s
+Graph/UnionFind/IsItATree.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/IsItATree.cpp.s
+.PHONY : Graph/UnionFind/IsItATree.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Graph/UnionFind/LianTongTu.obj
-	@echo ... Graph/UnionFind/LianTongTu.i
-	@echo ... Graph/UnionFind/LianTongTu.s
+	@echo ... Graph/UnionFind/IsItATree.obj
+	@echo ... Graph/UnionFind/IsItATree.i
+	@echo ... Graph/UnionFind/IsItATree.s
 .PHONY : help
 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ClionProj/BITReexamination/Graph/UnionFind/LianTongTu.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/Graph/UnionFind/LianTongTu.cpp.obj"
+  "D:/ClionProj/BITReexamination/Graph/UnionFind/IsItATree.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/Graph/UnionFind/IsItATree.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
