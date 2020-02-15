@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Graph/UnionFind/IsItATree.obj: Graph/UnionFind/IsItATree.cpp.obj
+Graph/UnionFind/ZhiXiQinShu.obj: Graph/UnionFind/ZhiXiQinShu.cpp.obj
 
-.PHONY : Graph/UnionFind/IsItATree.obj
+.PHONY : Graph/UnionFind/ZhiXiQinShu.obj
 
 # target to build an object file
-Graph/UnionFind/IsItATree.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/IsItATree.cpp.obj
-.PHONY : Graph/UnionFind/IsItATree.cpp.obj
+Graph/UnionFind/ZhiXiQinShu.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/ZhiXiQinShu.cpp.obj
+.PHONY : Graph/UnionFind/ZhiXiQinShu.cpp.obj
 
-Graph/UnionFind/IsItATree.i: Graph/UnionFind/IsItATree.cpp.i
+Graph/UnionFind/ZhiXiQinShu.i: Graph/UnionFind/ZhiXiQinShu.cpp.i
 
-.PHONY : Graph/UnionFind/IsItATree.i
+.PHONY : Graph/UnionFind/ZhiXiQinShu.i
 
 # target to preprocess a source file
-Graph/UnionFind/IsItATree.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/IsItATree.cpp.i
-.PHONY : Graph/UnionFind/IsItATree.cpp.i
+Graph/UnionFind/ZhiXiQinShu.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/ZhiXiQinShu.cpp.i
+.PHONY : Graph/UnionFind/ZhiXiQinShu.cpp.i
 
-Graph/UnionFind/IsItATree.s: Graph/UnionFind/IsItATree.cpp.s
+Graph/UnionFind/ZhiXiQinShu.s: Graph/UnionFind/ZhiXiQinShu.cpp.s
 
-.PHONY : Graph/UnionFind/IsItATree.s
+.PHONY : Graph/UnionFind/ZhiXiQinShu.s
 
 # target to generate assembly for a file
-Graph/UnionFind/IsItATree.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/IsItATree.cpp.s
-.PHONY : Graph/UnionFind/IsItATree.cpp.s
+Graph/UnionFind/ZhiXiQinShu.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/UnionFind/ZhiXiQinShu.cpp.s
+.PHONY : Graph/UnionFind/ZhiXiQinShu.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Graph/UnionFind/IsItATree.obj
-	@echo ... Graph/UnionFind/IsItATree.i
-	@echo ... Graph/UnionFind/IsItATree.s
+	@echo ... Graph/UnionFind/ZhiXiQinShu.obj
+	@echo ... Graph/UnionFind/ZhiXiQinShu.i
+	@echo ... Graph/UnionFind/ZhiXiQinShu.s
 .PHONY : help
 
 
