@@ -108,4 +108,5 @@ int main(){
         printf("%d\n", minLenght);
     }
     return 0;
+    //so tama whatjiaSSD
 }
