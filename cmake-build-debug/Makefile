@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Graph/MST/ChangTongGongCheng.obj: Graph/MST/ChangTongGongCheng.cpp.obj
+Graph/MST/ChangTongGongC2.0.obj: Graph/MST/ChangTongGongC2.0.cpp.obj
 
-.PHONY : Graph/MST/ChangTongGongCheng.obj
+.PHONY : Graph/MST/ChangTongGongC2.0.obj
 
 # target to build an object file
-Graph/MST/ChangTongGongCheng.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/MST/ChangTongGongCheng.cpp.obj
-.PHONY : Graph/MST/ChangTongGongCheng.cpp.obj
+Graph/MST/ChangTongGongC2.0.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/MST/ChangTongGongC2.0.cpp.obj
+.PHONY : Graph/MST/ChangTongGongC2.0.cpp.obj
 
-Graph/MST/ChangTongGongCheng.i: Graph/MST/ChangTongGongCheng.cpp.i
+Graph/MST/ChangTongGongC2.0.i: Graph/MST/ChangTongGongC2.0.cpp.i
 
-.PHONY : Graph/MST/ChangTongGongCheng.i
+.PHONY : Graph/MST/ChangTongGongC2.0.i
 
 # target to preprocess a source file
-Graph/MST/ChangTongGongCheng.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/MST/ChangTongGongCheng.cpp.i
-.PHONY : Graph/MST/ChangTongGongCheng.cpp.i
+Graph/MST/ChangTongGongC2.0.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/MST/ChangTongGongC2.0.cpp.i
+.PHONY : Graph/MST/ChangTongGongC2.0.cpp.i
 
-Graph/MST/ChangTongGongCheng.s: Graph/MST/ChangTongGongCheng.cpp.s
+Graph/MST/ChangTongGongC2.0.s: Graph/MST/ChangTongGongC2.0.cpp.s
 
-.PHONY : Graph/MST/ChangTongGongCheng.s
+.PHONY : Graph/MST/ChangTongGongC2.0.s
 
 # target to generate assembly for a file
-Graph/MST/ChangTongGongCheng.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/MST/ChangTongGongCheng.cpp.s
-.PHONY : Graph/MST/ChangTongGongCheng.cpp.s
+Graph/MST/ChangTongGongC2.0.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/MST/ChangTongGongC2.0.cpp.s
+.PHONY : Graph/MST/ChangTongGongC2.0.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Graph/MST/ChangTongGongCheng.obj
-	@echo ... Graph/MST/ChangTongGongCheng.i
-	@echo ... Graph/MST/ChangTongGongCheng.s
+	@echo ... Graph/MST/ChangTongGongC2.0.obj
+	@echo ... Graph/MST/ChangTongGongC2.0.i
+	@echo ... Graph/MST/ChangTongGongC2.0.s
 .PHONY : help
 
 
