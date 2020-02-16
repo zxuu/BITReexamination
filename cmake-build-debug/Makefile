@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Graph/Topological_Order/BiSaiMingCi.obj: Graph/Topological_Order/BiSaiMingCi.cpp.obj
+Math/JinZhiZhuanHuan/TenToBinary.obj: Math/JinZhiZhuanHuan/TenToBinary.cpp.obj
 
-.PHONY : Graph/Topological_Order/BiSaiMingCi.obj
+.PHONY : Math/JinZhiZhuanHuan/TenToBinary.obj
 
 # target to build an object file
-Graph/Topological_Order/BiSaiMingCi.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/BiSaiMingCi.cpp.obj
-.PHONY : Graph/Topological_Order/BiSaiMingCi.cpp.obj
+Math/JinZhiZhuanHuan/TenToBinary.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToBinary.cpp.obj
+.PHONY : Math/JinZhiZhuanHuan/TenToBinary.cpp.obj
 
-Graph/Topological_Order/BiSaiMingCi.i: Graph/Topological_Order/BiSaiMingCi.cpp.i
+Math/JinZhiZhuanHuan/TenToBinary.i: Math/JinZhiZhuanHuan/TenToBinary.cpp.i
 
-.PHONY : Graph/Topological_Order/BiSaiMingCi.i
+.PHONY : Math/JinZhiZhuanHuan/TenToBinary.i
 
 # target to preprocess a source file
-Graph/Topological_Order/BiSaiMingCi.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/BiSaiMingCi.cpp.i
-.PHONY : Graph/Topological_Order/BiSaiMingCi.cpp.i
+Math/JinZhiZhuanHuan/TenToBinary.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToBinary.cpp.i
+.PHONY : Math/JinZhiZhuanHuan/TenToBinary.cpp.i
 
-Graph/Topological_Order/BiSaiMingCi.s: Graph/Topological_Order/BiSaiMingCi.cpp.s
+Math/JinZhiZhuanHuan/TenToBinary.s: Math/JinZhiZhuanHuan/TenToBinary.cpp.s
 
-.PHONY : Graph/Topological_Order/BiSaiMingCi.s
+.PHONY : Math/JinZhiZhuanHuan/TenToBinary.s
 
 # target to generate assembly for a file
-Graph/Topological_Order/BiSaiMingCi.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/BiSaiMingCi.cpp.s
-.PHONY : Graph/Topological_Order/BiSaiMingCi.cpp.s
+Math/JinZhiZhuanHuan/TenToBinary.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToBinary.cpp.s
+.PHONY : Math/JinZhiZhuanHuan/TenToBinary.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Graph/Topological_Order/BiSaiMingCi.obj
-	@echo ... Graph/Topological_Order/BiSaiMingCi.i
-	@echo ... Graph/Topological_Order/BiSaiMingCi.s
+	@echo ... Math/JinZhiZhuanHuan/TenToBinary.obj
+	@echo ... Math/JinZhiZhuanHuan/TenToBinary.i
+	@echo ... Math/JinZhiZhuanHuan/TenToBinary.s
 .PHONY : help
 
 
