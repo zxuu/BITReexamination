@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ClionProj/BITReexamination/Graph/MST/ChangTongGongC2.0.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/Graph/MST/ChangTongGongC2.0.cpp.obj"
+  "D:/ClionProj/BITReexamination/Graph/Topological Order/LegalOrNot.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/Graph/Topological_Order/LegalOrNot.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

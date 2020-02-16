@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Graph/MST/ChangTongGongC2.0.obj: Graph/MST/ChangTongGongC2.0.cpp.obj
+Graph/Topological_Order/LegalOrNot.obj: Graph/Topological_Order/LegalOrNot.cpp.obj
 
-.PHONY : Graph/MST/ChangTongGongC2.0.obj
+.PHONY : Graph/Topological_Order/LegalOrNot.obj
 
 # target to build an object file
-Graph/MST/ChangTongGongC2.0.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/MST/ChangTongGongC2.0.cpp.obj
-.PHONY : Graph/MST/ChangTongGongC2.0.cpp.obj
+Graph/Topological_Order/LegalOrNot.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/LegalOrNot.cpp.obj
+.PHONY : Graph/Topological_Order/LegalOrNot.cpp.obj
 
-Graph/MST/ChangTongGongC2.0.i: Graph/MST/ChangTongGongC2.0.cpp.i
+Graph/Topological_Order/LegalOrNot.i: Graph/Topological_Order/LegalOrNot.cpp.i
 
-.PHONY : Graph/MST/ChangTongGongC2.0.i
+.PHONY : Graph/Topological_Order/LegalOrNot.i
 
 # target to preprocess a source file
-Graph/MST/ChangTongGongC2.0.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/MST/ChangTongGongC2.0.cpp.i
-.PHONY : Graph/MST/ChangTongGongC2.0.cpp.i
+Graph/Topological_Order/LegalOrNot.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/LegalOrNot.cpp.i
+.PHONY : Graph/Topological_Order/LegalOrNot.cpp.i
 
-Graph/MST/ChangTongGongC2.0.s: Graph/MST/ChangTongGongC2.0.cpp.s
+Graph/Topological_Order/LegalOrNot.s: Graph/Topological_Order/LegalOrNot.cpp.s
 
-.PHONY : Graph/MST/ChangTongGongC2.0.s
+.PHONY : Graph/Topological_Order/LegalOrNot.s
 
 # target to generate assembly for a file
-Graph/MST/ChangTongGongC2.0.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/MST/ChangTongGongC2.0.cpp.s
-.PHONY : Graph/MST/ChangTongGongC2.0.cpp.s
+Graph/Topological_Order/LegalOrNot.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/LegalOrNot.cpp.s
+.PHONY : Graph/Topological_Order/LegalOrNot.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Graph/MST/ChangTongGongC2.0.obj
-	@echo ... Graph/MST/ChangTongGongC2.0.i
-	@echo ... Graph/MST/ChangTongGongC2.0.s
+	@echo ... Graph/Topological_Order/LegalOrNot.obj
+	@echo ... Graph/Topological_Order/LegalOrNot.i
+	@echo ... Graph/Topological_Order/LegalOrNot.s
 .PHONY : help
 
 
