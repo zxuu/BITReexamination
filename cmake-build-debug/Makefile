@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Graph/Topological_Order/LegalOrNot.obj: Graph/Topological_Order/LegalOrNot.cpp.obj
+Graph/Topological_Order/BiSaiMingCi.obj: Graph/Topological_Order/BiSaiMingCi.cpp.obj
 
-.PHONY : Graph/Topological_Order/LegalOrNot.obj
+.PHONY : Graph/Topological_Order/BiSaiMingCi.obj
 
 # target to build an object file
-Graph/Topological_Order/LegalOrNot.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/LegalOrNot.cpp.obj
-.PHONY : Graph/Topological_Order/LegalOrNot.cpp.obj
+Graph/Topological_Order/BiSaiMingCi.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/BiSaiMingCi.cpp.obj
+.PHONY : Graph/Topological_Order/BiSaiMingCi.cpp.obj
 
-Graph/Topological_Order/LegalOrNot.i: Graph/Topological_Order/LegalOrNot.cpp.i
+Graph/Topological_Order/BiSaiMingCi.i: Graph/Topological_Order/BiSaiMingCi.cpp.i
 
-.PHONY : Graph/Topological_Order/LegalOrNot.i
+.PHONY : Graph/Topological_Order/BiSaiMingCi.i
 
 # target to preprocess a source file
-Graph/Topological_Order/LegalOrNot.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/LegalOrNot.cpp.i
-.PHONY : Graph/Topological_Order/LegalOrNot.cpp.i
+Graph/Topological_Order/BiSaiMingCi.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/BiSaiMingCi.cpp.i
+.PHONY : Graph/Topological_Order/BiSaiMingCi.cpp.i
 
-Graph/Topological_Order/LegalOrNot.s: Graph/Topological_Order/LegalOrNot.cpp.s
+Graph/Topological_Order/BiSaiMingCi.s: Graph/Topological_Order/BiSaiMingCi.cpp.s
 
-.PHONY : Graph/Topological_Order/LegalOrNot.s
+.PHONY : Graph/Topological_Order/BiSaiMingCi.s
 
 # target to generate assembly for a file
-Graph/Topological_Order/LegalOrNot.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/LegalOrNot.cpp.s
-.PHONY : Graph/Topological_Order/LegalOrNot.cpp.s
+Graph/Topological_Order/BiSaiMingCi.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Graph/Topological_Order/BiSaiMingCi.cpp.s
+.PHONY : Graph/Topological_Order/BiSaiMingCi.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Graph/Topological_Order/LegalOrNot.obj
-	@echo ... Graph/Topological_Order/LegalOrNot.i
-	@echo ... Graph/Topological_Order/LegalOrNot.s
+	@echo ... Graph/Topological_Order/BiSaiMingCi.obj
+	@echo ... Graph/Topological_Order/BiSaiMingCi.i
+	@echo ... Graph/Topological_Order/BiSaiMingCi.s
 .PHONY : help
 
 

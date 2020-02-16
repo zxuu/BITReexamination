@@ -12,16 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73444c42-95f8-4b0c-835e-2cfd8271208b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Graph/MST/Freckles.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Topological Order/LegalOrNot.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/Topological Order/BiSaiMingCi.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/BITReexamination.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BITReexamination.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
@@ -218,14 +215,7 @@
       <workItem from="1581732387205" duration="9785000" />
       <workItem from="1581754521039" duration="11382000" />
       <workItem from="1581815235063" duration="6150000" />
-      <workItem from="1581844951538" duration="4653000" />
-    </task>
-    <task id="LOCAL-00030" summary="今年的第几天">
-      <created>1580112286957</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1580112286957</updated>
+      <workItem from="1581844951538" duration="6105000" />
     </task>
     <task id="LOCAL-00031" summary="打印日期">
       <created>1580113275046</created>
@@ -563,14 +553,20 @@
       <option name="project" value="LOCAL" />
       <updated>1581839446966</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="图论 &amp;&amp; 拓扑排序">
+      <created>1581857990597</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1581857990597</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="浮点数相加" />
     <MESSAGE value="vectorTest" />
     <MESSAGE value="QueueTest" />
     <MESSAGE value="约瑟夫NO.2" />
@@ -595,7 +591,8 @@
     <MESSAGE value="图论 &amp;&amp; 树、任意两节点的关系" />
     <MESSAGE value="图论 &amp;&amp; 最小生成树" />
     <MESSAGE value="图论 &amp;&amp; 还是最小生成树、只不过一些边的权值已知" />
-    <option name="LAST_COMMIT_MESSAGE" value="图论 &amp;&amp; 还是最小生成树、只不过一些边的权值已知" />
+    <MESSAGE value="图论 &amp;&amp; 拓扑排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="图论 &amp;&amp; 拓扑排序" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="79" key="#Notifications" timestamp="1580370317901">
@@ -621,7 +618,7 @@
     </state>
     <state x="-1374" y="-54" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578490127170" />
     <state x="3106" y="309" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.0.2048.1122@1920.0.2048.1122" timestamp="1580131432050" />
-    <state x="917" y="20" key="CommitChangelistDialog2" timestamp="1581839444683">
+    <state x="917" y="20" key="CommitChangelistDialog2" timestamp="1581857987785">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="-1566" y="-191" key="CommitChangelistDialog2/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578799597238" />
@@ -634,7 +631,7 @@
     <state x="2914" y="-191" key="CommitChangelistDialog2/1920.-360.2048.1112/0.0.1536.824@1920.-360.2048.1112" timestamp="1578969693236" />
     <state x="745" y="4" key="CommitChangelistDialog2/1920.5.2048.1112/0.0.1536.824@0.0.1536.824" timestamp="1579222199938" />
     <state x="917" y="46" key="CommitChangelistDialog2/2560.0.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1581563534633" />
-    <state x="917" y="20" key="CommitChangelistDialog2/2560.370.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581839444683" />
+    <state x="917" y="20" key="CommitChangelistDialog2/2560.370.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581857987785" />
     <state x="2113" y="198" key="FileChooserDialogImpl" timestamp="1581165053878">
       <screen x="1920" y="0" width="2048" height="1122" />
     </state>
@@ -748,8 +745,8 @@
     <state x="713" y="184" key="SettingsEditor/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581732447632" />
     <state x="3095" y="117" width="963" height="707" key="SettingsEditor/2560.0.1536.824/0.0.2048.1112@2560.0.1536.824" timestamp="1581737968596" />
     <state x="713" y="186" key="SettingsEditor/2560.0.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1581645975881" />
-    <state x="653" y="231" key="Vcs.Push.Dialog.v2" timestamp="1581818377190">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="871" y="312" key="Vcs.Push.Dialog.v2" timestamp="1581857997909">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="-1690" y="-48" key="Vcs.Push.Dialog.v2/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578799602960" />
     <state x="653" y="231" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-358.2048.1112@0.0.1536.824" timestamp="1581818377190" />
@@ -761,6 +758,7 @@
     <state x="2790" y="-48" key="Vcs.Push.Dialog.v2/1920.-360.2048.1112/0.0.1536.824@1920.-360.2048.1112" timestamp="1578969700195" />
     <state x="653" y="231" key="Vcs.Push.Dialog.v2/1920.5.2048.1112/0.0.1536.824@0.0.1536.824" timestamp="1579222204929" />
     <state x="871" y="315" key="Vcs.Push.Dialog.v2/2560.0.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1581563538577" />
+    <state x="871" y="312" key="Vcs.Push.Dialog.v2/2560.370.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581857997909" />
     <state x="395" y="185" width="898" height="545" key="com.intellij.ide.util.TipDialog" timestamp="1581844987796">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
