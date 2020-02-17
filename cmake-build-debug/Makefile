@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/JinZhiZhuanHuan/StrTenToBin.obj: Math/JinZhiZhuanHuan/StrTenToBin.cpp.obj
+Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.obj: Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.obj
 
-.PHONY : Math/JinZhiZhuanHuan/StrTenToBin.obj
+.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.obj
 
 # target to build an object file
-Math/JinZhiZhuanHuan/StrTenToBin.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/StrTenToBin.cpp.obj
-.PHONY : Math/JinZhiZhuanHuan/StrTenToBin.cpp.obj
+Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.obj
+.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.obj
 
-Math/JinZhiZhuanHuan/StrTenToBin.i: Math/JinZhiZhuanHuan/StrTenToBin.cpp.i
+Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.i: Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.i
 
-.PHONY : Math/JinZhiZhuanHuan/StrTenToBin.i
+.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.i
 
 # target to preprocess a source file
-Math/JinZhiZhuanHuan/StrTenToBin.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/StrTenToBin.cpp.i
-.PHONY : Math/JinZhiZhuanHuan/StrTenToBin.cpp.i
+Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.i
+.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.i
 
-Math/JinZhiZhuanHuan/StrTenToBin.s: Math/JinZhiZhuanHuan/StrTenToBin.cpp.s
+Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.s: Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.s
 
-.PHONY : Math/JinZhiZhuanHuan/StrTenToBin.s
+.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.s
 
 # target to generate assembly for a file
-Math/JinZhiZhuanHuan/StrTenToBin.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/StrTenToBin.cpp.s
-.PHONY : Math/JinZhiZhuanHuan/StrTenToBin.cpp.s
+Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.s
+.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/JinZhiZhuanHuan/StrTenToBin.obj
-	@echo ... Math/JinZhiZhuanHuan/StrTenToBin.i
-	@echo ... Math/JinZhiZhuanHuan/StrTenToBin.s
+	@echo ... Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.obj
+	@echo ... Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.i
+	@echo ... Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.s
 .PHONY : help
 
 
