@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ClionProj/BITReexamination/Math/JinZhiZhuanHuan/TenToBinary.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToBinary.cpp.obj"
+  "D:/ClionProj/BITReexamination/Math/JinZhiZhuanHuan/StrTenToBin.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/StrTenToBin.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
