@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/JinZhiZhuanHuan/MToN.obj: Math/JinZhiZhuanHuan/MToN.cpp.obj
+Math/JinZhiZhuanHuan/TenToEight.obj: Math/JinZhiZhuanHuan/TenToEight.cpp.obj
 
-.PHONY : Math/JinZhiZhuanHuan/MToN.obj
+.PHONY : Math/JinZhiZhuanHuan/TenToEight.obj
 
 # target to build an object file
-Math/JinZhiZhuanHuan/MToN.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/MToN.cpp.obj
-.PHONY : Math/JinZhiZhuanHuan/MToN.cpp.obj
+Math/JinZhiZhuanHuan/TenToEight.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.obj
+.PHONY : Math/JinZhiZhuanHuan/TenToEight.cpp.obj
 
-Math/JinZhiZhuanHuan/MToN.i: Math/JinZhiZhuanHuan/MToN.cpp.i
+Math/JinZhiZhuanHuan/TenToEight.i: Math/JinZhiZhuanHuan/TenToEight.cpp.i
 
-.PHONY : Math/JinZhiZhuanHuan/MToN.i
+.PHONY : Math/JinZhiZhuanHuan/TenToEight.i
 
 # target to preprocess a source file
-Math/JinZhiZhuanHuan/MToN.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/MToN.cpp.i
-.PHONY : Math/JinZhiZhuanHuan/MToN.cpp.i
+Math/JinZhiZhuanHuan/TenToEight.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.i
+.PHONY : Math/JinZhiZhuanHuan/TenToEight.cpp.i
 
-Math/JinZhiZhuanHuan/MToN.s: Math/JinZhiZhuanHuan/MToN.cpp.s
+Math/JinZhiZhuanHuan/TenToEight.s: Math/JinZhiZhuanHuan/TenToEight.cpp.s
 
-.PHONY : Math/JinZhiZhuanHuan/MToN.s
+.PHONY : Math/JinZhiZhuanHuan/TenToEight.s
 
 # target to generate assembly for a file
-Math/JinZhiZhuanHuan/MToN.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/MToN.cpp.s
-.PHONY : Math/JinZhiZhuanHuan/MToN.cpp.s
+Math/JinZhiZhuanHuan/TenToEight.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.s
+.PHONY : Math/JinZhiZhuanHuan/TenToEight.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/JinZhiZhuanHuan/MToN.obj
-	@echo ... Math/JinZhiZhuanHuan/MToN.i
-	@echo ... Math/JinZhiZhuanHuan/MToN.s
+	@echo ... Math/JinZhiZhuanHuan/TenToEight.obj
+	@echo ... Math/JinZhiZhuanHuan/TenToEight.i
+	@echo ... Math/JinZhiZhuanHuan/TenToEight.s
 .PHONY : help
 
 
