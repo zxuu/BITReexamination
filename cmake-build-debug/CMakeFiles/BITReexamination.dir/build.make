@@ -56,27 +56,27 @@ include CMakeFiles/BITReexamination.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BITReexamination.dir/flags.make
 
-CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
-CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.obj: ../Math/JinZhiZhuanHuan/TenToEight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\Math\JinZhiZhuanHuan\TenToEight.cpp.obj -c D:\ClionProj\BITReexamination\Math\JinZhiZhuanHuan\TenToEight.cpp
+CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToAny.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
+CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToAny.cpp.obj: ../Math/JinZhiZhuanHuan/TenToAny.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToAny.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\Math\JinZhiZhuanHuan\TenToAny.cpp.obj -c D:\ClionProj\BITReexamination\Math\JinZhiZhuanHuan\TenToAny.cpp
 
-CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.i"
-	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProj\BITReexamination\Math\JinZhiZhuanHuan\TenToEight.cpp > CMakeFiles\BITReexamination.dir\Math\JinZhiZhuanHuan\TenToEight.cpp.i
+CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToAny.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToAny.cpp.i"
+	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProj\BITReexamination\Math\JinZhiZhuanHuan\TenToAny.cpp > CMakeFiles\BITReexamination.dir\Math\JinZhiZhuanHuan\TenToAny.cpp.i
 
-CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.s"
-	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProj\BITReexamination\Math\JinZhiZhuanHuan\TenToEight.cpp -o CMakeFiles\BITReexamination.dir\Math\JinZhiZhuanHuan\TenToEight.cpp.s
+CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToAny.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToAny.cpp.s"
+	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProj\BITReexamination\Math\JinZhiZhuanHuan\TenToAny.cpp -o CMakeFiles\BITReexamination.dir\Math\JinZhiZhuanHuan\TenToAny.cpp.s
 
 # Object files for target BITReexamination
 BITReexamination_OBJECTS = \
-"CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.obj"
+"CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToAny.cpp.obj"
 
 # External object files for target BITReexamination
 BITReexamination_EXTERNAL_OBJECTS =
 
-BITReexamination.exe: CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToEight.cpp.obj
+BITReexamination.exe: CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/TenToAny.cpp.obj
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/build.make
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/linklibs.rsp
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/objects1.rsp
