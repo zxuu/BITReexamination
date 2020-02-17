@@ -6,4 +6,4 @@
 cmake_minimum_required(VERSION 3.14)
 project(BITReexamination)
 set(CMAKE_CXX_STANDARD 14)
-add_executable(BITReexamination Math/JinZhiZhuanHuan/TenToAny.cpp)
+add_executable(BITReexamination Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp)
