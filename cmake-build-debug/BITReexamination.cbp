@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/ClionProj/BITReexamination/Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp">
+		<Unit filename="D:/ClionProj/BITReexamination/Math/JinZhiZhuanHuan/MToN.cpp">
 			<Option target="BITReexamination"/>
 		</Unit>
 		<Unit filename="D:/ClionProj/BITReexamination/CMakeLists.txt">

@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.obj: Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.obj
+Math/JinZhiZhuanHuan/MToN.obj: Math/JinZhiZhuanHuan/MToN.cpp.obj
 
-.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.obj
+.PHONY : Math/JinZhiZhuanHuan/MToN.obj
 
 # target to build an object file
-Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.obj
-.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.obj
+Math/JinZhiZhuanHuan/MToN.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/MToN.cpp.obj
+.PHONY : Math/JinZhiZhuanHuan/MToN.cpp.obj
 
-Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.i: Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.i
+Math/JinZhiZhuanHuan/MToN.i: Math/JinZhiZhuanHuan/MToN.cpp.i
 
-.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.i
+.PHONY : Math/JinZhiZhuanHuan/MToN.i
 
 # target to preprocess a source file
-Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.i
-.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.i
+Math/JinZhiZhuanHuan/MToN.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/MToN.cpp.i
+.PHONY : Math/JinZhiZhuanHuan/MToN.cpp.i
 
-Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.s: Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.s
+Math/JinZhiZhuanHuan/MToN.s: Math/JinZhiZhuanHuan/MToN.cpp.s
 
-.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.s
+.PHONY : Math/JinZhiZhuanHuan/MToN.s
 
 # target to generate assembly for a file
-Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.s
-.PHONY : Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.cpp.s
+Math/JinZhiZhuanHuan/MToN.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/MToN.cpp.s
+.PHONY : Math/JinZhiZhuanHuan/MToN.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.obj
-	@echo ... Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.i
-	@echo ... Math/JinZhiZhuanHuan/StrTenHuZhuanBinary.s
+	@echo ... Math/JinZhiZhuanHuan/MToN.obj
+	@echo ... Math/JinZhiZhuanHuan/MToN.i
+	@echo ... Math/JinZhiZhuanHuan/MToN.s
 .PHONY : help
 
 
