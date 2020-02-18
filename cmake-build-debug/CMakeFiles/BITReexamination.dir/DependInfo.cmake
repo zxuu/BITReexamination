@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ClionProj/BITReexamination/Math/GCD/gcd.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/Math/GCD/gcd.cpp.obj"
+  "D:/ClionProj/BITReexamination/Math/GCDLCM/Lcm.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

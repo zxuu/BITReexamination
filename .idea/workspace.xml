@@ -12,13 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73444c42-95f8-4b0c-835e-2cfd8271208b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Math/GCD/gcd.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/GCDLCM/Lcm.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math/GCD/gcd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Math/GCDLCM/gcd.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/BITReexamination.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BITReexamination.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BITReexamination.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
@@ -218,14 +221,7 @@
       <workItem from="1581844951538" duration="8049000" />
       <workItem from="1581926791445" duration="19687000" />
       <workItem from="1581988760754" duration="1242000" />
-      <workItem from="1581993630200" duration="1649000" />
-    </task>
-    <task id="LOCAL-00039" summary="自定义排序">
-      <created>1580348897271</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1580348897271</updated>
+      <workItem from="1581993630200" duration="2981000" />
     </task>
     <task id="LOCAL-00040" summary="自定义排序|成绩排序">
       <created>1580349929750</created>
@@ -563,14 +559,20 @@
       <option name="project" value="LOCAL" />
       <updated>1581951890959</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Math &amp;&amp; 最大公约数">
+      <created>1581995540957</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1581995540957</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="中序和前序确定二叉树" />
     <MESSAGE value="判断两颗二叉排序树是否相同" />
     <MESSAGE value="优先级队列应用1&amp;&amp;小于号的重载" />
     <MESSAGE value="优先级队列应用2&amp;&amp;第k小的数" />
@@ -595,7 +597,8 @@
     <MESSAGE value="Math &amp;&amp; 十进制转化为八进制" />
     <MESSAGE value="Math &amp;&amp; 十进制转化为任意进制" />
     <MESSAGE value="Math &amp;&amp; M进制转化为N进制" />
-    <option name="LAST_COMMIT_MESSAGE" value="Math &amp;&amp; M进制转化为N进制" />
+    <MESSAGE value="Math &amp;&amp; 最大公约数" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math &amp;&amp; 最大公约数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="79" key="#Notifications" timestamp="1580370317901">
@@ -621,7 +624,7 @@
     </state>
     <state x="-1374" y="-54" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578490127170" />
     <state x="3106" y="309" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.0.2048.1122@1920.0.2048.1122" timestamp="1580131432050" />
-    <state x="917" y="20" key="CommitChangelistDialog2" timestamp="1581951888303">
+    <state x="917" y="20" key="CommitChangelistDialog2" timestamp="1581995538410">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="-1566" y="-191" key="CommitChangelistDialog2/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578799597238" />
@@ -631,6 +634,7 @@
     <state x="668" y="4" key="CommitChangelistDialog2/0.0.1536.832/1920.0.2048.1122@0.0.1536.832" timestamp="1580869532038" />
     <state x="668" y="4" key="CommitChangelistDialog2/0.0.1536.834/1920.0.2048.1122@0.0.1536.834" timestamp="1581075447737" />
     <state x="2810" y="5" key="CommitChangelistDialog2/0.0.1536.834/1920.0.2048.1122@1920.0.2048.1122" timestamp="1581170263281" />
+    <state x="917" y="20" key="CommitChangelistDialog2/0.0.2048.1112/2560.0.1536.824@0.0.2048.1112" timestamp="1581995538410" />
     <state x="2914" y="-191" key="CommitChangelistDialog2/1920.-360.2048.1112/0.0.1536.824@1920.-360.2048.1112" timestamp="1578969693236" />
     <state x="745" y="4" key="CommitChangelistDialog2/1920.5.2048.1112/0.0.1536.824@0.0.1536.824" timestamp="1579222199938" />
     <state x="917" y="20" key="CommitChangelistDialog2/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581951888303" />
@@ -644,7 +648,7 @@
     <state x="2915" y="-112" key="FileChooserDialogImpl/1920.-360.2048.1112/0.0.1536.824@1920.-360.2048.1112" timestamp="1578914045543" />
     <state x="145" y="145" key="FileChooserDialogImpl/1920.5.2048.1112/0.0.1536.824@0.0.1536.824" timestamp="1579248423542" />
     <state x="2915" y="253" key="FileChooserDialogImpl/1920.5.2048.1112/0.0.1536.824@1920.5.2048.1112" timestamp="1579140074608" />
-    <state width="1083" height="206" key="GridCell.Tab.0.bottom" timestamp="1581953548267">
+    <state width="1085" height="204" key="GridCell.Tab.0.bottom" timestamp="1581998546273">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1070" height="295" key="GridCell.Tab.0.bottom/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578800736930" />
@@ -655,12 +659,13 @@
     <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.832/1920.0.2048.1122@0.0.1536.832" timestamp="1580892642570" />
     <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.2048.1122@0.0.1536.834" timestamp="1581077723565" />
     <state width="2005" height="268" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.2048.1122@1920.0.2048.1122" timestamp="1581227936717" />
+    <state width="1085" height="204" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.0.1536.824@0.0.2048.1112" timestamp="1581998546273" />
     <state width="2005" height="297" key="GridCell.Tab.0.bottom/1920.-360.2048.1112/0.0.1536.824@1920.-360.2048.1112" timestamp="1578971660640" />
     <state width="1342" height="195" key="GridCell.Tab.0.bottom/1920.5.2048.1112/0.0.1536.824@0.0.1536.824" timestamp="1579248468837" />
     <state width="1083" height="206" key="GridCell.Tab.0.bottom/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581953548267" />
     <state width="1301" height="211" key="GridCell.Tab.0.bottom/2560.0.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1581603161047" />
     <state width="1284" height="206" key="GridCell.Tab.0.bottom/2560.370.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581937190770" />
-    <state width="1083" height="206" key="GridCell.Tab.0.center" timestamp="1581953548267">
+    <state width="1085" height="204" key="GridCell.Tab.0.center" timestamp="1581998546273">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1070" height="295" key="GridCell.Tab.0.center/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578800736929" />
@@ -671,12 +676,13 @@
     <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.832/1920.0.2048.1122@0.0.1536.832" timestamp="1580892642570" />
     <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.2048.1122@0.0.1536.834" timestamp="1581077723565" />
     <state width="2005" height="268" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.2048.1122@1920.0.2048.1122" timestamp="1581227936717" />
+    <state width="1085" height="204" key="GridCell.Tab.0.center/0.0.2048.1112/2560.0.1536.824@0.0.2048.1112" timestamp="1581998546273" />
     <state width="2005" height="297" key="GridCell.Tab.0.center/1920.-360.2048.1112/0.0.1536.824@1920.-360.2048.1112" timestamp="1578971660640" />
     <state width="1342" height="195" key="GridCell.Tab.0.center/1920.5.2048.1112/0.0.1536.824@0.0.1536.824" timestamp="1579248468837" />
     <state width="1083" height="206" key="GridCell.Tab.0.center/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581953548267" />
     <state width="1301" height="211" key="GridCell.Tab.0.center/2560.0.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1581603161046" />
     <state width="1284" height="206" key="GridCell.Tab.0.center/2560.370.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581937190770" />
-    <state width="1083" height="206" key="GridCell.Tab.0.left" timestamp="1581953548267">
+    <state width="1085" height="204" key="GridCell.Tab.0.left" timestamp="1581998546273">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1070" height="295" key="GridCell.Tab.0.left/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578800736929" />
@@ -687,12 +693,13 @@
     <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.832/1920.0.2048.1122@0.0.1536.832" timestamp="1580892642570" />
     <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.2048.1122@0.0.1536.834" timestamp="1581077723564" />
     <state width="2005" height="268" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.2048.1122@1920.0.2048.1122" timestamp="1581227936717" />
+    <state width="1085" height="204" key="GridCell.Tab.0.left/0.0.2048.1112/2560.0.1536.824@0.0.2048.1112" timestamp="1581998546273" />
     <state width="2005" height="297" key="GridCell.Tab.0.left/1920.-360.2048.1112/0.0.1536.824@1920.-360.2048.1112" timestamp="1578971660640" />
     <state width="1342" height="195" key="GridCell.Tab.0.left/1920.5.2048.1112/0.0.1536.824@0.0.1536.824" timestamp="1579248468837" />
     <state width="1083" height="206" key="GridCell.Tab.0.left/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581953548267" />
     <state width="1301" height="211" key="GridCell.Tab.0.left/2560.0.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1581603161046" />
     <state width="1284" height="206" key="GridCell.Tab.0.left/2560.370.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581937190770" />
-    <state width="1083" height="206" key="GridCell.Tab.0.right" timestamp="1581953548267">
+    <state width="1085" height="204" key="GridCell.Tab.0.right" timestamp="1581998546273">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1070" height="295" key="GridCell.Tab.0.right/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578800736929" />
@@ -703,6 +710,7 @@
     <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.832/1920.0.2048.1122@0.0.1536.832" timestamp="1580892642570" />
     <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.2048.1122@0.0.1536.834" timestamp="1581077723565" />
     <state width="2005" height="268" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.2048.1122@1920.0.2048.1122" timestamp="1581227936717" />
+    <state width="1085" height="204" key="GridCell.Tab.0.right/0.0.2048.1112/2560.0.1536.824@0.0.2048.1112" timestamp="1581998546273" />
     <state width="2005" height="297" key="GridCell.Tab.0.right/1920.-360.2048.1112/0.0.1536.824@1920.-360.2048.1112" timestamp="1578971660640" />
     <state width="1342" height="195" key="GridCell.Tab.0.right/1920.5.2048.1112/0.0.1536.824@0.0.1536.824" timestamp="1579248468837" />
     <state width="1083" height="206" key="GridCell.Tab.0.right/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581953548267" />
@@ -749,7 +757,7 @@
     <state x="713" y="184" key="SettingsEditor/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581732447632" />
     <state x="3095" y="117" width="963" height="707" key="SettingsEditor/2560.0.1536.824/0.0.2048.1112@2560.0.1536.824" timestamp="1581737968596" />
     <state x="713" y="186" key="SettingsEditor/2560.0.1536.834/0.0.2048.1122@0.0.2048.1122" timestamp="1581645975881" />
-    <state x="871" y="312" key="Vcs.Push.Dialog.v2" timestamp="1581951892444">
+    <state x="871" y="312" key="Vcs.Push.Dialog.v2" timestamp="1581995542847">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="-1690" y="-48" key="Vcs.Push.Dialog.v2/-2560.-360.2048.1112/0.0.1536.824@-2560.-360.2048.1112" timestamp="1578799602960" />
@@ -759,6 +767,7 @@
     <state x="653" y="233" key="Vcs.Push.Dialog.v2/0.0.1536.832/1920.0.2048.1122@0.0.1536.832" timestamp="1580869537007" />
     <state x="653" y="234" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.2048.1122@0.0.1536.834" timestamp="1581075455096" />
     <state x="2791" y="315" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.2048.1122@1920.0.2048.1122" timestamp="1581170268152" />
+    <state x="871" y="312" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1536.824@0.0.2048.1112" timestamp="1581995542847" />
     <state x="2790" y="-48" key="Vcs.Push.Dialog.v2/1920.-360.2048.1112/0.0.1536.824@1920.-360.2048.1112" timestamp="1578969700195" />
     <state x="653" y="231" key="Vcs.Push.Dialog.v2/1920.5.2048.1112/0.0.1536.824@0.0.1536.824" timestamp="1579222204929" />
     <state x="871" y="312" key="Vcs.Push.Dialog.v2/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1581951892444" />

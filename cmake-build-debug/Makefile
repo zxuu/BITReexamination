@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/GCD/gcd.obj: Math/GCD/gcd.cpp.obj
+Math/GCDLCM/Lcm.obj: Math/GCDLCM/Lcm.cpp.obj
 
-.PHONY : Math/GCD/gcd.obj
+.PHONY : Math/GCDLCM/Lcm.obj
 
 # target to build an object file
-Math/GCD/gcd.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCD/gcd.cpp.obj
-.PHONY : Math/GCD/gcd.cpp.obj
+Math/GCDLCM/Lcm.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.obj
+.PHONY : Math/GCDLCM/Lcm.cpp.obj
 
-Math/GCD/gcd.i: Math/GCD/gcd.cpp.i
+Math/GCDLCM/Lcm.i: Math/GCDLCM/Lcm.cpp.i
 
-.PHONY : Math/GCD/gcd.i
+.PHONY : Math/GCDLCM/Lcm.i
 
 # target to preprocess a source file
-Math/GCD/gcd.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCD/gcd.cpp.i
-.PHONY : Math/GCD/gcd.cpp.i
+Math/GCDLCM/Lcm.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.i
+.PHONY : Math/GCDLCM/Lcm.cpp.i
 
-Math/GCD/gcd.s: Math/GCD/gcd.cpp.s
+Math/GCDLCM/Lcm.s: Math/GCDLCM/Lcm.cpp.s
 
-.PHONY : Math/GCD/gcd.s
+.PHONY : Math/GCDLCM/Lcm.s
 
 # target to generate assembly for a file
-Math/GCD/gcd.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCD/gcd.cpp.s
-.PHONY : Math/GCD/gcd.cpp.s
+Math/GCDLCM/Lcm.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.s
+.PHONY : Math/GCDLCM/Lcm.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/GCD/gcd.obj
-	@echo ... Math/GCD/gcd.i
-	@echo ... Math/GCD/gcd.s
+	@echo ... Math/GCDLCM/Lcm.obj
+	@echo ... Math/GCDLCM/Lcm.i
+	@echo ... Math/GCDLCM/Lcm.s
 .PHONY : help
 
 
