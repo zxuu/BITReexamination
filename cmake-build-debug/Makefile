@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/PrimeNumbersSuShu/SelectPrime.obj: Math/PrimeNumbersSuShu/SelectPrime.cpp.obj
+Math/PrimeNumbersSuShu/SelectPrime2.obj: Math/PrimeNumbersSuShu/SelectPrime2.cpp.obj
 
-.PHONY : Math/PrimeNumbersSuShu/SelectPrime.obj
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime2.obj
 
 # target to build an object file
-Math/PrimeNumbersSuShu/SelectPrime.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.obj
-.PHONY : Math/PrimeNumbersSuShu/SelectPrime.cpp.obj
+Math/PrimeNumbersSuShu/SelectPrime2.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime2.cpp.obj
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime2.cpp.obj
 
-Math/PrimeNumbersSuShu/SelectPrime.i: Math/PrimeNumbersSuShu/SelectPrime.cpp.i
+Math/PrimeNumbersSuShu/SelectPrime2.i: Math/PrimeNumbersSuShu/SelectPrime2.cpp.i
 
-.PHONY : Math/PrimeNumbersSuShu/SelectPrime.i
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime2.i
 
 # target to preprocess a source file
-Math/PrimeNumbersSuShu/SelectPrime.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.i
-.PHONY : Math/PrimeNumbersSuShu/SelectPrime.cpp.i
+Math/PrimeNumbersSuShu/SelectPrime2.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime2.cpp.i
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime2.cpp.i
 
-Math/PrimeNumbersSuShu/SelectPrime.s: Math/PrimeNumbersSuShu/SelectPrime.cpp.s
+Math/PrimeNumbersSuShu/SelectPrime2.s: Math/PrimeNumbersSuShu/SelectPrime2.cpp.s
 
-.PHONY : Math/PrimeNumbersSuShu/SelectPrime.s
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime2.s
 
 # target to generate assembly for a file
-Math/PrimeNumbersSuShu/SelectPrime.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.s
-.PHONY : Math/PrimeNumbersSuShu/SelectPrime.cpp.s
+Math/PrimeNumbersSuShu/SelectPrime2.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime2.cpp.s
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime2.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/PrimeNumbersSuShu/SelectPrime.obj
-	@echo ... Math/PrimeNumbersSuShu/SelectPrime.i
-	@echo ... Math/PrimeNumbersSuShu/SelectPrime.s
+	@echo ... Math/PrimeNumbersSuShu/SelectPrime2.obj
+	@echo ... Math/PrimeNumbersSuShu/SelectPrime2.i
+	@echo ... Math/PrimeNumbersSuShu/SelectPrime2.s
 .PHONY : help
 
 
