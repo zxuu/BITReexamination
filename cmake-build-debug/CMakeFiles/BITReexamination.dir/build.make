@@ -56,27 +56,27 @@ include CMakeFiles/BITReexamination.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BITReexamination.dir/flags.make
 
-CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
-CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.obj: ../Math/GCDLCM/Lcm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\Math\GCDLCM\Lcm.cpp.obj -c D:\ClionProj\BITReexamination\Math\GCDLCM\Lcm.cpp
+CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
+CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.obj: ../Math/PrimeNumbersSuShu/SelectPrime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\Math\PrimeNumbersSuShu\SelectPrime.cpp.obj -c D:\ClionProj\BITReexamination\Math\PrimeNumbersSuShu\SelectPrime.cpp
 
-CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.i"
-	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProj\BITReexamination\Math\GCDLCM\Lcm.cpp > CMakeFiles\BITReexamination.dir\Math\GCDLCM\Lcm.cpp.i
+CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.i"
+	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProj\BITReexamination\Math\PrimeNumbersSuShu\SelectPrime.cpp > CMakeFiles\BITReexamination.dir\Math\PrimeNumbersSuShu\SelectPrime.cpp.i
 
-CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.s"
-	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProj\BITReexamination\Math\GCDLCM\Lcm.cpp -o CMakeFiles\BITReexamination.dir\Math\GCDLCM\Lcm.cpp.s
+CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.s"
+	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProj\BITReexamination\Math\PrimeNumbersSuShu\SelectPrime.cpp -o CMakeFiles\BITReexamination.dir\Math\PrimeNumbersSuShu\SelectPrime.cpp.s
 
 # Object files for target BITReexamination
 BITReexamination_OBJECTS = \
-"CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.obj"
+"CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.obj"
 
 # External object files for target BITReexamination
 BITReexamination_EXTERNAL_OBJECTS =
 
-BITReexamination.exe: CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.obj
+BITReexamination.exe: CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.obj
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/build.make
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/linklibs.rsp
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/objects1.rsp

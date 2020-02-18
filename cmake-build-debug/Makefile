@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/GCDLCM/Lcm.obj: Math/GCDLCM/Lcm.cpp.obj
+Math/PrimeNumbersSuShu/SelectPrime.obj: Math/PrimeNumbersSuShu/SelectPrime.cpp.obj
 
-.PHONY : Math/GCDLCM/Lcm.obj
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime.obj
 
 # target to build an object file
-Math/GCDLCM/Lcm.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.obj
-.PHONY : Math/GCDLCM/Lcm.cpp.obj
+Math/PrimeNumbersSuShu/SelectPrime.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.obj
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime.cpp.obj
 
-Math/GCDLCM/Lcm.i: Math/GCDLCM/Lcm.cpp.i
+Math/PrimeNumbersSuShu/SelectPrime.i: Math/PrimeNumbersSuShu/SelectPrime.cpp.i
 
-.PHONY : Math/GCDLCM/Lcm.i
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime.i
 
 # target to preprocess a source file
-Math/GCDLCM/Lcm.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.i
-.PHONY : Math/GCDLCM/Lcm.cpp.i
+Math/PrimeNumbersSuShu/SelectPrime.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.i
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime.cpp.i
 
-Math/GCDLCM/Lcm.s: Math/GCDLCM/Lcm.cpp.s
+Math/PrimeNumbersSuShu/SelectPrime.s: Math/PrimeNumbersSuShu/SelectPrime.cpp.s
 
-.PHONY : Math/GCDLCM/Lcm.s
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime.s
 
 # target to generate assembly for a file
-Math/GCDLCM/Lcm.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCDLCM/Lcm.cpp.s
-.PHONY : Math/GCDLCM/Lcm.cpp.s
+Math/PrimeNumbersSuShu/SelectPrime.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/PrimeNumbersSuShu/SelectPrime.cpp.s
+.PHONY : Math/PrimeNumbersSuShu/SelectPrime.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/GCDLCM/Lcm.obj
-	@echo ... Math/GCDLCM/Lcm.i
-	@echo ... Math/GCDLCM/Lcm.s
+	@echo ... Math/PrimeNumbersSuShu/SelectPrime.obj
+	@echo ... Math/PrimeNumbersSuShu/SelectPrime.i
+	@echo ... Math/PrimeNumbersSuShu/SelectPrime.s
 .PHONY : help
 
 
