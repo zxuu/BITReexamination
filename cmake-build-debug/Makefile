@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.obj: Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.obj
+Math/GCD/gcd.obj: Math/GCD/gcd.cpp.obj
 
-.PHONY : Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.obj
+.PHONY : Math/GCD/gcd.obj
 
 # target to build an object file
-Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.obj
-.PHONY : Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.obj
+Math/GCD/gcd.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCD/gcd.cpp.obj
+.PHONY : Math/GCD/gcd.cpp.obj
 
-Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.i: Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.i
+Math/GCD/gcd.i: Math/GCD/gcd.cpp.i
 
-.PHONY : Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.i
+.PHONY : Math/GCD/gcd.i
 
 # target to preprocess a source file
-Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.i
-.PHONY : Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.i
+Math/GCD/gcd.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCD/gcd.cpp.i
+.PHONY : Math/GCD/gcd.cpp.i
 
-Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.s: Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.s
+Math/GCD/gcd.s: Math/GCD/gcd.cpp.s
 
-.PHONY : Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.s
+.PHONY : Math/GCD/gcd.s
 
 # target to generate assembly for a file
-Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.s
-.PHONY : Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.cpp.s
+Math/GCD/gcd.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/GCD/gcd.cpp.s
+.PHONY : Math/GCD/gcd.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.obj
-	@echo ... Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.i
-	@echo ... Math/JinZhiZhuanHuan/ShuZhiZhuanHuan.s
+	@echo ... Math/GCD/gcd.obj
+	@echo ... Math/GCD/gcd.i
+	@echo ... Math/GCD/gcd.s
 .PHONY : help
 
 
