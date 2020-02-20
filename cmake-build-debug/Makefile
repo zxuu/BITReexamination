@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/Matrix/MatrixMultiplication.obj: Math/Matrix/MatrixMultiplication.cpp.obj
+Math/Matrix/FastMatrixMi.obj: Math/Matrix/FastMatrixMi.cpp.obj
 
-.PHONY : Math/Matrix/MatrixMultiplication.obj
+.PHONY : Math/Matrix/FastMatrixMi.obj
 
 # target to build an object file
-Math/Matrix/MatrixMultiplication.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/MatrixMultiplication.cpp.obj
-.PHONY : Math/Matrix/MatrixMultiplication.cpp.obj
+Math/Matrix/FastMatrixMi.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/FastMatrixMi.cpp.obj
+.PHONY : Math/Matrix/FastMatrixMi.cpp.obj
 
-Math/Matrix/MatrixMultiplication.i: Math/Matrix/MatrixMultiplication.cpp.i
+Math/Matrix/FastMatrixMi.i: Math/Matrix/FastMatrixMi.cpp.i
 
-.PHONY : Math/Matrix/MatrixMultiplication.i
+.PHONY : Math/Matrix/FastMatrixMi.i
 
 # target to preprocess a source file
-Math/Matrix/MatrixMultiplication.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/MatrixMultiplication.cpp.i
-.PHONY : Math/Matrix/MatrixMultiplication.cpp.i
+Math/Matrix/FastMatrixMi.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/FastMatrixMi.cpp.i
+.PHONY : Math/Matrix/FastMatrixMi.cpp.i
 
-Math/Matrix/MatrixMultiplication.s: Math/Matrix/MatrixMultiplication.cpp.s
+Math/Matrix/FastMatrixMi.s: Math/Matrix/FastMatrixMi.cpp.s
 
-.PHONY : Math/Matrix/MatrixMultiplication.s
+.PHONY : Math/Matrix/FastMatrixMi.s
 
 # target to generate assembly for a file
-Math/Matrix/MatrixMultiplication.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/MatrixMultiplication.cpp.s
-.PHONY : Math/Matrix/MatrixMultiplication.cpp.s
+Math/Matrix/FastMatrixMi.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/FastMatrixMi.cpp.s
+.PHONY : Math/Matrix/FastMatrixMi.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/Matrix/MatrixMultiplication.obj
-	@echo ... Math/Matrix/MatrixMultiplication.i
-	@echo ... Math/Matrix/MatrixMultiplication.s
+	@echo ... Math/Matrix/FastMatrixMi.obj
+	@echo ... Math/Matrix/FastMatrixMi.i
+	@echo ... Math/Matrix/FastMatrixMi.s
 .PHONY : help
 
 
