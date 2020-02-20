@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/FenJieZhiYinShu/SumOfYueShu.obj: Math/FenJieZhiYinShu/SumOfYueShu.cpp.obj
+Math/Matrix/MatrixMultiplication.obj: Math/Matrix/MatrixMultiplication.cpp.obj
 
-.PHONY : Math/FenJieZhiYinShu/SumOfYueShu.obj
+.PHONY : Math/Matrix/MatrixMultiplication.obj
 
 # target to build an object file
-Math/FenJieZhiYinShu/SumOfYueShu.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/FenJieZhiYinShu/SumOfYueShu.cpp.obj
-.PHONY : Math/FenJieZhiYinShu/SumOfYueShu.cpp.obj
+Math/Matrix/MatrixMultiplication.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/MatrixMultiplication.cpp.obj
+.PHONY : Math/Matrix/MatrixMultiplication.cpp.obj
 
-Math/FenJieZhiYinShu/SumOfYueShu.i: Math/FenJieZhiYinShu/SumOfYueShu.cpp.i
+Math/Matrix/MatrixMultiplication.i: Math/Matrix/MatrixMultiplication.cpp.i
 
-.PHONY : Math/FenJieZhiYinShu/SumOfYueShu.i
+.PHONY : Math/Matrix/MatrixMultiplication.i
 
 # target to preprocess a source file
-Math/FenJieZhiYinShu/SumOfYueShu.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/FenJieZhiYinShu/SumOfYueShu.cpp.i
-.PHONY : Math/FenJieZhiYinShu/SumOfYueShu.cpp.i
+Math/Matrix/MatrixMultiplication.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/MatrixMultiplication.cpp.i
+.PHONY : Math/Matrix/MatrixMultiplication.cpp.i
 
-Math/FenJieZhiYinShu/SumOfYueShu.s: Math/FenJieZhiYinShu/SumOfYueShu.cpp.s
+Math/Matrix/MatrixMultiplication.s: Math/Matrix/MatrixMultiplication.cpp.s
 
-.PHONY : Math/FenJieZhiYinShu/SumOfYueShu.s
+.PHONY : Math/Matrix/MatrixMultiplication.s
 
 # target to generate assembly for a file
-Math/FenJieZhiYinShu/SumOfYueShu.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/FenJieZhiYinShu/SumOfYueShu.cpp.s
-.PHONY : Math/FenJieZhiYinShu/SumOfYueShu.cpp.s
+Math/Matrix/MatrixMultiplication.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/MatrixMultiplication.cpp.s
+.PHONY : Math/Matrix/MatrixMultiplication.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/FenJieZhiYinShu/SumOfYueShu.obj
-	@echo ... Math/FenJieZhiYinShu/SumOfYueShu.i
-	@echo ... Math/FenJieZhiYinShu/SumOfYueShu.s
+	@echo ... Math/Matrix/MatrixMultiplication.obj
+	@echo ... Math/Matrix/MatrixMultiplication.i
+	@echo ... Math/Matrix/MatrixMultiplication.s
 .PHONY : help
 
 
