@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/Matrix/FastMatrixMi.obj: Math/Matrix/FastMatrixMi.cpp.obj
+Math/FastMi/AB.obj: Math/FastMi/AB.cpp.obj
 
-.PHONY : Math/Matrix/FastMatrixMi.obj
+.PHONY : Math/FastMi/AB.obj
 
 # target to build an object file
-Math/Matrix/FastMatrixMi.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/FastMatrixMi.cpp.obj
-.PHONY : Math/Matrix/FastMatrixMi.cpp.obj
+Math/FastMi/AB.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/FastMi/AB.cpp.obj
+.PHONY : Math/FastMi/AB.cpp.obj
 
-Math/Matrix/FastMatrixMi.i: Math/Matrix/FastMatrixMi.cpp.i
+Math/FastMi/AB.i: Math/FastMi/AB.cpp.i
 
-.PHONY : Math/Matrix/FastMatrixMi.i
+.PHONY : Math/FastMi/AB.i
 
 # target to preprocess a source file
-Math/Matrix/FastMatrixMi.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/FastMatrixMi.cpp.i
-.PHONY : Math/Matrix/FastMatrixMi.cpp.i
+Math/FastMi/AB.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/FastMi/AB.cpp.i
+.PHONY : Math/FastMi/AB.cpp.i
 
-Math/Matrix/FastMatrixMi.s: Math/Matrix/FastMatrixMi.cpp.s
+Math/FastMi/AB.s: Math/FastMi/AB.cpp.s
 
-.PHONY : Math/Matrix/FastMatrixMi.s
+.PHONY : Math/FastMi/AB.s
 
 # target to generate assembly for a file
-Math/Matrix/FastMatrixMi.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/FastMatrixMi.cpp.s
-.PHONY : Math/Matrix/FastMatrixMi.cpp.s
+Math/FastMi/AB.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/FastMi/AB.cpp.s
+.PHONY : Math/FastMi/AB.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/Matrix/FastMatrixMi.obj
-	@echo ... Math/Matrix/FastMatrixMi.i
-	@echo ... Math/Matrix/FastMatrixMi.s
+	@echo ... Math/FastMi/AB.obj
+	@echo ... Math/FastMi/AB.i
+	@echo ... Math/FastMi/AB.s
 .PHONY : help
 
 
