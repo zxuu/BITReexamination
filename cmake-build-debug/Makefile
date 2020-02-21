@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/FastMi/AB.obj: Math/FastMi/AB.cpp.obj
+Math/Matrix/A+B.obj: Math/Matrix/A+B.cpp.obj
 
-.PHONY : Math/FastMi/AB.obj
+.PHONY : Math/Matrix/A+B.obj
 
 # target to build an object file
-Math/FastMi/AB.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/FastMi/AB.cpp.obj
-.PHONY : Math/FastMi/AB.cpp.obj
+Math/Matrix/A+B.cpp.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.obj
+.PHONY : Math/Matrix/A+B.cpp.obj
 
-Math/FastMi/AB.i: Math/FastMi/AB.cpp.i
+Math/Matrix/A+B.i: Math/Matrix/A+B.cpp.i
 
-.PHONY : Math/FastMi/AB.i
+.PHONY : Math/Matrix/A+B.i
 
 # target to preprocess a source file
-Math/FastMi/AB.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/FastMi/AB.cpp.i
-.PHONY : Math/FastMi/AB.cpp.i
+Math/Matrix/A+B.cpp.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.i
+.PHONY : Math/Matrix/A+B.cpp.i
 
-Math/FastMi/AB.s: Math/FastMi/AB.cpp.s
+Math/Matrix/A+B.s: Math/Matrix/A+B.cpp.s
 
-.PHONY : Math/FastMi/AB.s
+.PHONY : Math/Matrix/A+B.s
 
 # target to generate assembly for a file
-Math/FastMi/AB.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/FastMi/AB.cpp.s
-.PHONY : Math/FastMi/AB.cpp.s
+Math/Matrix/A+B.cpp.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.s
+.PHONY : Math/Matrix/A+B.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/FastMi/AB.obj
-	@echo ... Math/FastMi/AB.i
-	@echo ... Math/FastMi/AB.s
+	@echo ... Math/Matrix/A+B.obj
+	@echo ... Math/Matrix/A+B.i
+	@echo ... Math/Matrix/A+B.s
 .PHONY : help
 
 
