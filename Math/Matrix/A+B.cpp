@@ -19,7 +19,7 @@ Matrix MatrixSum(Matrix x,Matrix y){
     }
     return matrix;
 }
-int Judge(Matrix x){
+int Judge(Matrix x){ //判断行列零数
     int result = 0;
     for (int i = 0; i < x.row; ++i) {
         bool isZero = true;
