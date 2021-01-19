@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Clion201933\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Clion201933\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\ClionProj\BITReexamination
+CMAKE_SOURCE_DIR = D:\Project\ClionPro\UestcReexamination
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\ClionProj\BITReexamination\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Project\ClionPro\UestcReexamination\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BITReexamination.dir/depend.make
@@ -56,32 +56,32 @@ include CMakeFiles/BITReexamination.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BITReexamination.dir/flags.make
 
-CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.obj: CMakeFiles/BITReexamination.dir/flags.make
-CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.obj: ../Math/Matrix/A+B.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BITReexamination.dir\Math\Matrix\A+B.cpp.obj -c D:\ClionProj\BITReexamination\Math\Matrix\A+B.cpp
+CMakeFiles/BITReexamination.dir/test.c.obj: CMakeFiles/BITReexamination.dir/flags.make
+CMakeFiles/BITReexamination.dir/test.c.obj: ../test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\ClionPro\UestcReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BITReexamination.dir/test.c.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BITReexamination.dir\test.c.obj   -c D:\Project\ClionPro\UestcReexamination\test.c
 
-CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.i"
-	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProj\BITReexamination\Math\Matrix\A+B.cpp > CMakeFiles\BITReexamination.dir\Math\Matrix\A+B.cpp.i
+CMakeFiles/BITReexamination.dir/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BITReexamination.dir/test.c.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Project\ClionPro\UestcReexamination\test.c > CMakeFiles\BITReexamination.dir\test.c.i
 
-CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.s"
-	D:\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProj\BITReexamination\Math\Matrix\A+B.cpp -o CMakeFiles\BITReexamination.dir\Math\Matrix\A+B.cpp.s
+CMakeFiles/BITReexamination.dir/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BITReexamination.dir/test.c.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Project\ClionPro\UestcReexamination\test.c -o CMakeFiles\BITReexamination.dir\test.c.s
 
 # Object files for target BITReexamination
 BITReexamination_OBJECTS = \
-"CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.obj"
+"CMakeFiles/BITReexamination.dir/test.c.obj"
 
 # External object files for target BITReexamination
 BITReexamination_EXTERNAL_OBJECTS =
 
-BITReexamination.exe: CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.obj
+BITReexamination.exe: CMakeFiles/BITReexamination.dir/test.c.obj
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/build.make
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/linklibs.rsp
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/objects1.rsp
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BITReexamination.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Project\ClionPro\UestcReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable BITReexamination.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BITReexamination.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/BITReexamination.dir/clean:
 .PHONY : CMakeFiles/BITReexamination.dir/clean
 
 CMakeFiles/BITReexamination.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\ClionProj\BITReexamination D:\ClionProj\BITReexamination D:\ClionProj\BITReexamination\cmake-build-debug D:\ClionProj\BITReexamination\cmake-build-debug D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles\BITReexamination.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Project\ClionPro\UestcReexamination D:\Project\ClionPro\UestcReexamination D:\Project\ClionPro\UestcReexamination\cmake-build-debug D:\Project\ClionPro\UestcReexamination\cmake-build-debug D:\Project\ClionPro\UestcReexamination\cmake-build-debug\CMakeFiles\BITReexamination.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BITReexamination.dir/depend
 

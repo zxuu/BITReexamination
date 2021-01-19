@@ -1,15 +1,15 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
+  "C"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ClionProj/BITReexamination/Math/Matrix/A+B.cpp" "D:/ClionProj/BITReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.obj"
+set(CMAKE_DEPENDS_CHECK_C
+  "D:/Project/ClionPro/UestcReexamination/test.c" "D:/Project/ClionPro/UestcReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/test.c.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 
 # Targets to which this target links.

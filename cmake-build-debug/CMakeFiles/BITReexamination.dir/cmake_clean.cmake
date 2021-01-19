@@ -2,11 +2,11 @@ file(REMOVE_RECURSE
   "BITReexamination.exe"
   "BITReexamination.exe.manifest"
   "BITReexamination.pdb"
-  "CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.obj"
+  "CMakeFiles/BITReexamination.dir/test.c.obj"
   "libBITReexamination.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C)
   include(CMakeFiles/BITReexamination.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

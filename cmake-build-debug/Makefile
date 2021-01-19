@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Clion201933\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Clion201933\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\ClionProj\BITReexamination
+CMAKE_SOURCE_DIR = D:\Project\ClionPro\UestcReexamination
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\ClionProj\BITReexamination\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Project\ClionPro\UestcReexamination\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\ClionProj\BITReexamination\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Clion201933\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Clion201932\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Clion201933\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Project\ClionPro\UestcReexamination\cmake-build-debug\CMakeFiles D:\Project\ClionPro\UestcReexamination\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProj\BITReexamination\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Project\ClionPro\UestcReexamination\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-Math/Matrix/A+B.obj: Math/Matrix/A+B.cpp.obj
+test.obj: test.c.obj
 
-.PHONY : Math/Matrix/A+B.obj
+.PHONY : test.obj
 
 # target to build an object file
-Math/Matrix/A+B.cpp.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.obj
-.PHONY : Math/Matrix/A+B.cpp.obj
+test.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.obj
+.PHONY : test.c.obj
 
-Math/Matrix/A+B.i: Math/Matrix/A+B.cpp.i
+test.i: test.c.i
 
-.PHONY : Math/Matrix/A+B.i
+.PHONY : test.i
 
 # target to preprocess a source file
-Math/Matrix/A+B.cpp.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.i
-.PHONY : Math/Matrix/A+B.cpp.i
+test.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.i
+.PHONY : test.c.i
 
-Math/Matrix/A+B.s: Math/Matrix/A+B.cpp.s
+test.s: test.c.s
 
-.PHONY : Math/Matrix/A+B.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-Math/Matrix/A+B.cpp.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/Math/Matrix/A+B.cpp.s
-.PHONY : Math/Matrix/A+B.cpp.s
+test.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.s
+.PHONY : test.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/Matrix/A+B.obj
-	@echo ... Math/Matrix/A+B.i
-	@echo ... Math/Matrix/A+B.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 
