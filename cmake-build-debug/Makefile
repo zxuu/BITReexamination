@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-test.obj: test.c.obj
+UESTC/C_Base/float_test.obj: UESTC/C_Base/float_test.c.obj
 
-.PHONY : test.obj
+.PHONY : UESTC/C_Base/float_test.obj
 
 # target to build an object file
-test.c.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.obj
-.PHONY : test.c.obj
+UESTC/C_Base/float_test.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/float_test.c.obj
+.PHONY : UESTC/C_Base/float_test.c.obj
 
-test.i: test.c.i
+UESTC/C_Base/float_test.i: UESTC/C_Base/float_test.c.i
 
-.PHONY : test.i
+.PHONY : UESTC/C_Base/float_test.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.i
-.PHONY : test.c.i
+UESTC/C_Base/float_test.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/float_test.c.i
+.PHONY : UESTC/C_Base/float_test.c.i
 
-test.s: test.c.s
+UESTC/C_Base/float_test.s: UESTC/C_Base/float_test.c.s
 
-.PHONY : test.s
+.PHONY : UESTC/C_Base/float_test.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/test.c.s
-.PHONY : test.c.s
+UESTC/C_Base/float_test.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/float_test.c.s
+.PHONY : UESTC/C_Base/float_test.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... UESTC/C_Base/float_test.obj
+	@echo ... UESTC/C_Base/float_test.i
+	@echo ... UESTC/C_Base/float_test.s
 .PHONY : help
 
 
