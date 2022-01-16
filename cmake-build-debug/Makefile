@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-UESTC/C_Base/float_test.obj: UESTC/C_Base/float_test.c.obj
+UESTC/C_Base/1.obj: UESTC/C_Base/1.c.obj
 
-.PHONY : UESTC/C_Base/float_test.obj
+.PHONY : UESTC/C_Base/1.obj
 
 # target to build an object file
-UESTC/C_Base/float_test.c.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/float_test.c.obj
-.PHONY : UESTC/C_Base/float_test.c.obj
+UESTC/C_Base/1.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/1.c.obj
+.PHONY : UESTC/C_Base/1.c.obj
 
-UESTC/C_Base/float_test.i: UESTC/C_Base/float_test.c.i
+UESTC/C_Base/1.i: UESTC/C_Base/1.c.i
 
-.PHONY : UESTC/C_Base/float_test.i
+.PHONY : UESTC/C_Base/1.i
 
 # target to preprocess a source file
-UESTC/C_Base/float_test.c.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/float_test.c.i
-.PHONY : UESTC/C_Base/float_test.c.i
+UESTC/C_Base/1.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/1.c.i
+.PHONY : UESTC/C_Base/1.c.i
 
-UESTC/C_Base/float_test.s: UESTC/C_Base/float_test.c.s
+UESTC/C_Base/1.s: UESTC/C_Base/1.c.s
 
-.PHONY : UESTC/C_Base/float_test.s
+.PHONY : UESTC/C_Base/1.s
 
 # target to generate assembly for a file
-UESTC/C_Base/float_test.c.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/float_test.c.s
-.PHONY : UESTC/C_Base/float_test.c.s
+UESTC/C_Base/1.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/1.c.s
+.PHONY : UESTC/C_Base/1.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... UESTC/C_Base/float_test.obj
-	@echo ... UESTC/C_Base/float_test.i
-	@echo ... UESTC/C_Base/float_test.s
+	@echo ... UESTC/C_Base/1.obj
+	@echo ... UESTC/C_Base/1.i
+	@echo ... UESTC/C_Base/1.s
 .PHONY : help
 
 
