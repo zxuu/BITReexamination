@@ -25,6 +25,11 @@ void main(){
     printf("%d\n", PI + 32);
 }
  */
+int func(int *p){
+    return (*p-- = 3) - 1;  //返回的是3-1
+}
 void main(){
-
+    int arr[] = {10,7, 5};
+    int *p = arr + 1;
+    printf("%d", func(p) + *p);
 }

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Project/ClionPro/UestcReexamination/UESTC/C_Base/strInter.c" "D:/Project/ClionPro/UestcReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/UESTC/C_Base/strInter.c.obj"
+  "D:/Project/ClionPro/UestcReexamination/UESTC/C_Base/deletSameStr.c" "D:/Project/ClionPro/UestcReexamination/cmake-build-debug/CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

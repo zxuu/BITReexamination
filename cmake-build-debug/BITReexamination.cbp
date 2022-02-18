@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Project/ClionPro/UestcReexamination/UESTC/C_Base/strInter.c">
+		<Unit filename="D:/Project/ClionPro/UestcReexamination/UESTC/C_Base/deletSameStr.c">
 			<Option target="BITReexamination"/>
 		</Unit>
 		<Unit filename="D:/Project/ClionPro/UestcReexamination/CMakeLists.txt">

@@ -8,10 +8,17 @@ void swap(char **pa,char **pb){
     *pb = temp;
 }
 void main(){
-    char a[] = "UESTC";
-    char *b = "CST"; //指向字符串的指针？
-//    swap(a, b);
-    strcpy(a, "dd");
-    puts(a);
-    puts(b);
+    char p[10]={"UESTC"};
+    char q[] = {"xyz"};
+    int i, j;
+    i = 0;
+    while (*(p+i)!='\0') i++;
+    j=0;
+    i++;
+    while (*(q+j) != '\0'){
+        *(p+i) = *(q+j);
+        j++;
+        i++;
+    }
+    printf("%s", p);
 }
