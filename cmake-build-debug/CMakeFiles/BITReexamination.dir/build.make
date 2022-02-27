@@ -56,27 +56,27 @@ include CMakeFiles/BITReexamination.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BITReexamination.dir/flags.make
 
-CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.obj: CMakeFiles/BITReexamination.dir/flags.make
-CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.obj: ../UESTC/C_Base/deletSameStr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\ClionPro\UestcReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BITReexamination.dir\UESTC\C_Base\deletSameStr.c.obj   -c D:\Project\ClionPro\UestcReexamination\UESTC\C_Base\deletSameStr.c
+CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.obj: CMakeFiles/BITReexamination.dir/flags.make
+CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.obj: ../UESTC/C_Base/Gongyueshu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\ClionPro\UestcReexamination\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BITReexamination.dir\UESTC\C_Base\Gongyueshu.c.obj   -c D:\Project\ClionPro\UestcReexamination\UESTC\C_Base\Gongyueshu.c
 
-CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Project\ClionPro\UestcReexamination\UESTC\C_Base\deletSameStr.c > CMakeFiles\BITReexamination.dir\UESTC\C_Base\deletSameStr.c.i
+CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Project\ClionPro\UestcReexamination\UESTC\C_Base\Gongyueshu.c > CMakeFiles\BITReexamination.dir\UESTC\C_Base\Gongyueshu.c.i
 
-CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Project\ClionPro\UestcReexamination\UESTC\C_Base\deletSameStr.c -o CMakeFiles\BITReexamination.dir\UESTC\C_Base\deletSameStr.c.s
+CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Project\ClionPro\UestcReexamination\UESTC\C_Base\Gongyueshu.c -o CMakeFiles\BITReexamination.dir\UESTC\C_Base\Gongyueshu.c.s
 
 # Object files for target BITReexamination
 BITReexamination_OBJECTS = \
-"CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.obj"
+"CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.obj"
 
 # External object files for target BITReexamination
 BITReexamination_EXTERNAL_OBJECTS =
 
-BITReexamination.exe: CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.obj
+BITReexamination.exe: CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.obj
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/build.make
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/linklibs.rsp
 BITReexamination.exe: CMakeFiles/BITReexamination.dir/objects1.rsp

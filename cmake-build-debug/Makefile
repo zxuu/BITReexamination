@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-UESTC/C_Base/deletSameStr.obj: UESTC/C_Base/deletSameStr.c.obj
+UESTC/C_Base/Gongyueshu.obj: UESTC/C_Base/Gongyueshu.c.obj
 
-.PHONY : UESTC/C_Base/deletSameStr.obj
+.PHONY : UESTC/C_Base/Gongyueshu.obj
 
 # target to build an object file
-UESTC/C_Base/deletSameStr.c.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.obj
-.PHONY : UESTC/C_Base/deletSameStr.c.obj
+UESTC/C_Base/Gongyueshu.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.obj
+.PHONY : UESTC/C_Base/Gongyueshu.c.obj
 
-UESTC/C_Base/deletSameStr.i: UESTC/C_Base/deletSameStr.c.i
+UESTC/C_Base/Gongyueshu.i: UESTC/C_Base/Gongyueshu.c.i
 
-.PHONY : UESTC/C_Base/deletSameStr.i
+.PHONY : UESTC/C_Base/Gongyueshu.i
 
 # target to preprocess a source file
-UESTC/C_Base/deletSameStr.c.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.i
-.PHONY : UESTC/C_Base/deletSameStr.c.i
+UESTC/C_Base/Gongyueshu.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.i
+.PHONY : UESTC/C_Base/Gongyueshu.c.i
 
-UESTC/C_Base/deletSameStr.s: UESTC/C_Base/deletSameStr.c.s
+UESTC/C_Base/Gongyueshu.s: UESTC/C_Base/Gongyueshu.c.s
 
-.PHONY : UESTC/C_Base/deletSameStr.s
+.PHONY : UESTC/C_Base/Gongyueshu.s
 
 # target to generate assembly for a file
-UESTC/C_Base/deletSameStr.c.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/deletSameStr.c.s
-.PHONY : UESTC/C_Base/deletSameStr.c.s
+UESTC/C_Base/Gongyueshu.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.s
+.PHONY : UESTC/C_Base/Gongyueshu.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... UESTC/C_Base/deletSameStr.obj
-	@echo ... UESTC/C_Base/deletSameStr.i
-	@echo ... UESTC/C_Base/deletSameStr.s
+	@echo ... UESTC/C_Base/Gongyueshu.obj
+	@echo ... UESTC/C_Base/Gongyueshu.i
+	@echo ... UESTC/C_Base/Gongyueshu.s
 .PHONY : help
 
 
