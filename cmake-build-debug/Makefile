@@ -122,32 +122,32 @@ BITReexamination/fast:
 	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/build
 .PHONY : BITReexamination/fast
 
-UESTC/C_Base/Gongyueshu.obj: UESTC/C_Base/Gongyueshu.c.obj
+UESTC/C_Base/FenJieZhiYinShu.obj: UESTC/C_Base/FenJieZhiYinShu.c.obj
 
-.PHONY : UESTC/C_Base/Gongyueshu.obj
+.PHONY : UESTC/C_Base/FenJieZhiYinShu.obj
 
 # target to build an object file
-UESTC/C_Base/Gongyueshu.c.obj:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.obj
-.PHONY : UESTC/C_Base/Gongyueshu.c.obj
+UESTC/C_Base/FenJieZhiYinShu.c.obj:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/FenJieZhiYinShu.c.obj
+.PHONY : UESTC/C_Base/FenJieZhiYinShu.c.obj
 
-UESTC/C_Base/Gongyueshu.i: UESTC/C_Base/Gongyueshu.c.i
+UESTC/C_Base/FenJieZhiYinShu.i: UESTC/C_Base/FenJieZhiYinShu.c.i
 
-.PHONY : UESTC/C_Base/Gongyueshu.i
+.PHONY : UESTC/C_Base/FenJieZhiYinShu.i
 
 # target to preprocess a source file
-UESTC/C_Base/Gongyueshu.c.i:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.i
-.PHONY : UESTC/C_Base/Gongyueshu.c.i
+UESTC/C_Base/FenJieZhiYinShu.c.i:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/FenJieZhiYinShu.c.i
+.PHONY : UESTC/C_Base/FenJieZhiYinShu.c.i
 
-UESTC/C_Base/Gongyueshu.s: UESTC/C_Base/Gongyueshu.c.s
+UESTC/C_Base/FenJieZhiYinShu.s: UESTC/C_Base/FenJieZhiYinShu.c.s
 
-.PHONY : UESTC/C_Base/Gongyueshu.s
+.PHONY : UESTC/C_Base/FenJieZhiYinShu.s
 
 # target to generate assembly for a file
-UESTC/C_Base/Gongyueshu.c.s:
-	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/Gongyueshu.c.s
-.PHONY : UESTC/C_Base/Gongyueshu.c.s
+UESTC/C_Base/FenJieZhiYinShu.c.s:
+	$(MAKE) -f CMakeFiles\BITReexamination.dir\build.make CMakeFiles/BITReexamination.dir/UESTC/C_Base/FenJieZhiYinShu.c.s
+.PHONY : UESTC/C_Base/FenJieZhiYinShu.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... BITReexamination
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... UESTC/C_Base/Gongyueshu.obj
-	@echo ... UESTC/C_Base/Gongyueshu.i
-	@echo ... UESTC/C_Base/Gongyueshu.s
+	@echo ... UESTC/C_Base/FenJieZhiYinShu.obj
+	@echo ... UESTC/C_Base/FenJieZhiYinShu.i
+	@echo ... UESTC/C_Base/FenJieZhiYinShu.s
 .PHONY : help
 
 
