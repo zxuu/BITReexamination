@@ -26,14 +26,13 @@ class Solution(object):
     def longestConsecutive(self, nums: List[int]) -> int:
         '''官方：'''
         longest_streak = 0
-        num_set = set(nums)
+        num_set = set(nums)    # 去重 & 从小到大排序
 
-        for num in num_set:
-            if num - 1 not in num_set:
+        for num in num_set:    # 遍历去过重的集合
+            if num - 1 not in num_set:    # 如果num-1不在集合中（用这种方法减少不必要的枚举，从而时间复杂度从O(n^2)->O(n)
                 current_num = num
                 current_streak = 1
-
-                while current_num + 1 in num_set:
+                while current_num + 1 in num_set:    # 不断遍历当前num大的数
                     current_num += 1
                     current_streak += 1
 
@@ -42,5 +41,5 @@ class Solution(object):
         return longest_streak
 
 if __name__ == '__main__':
-    s = Solution().longestConsecutive([0,3,7,2,5,8,4,6,0,1])
+    s = Solution().longestConsecutive([100,4,200,1,3,2])
     print(s)
