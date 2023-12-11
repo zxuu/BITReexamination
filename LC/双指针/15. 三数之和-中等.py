@@ -30,24 +30,103 @@ nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0 。
 3 <= nums.length <= 3000
 -10^5 <= nums[i] <= 10^5
 '''
-class Solution(object):
+class Solution1(object):
     def threeSum(self, nums):
         """
-        先找到最小的位置
-        最小的位置两边各方一个指针
+        暴力求解——超时
         :type nums: List[int] [-1,0,1,2,-1,-4]
         :rtype: List[List[int]]
         """
         nums = sorted(nums)
+        print(nums)
         re = []
-        left, right = 0, len(nums)-1
-        while right-left>1:    # 
-            for _ in range(left+1, right+1):
-                if nums[left]+nums[_]+nums[right] == 0:
-                    re.append((nums[left], nums[_], nums[right]))
-            right -= 1
-        return re
+        left = 0
+        while left<len(nums)-2:
+            right = len(nums)-1
+            while right-left>1:    # 
+                for _ in range(left+1, right):
+                    if nums[left]+nums[_]+nums[right] == 0:
+                        re.append((nums[left], nums[_], nums[right]))
+                right -= 1
+            left += 1
+        return list(set(re))
+class Solution3(object):
+    def threeSum(self, nums):
+        """
+        排序过后，从中间寻找
+        :type nums: List[int] [-1,0,1,2,-1,-4]
+        :rtype: List[List[int]]
+        [-4, -1, -1, 0, 1, 2]
+        """
+        nums = sorted(nums)
+        print(nums)
+        
 
+class Solution2:
+    '''官方'''
+    def threeSum(self, nums):
+        n = len(nums)
+        nums.sort()     # 先排序
+        ans = list()    # 记录结果
+        
+        # 枚举 a
+        for first in range(n):    # 左指针first
+            # 需要和上一次枚举的数不相同（因为可能有重复值）
+            if first > 0 and nums[first] == nums[first - 1]:    # 如果不是第一个 and 和上一个数重复，就不用枚举了
+                continue
+            # c 对应的指针初始指向数组的最右端
+            third = n - 1    # 右指针
+            target = -nums[first]    # 目标值：取负号之后，中间值和右边值之和要大于此值
+            # 枚举 b
+            for second in range(first + 1, n):    # 枚举中间指针
+                # 需要和上一次枚举的数不相同
+                if second > first + 1 and nums[second] == nums[second - 1]:
+                    continue
+                # 需要保证 b 的指针在 c 的指针的左侧
+                while second < third and nums[second] + nums[third] > target:
+                    third -= 1    # 中间指针固定， 右指针左移？
+                # 如果指针重合，随着 b 后续的增加
+                # 就不会有满足 a+b+c=0 并且 b<c 的 c 了，可以退出循环
+                if second == third:
+                    break
+                if nums[second] + nums[third] == target:
+                    ans.append([nums[first], nums[second], nums[third]])
+        
+        return ans
+class Solution(object):
+    def threeSum(self, nums):
+        """
+        copy官方
+        :type nums: List[int] [-1,0,1,2,-1,-4]
+        :rtype: List[List[int]]
+        [-4, -1, -1, 0, 1, 2]
+        """
+        nums.sort()
+        lenghth = len(nums)
+        re = []    # 记录结果
+
+        for left in range(lenghth):
+            # 和左边相同就不用枚举
+            if left>0 and nums[left]==nums[left-1]:
+                continue
+            right = lenghth-1    # 右指针
+            target = -nums[left]    # 中间数和右边数的和要比这个大
+
+            # 遍历中间数
+            for mid in range(left+1, right):
+                # 中间数和左边一样也不用遍历了
+                if mid>left+1 and nums[mid]==nums[mid-1]:
+                    continue
+
+                # 移动右指针
+                while mid<right and nums[mid]+nums[right]>target:
+                    right -= 1
+                if mid == right:    # 说明遍历完了也没有
+                    break    # 
+                # 看看满不满足条件，因为while完后不一定和为0
+                if nums[left]+nums[mid]+nums[right]==0:
+                    re.append((nums[left], nums[mid], nums[right]))
+        return re
 
 
 if __name__ == '__main__':
