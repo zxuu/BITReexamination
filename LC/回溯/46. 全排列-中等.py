@@ -23,7 +23,7 @@
 -10 <= nums[i] <= 10
 nums 中的所有整数 互不相同
 '''
-class Solution:
+class Solution2:
     def permute(self, nums):
         """
         :type nums: List[int] [1,2,3]
@@ -51,20 +51,57 @@ class Solution1:
     def permute(self, nums):
         '''other fasteast'''
         result = []
-        sz = len(nums)
+        lenght = len(nums)
         
         def f1(start):
-            if start >= sz:
-                result.append(nums.copy())
+            # 所有数都填完了
+            if start >= lenght:
+                result.append(nums[:])
             else:
-                for i in range(start, sz):
+                for i in range(start, lenght):
+                    # 动态维护数组
                     nums[start], nums[i] = nums[i], nums[start]
+                    # 继续递归填下一个数
                     f1(start + 1)
+                    # 撤销操作
                     nums[start], nums[i] = nums[i], nums[start]
                 
         f1(0)
         return result
+from typing import List
+class Solution6:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        def dfs(x):
+            if x == len(nums) - 1:
+                res.append(list(nums))   # 添加排列方案
+                return
+            
+            for i in range(x, len(nums)):
+                nums[i], nums[x] = nums[x], nums[i]  # 交换，将 nums[i] 固定在第 x 位
+                dfs(x + 1)                           # 开启固定第 x + 1 位元素
+                nums[i], nums[x] = nums[x], nums[i]  # 恢复交换
 
+        dfs(0)
+        return res
+
+
+
+'''默写'''
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        lenght = len(nums)
+        def bl(x):    # 固定x位置
+            if x==lenght-1:
+                res.append(nums.copy())
+                return
+            for i in range(x, lenght):
+                nums[i],nums[x] = nums[x],nums[i]
+                bl(x+1)
+                nums[i],nums[x] = nums[x],nums[i]
+        bl(0)
+        return res
 if __name__ == '__main__':
-    result = Solution().permute([1,2,3])
+    result = Solution().permute([1,2,3,4])
     print(result)
