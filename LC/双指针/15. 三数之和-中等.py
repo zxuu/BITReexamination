@@ -45,6 +45,12 @@ class Solution1(object):
             right = len(nums)-1
             while right-left>1:    # 
                 for _ in range(left+1, right):
+                    if nums[left]>0:
+                        break
+                    if nums[left]+nums[_]+nums[right] > 0:
+                        break
+                    if nums[_] == nums[_ - 1]:
+                        continue
                     if nums[left]+nums[_]+nums[right] == 0:
                         re.append((nums[left], nums[_], nums[right]))
                 right -= 1
