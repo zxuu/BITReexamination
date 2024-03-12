@@ -479,3 +479,117 @@ class Solution:
                 if dp[j]<dp[i]:
                     dp[i] = max(dp[i], dp[j]+1)
         return max(dp)
+# 42. 接雨水
+class Solution:
+    def trap(self, height):
+        """
+        官方
+        :type height: List[int]
+        :rtype: int
+        """
+        res = 0
+        maxleft = maxright = 0
+        left, right = 0, len(height)-1
+        while left<right:
+            maxleft = max(maxleft, height[left])
+            maxright = max(maxright, height[right])
+            if height[left]<height[right]:
+                res += maxleft-height[left]
+                left += 1
+            else:
+                res += maxright-height[right]
+                right -= 1
+        return res
+# 142. 环形链表 II
+class Solution:
+    def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head:
+            return head
+        slow=fast=head
+        # 先找到相遇点
+        while True:
+            if not fast or not fast.next:
+                # 无环
+                return False
+            slow, fast = slow.next, fast.next.next
+            if slow == fast:
+                break
+        fast = head
+        while slow != fast:
+            slow, fast = slow.next, fast.next
+        return fast
+# 56. 合并区间
+class Solution:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        nums = intervals
+        # 先排序
+        nums = sorted(nums)
+        res = [nums[0]]
+        for num in nums:
+            if num[0] <= res[-1][1]:
+                res[-1][1] = max(res[-1][1], num[1])
+            else:
+                res.append(num)
+        return res
+# 19. 删除链表的倒数第 N 个结点
+class Solution:
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        # 双指针
+        l3 = ListNode()
+        p = l3
+        l3.next = tail = head
+        for _ in range(n):
+            tail = tail.next
+        while tail:
+            p = p.next
+            tail = tail.next
+        p.next = p.next.next
+        return l3.next
+# 94. 二叉树的中序遍历
+class Solution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        res = []
+        def func(root):
+            if not root:
+                return
+            func(root.left)
+            res.append(root.val)
+            func(root.right)
+        func(root)
+        return res
+# 199. 二叉树的右视图
+class Solution:
+    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+        # 层序遍历
+        if not root:
+            return []
+        deque = collections.deque()
+        deque.append(root)
+        res = []
+        while deque:
+            layer = []
+            for _ in range(len(deque)):
+                node = deque.popleft()
+                layer.append(node.val)
+                if node.left:
+                    deque.append(node.left)
+                if node.right:
+                    deque.append(node.right)
+            res.append(layer)
+        return [_[-1] for _ in res]
+# 704. 二分查找有序表
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        lenght = len(nums)
+        if lenght==0:
+            return -1
+        left, right = 0, lenght-1
+        while left<right:
+            mid = (left+right)//2
+            if nums[mid]==target:
+                return mid
+            elif nums[left]<=target<nums[mid]:
+                right = mid-1
+            else:
+                left = mid+1
+        return -1
